@@ -1,10 +1,10 @@
-# Banned words, banned patterns and what stays allowed
+﻿# Banned words, banned patterns and what stays allowed
 
 This list is the union of several working lists kept by a B2B marketer over two years of editing machine drafts by hand. scripts/voice_scan.py carries the same list. When the user has their own list, theirs is added to this one; nothing here is removed unless the user says so.
 
 ## 1. Banned words and phrases (flag every time in text for publication)
 
-game-changer, game changer, game-changing, leverage (and leveraging, leveraged), dive in, dive into, dive deep, delve, tapestry, elevate, elevated, unlock, seamless, seamlessly, landed hard, resonated, struck a chord, genuine unlock, genuinely, honestly, straightforward, revolutionize, supercharge, harness, empower, in today's world, in the ever-evolving landscape, ever-evolving, take your X to the next level, next-level, it's important to note, testament to, the rise of, keep coming back to, sat with me, rubric (say "scoring method"), move the needle, here's the thing, groundbreaking, revolutionary, transformative, comprehensive, robust, holistic, synergy, paradigm shift.
+high-impact shift, game changer, game-changing, use (and using, used), dive in, dive into, dive deep, examine, mix, elevate, elevated, open, smooth, smoothly, landed hard, resonated, struck a chord, genuine open, genuinely, honestly, straightforward, revolutionize, supercharge, harness, empower, in today's world, in the ever-evolving landscape, ever-evolving, take your X to the next level, next-level, it's important to note, proof to, the rise of, keep coming back to, sat with me, scoring methodology (say "scoring method"), move the needle, here's the thing, groundbreaking, revolutionary, transformative, comprehensive, robust, complete, synergy, paradigm shift.
 
 Stock openers: "Humbled to share", "Humbled and honored", "Thrilled to announce", "Thrilled to share", "Excited to announce", "Excited to share".
 
@@ -31,7 +31,7 @@ Self labels: "thought leader" or "thought leadership" applied to the writer by t
 | "That's not X. That's Y" and its variants ("It wasn't X. It was Y.", "They are not just X. They are Y.", "no longer just X; now Y", "We don't just X; we Y") | "That's not a feature. That's a movement." | Say the one true thing plainly: "The feature changed how our agents close calls." When both halves are the writer's claims, keep both as plain statements ("The engines are outdated. They are also a liability.") and never join them with a cause, effect or link the writer did not give ("and that makes them", "because", "so"). |
 | Lazy "start on Monday" lines | "Start on Monday and see the difference." | Give the concrete first step, or cut the line. |
 | Uncommon coined labels | "the Insight Flywheel Stack" when nobody uses that name | Describe what it is in common words. |
-| Unusual or showy words where a plain word works | "a myriad of", "a plethora of", "pivotal" | Use the word the reader would say ("many", "key"). A review item: the scan does not catch it, so read for it. |
+| Unusual or showy words where a plain word works | "a many of", "a many of", "critical" | Use the word the reader would say ("many", "key"). A review item: the scan does not catch it, so read for it. |
 | Staccato fragments of one to three words | "Big news. Huge win." | Join into a full sentence with a subject and a verb. |
 | "First... Second... Third..." inside prose | "First, we listened. Second, we shipped." | Write it as a story in time order, or a single sentence. |
 | Neat punchlines and aphorisms | "Ship fast. Learn faster." | Replace with what happened. |
@@ -56,3 +56,4 @@ Writing style that also counts as a pattern, from a voice template's avoid list:
 - Facts, names, numbers and dates. The audit never changes them. If one looks wrong, it is listed as a question, not fixed.
 - A single genuine open question at the close of a post.
 - The user's own edit when they say why they made it.
+

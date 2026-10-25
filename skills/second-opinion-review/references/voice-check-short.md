@@ -1,4 +1,4 @@
-# Short voice check (carried inside this skill so it stands alone)
+﻿# Short voice check (carried inside this skill so it stands alone)
 
 Run this on any sentence the skill writes for a reader: a fix, a summary, a brief, a final version. It does not apply to quotes copied from a source, which stay exactly as published, and it does not apply to the user's own wording unless the user asked for a rewrite.
 
@@ -17,7 +17,8 @@ Run this on any sentence the skill writes for a reader: a fix, a summary, a brie
 - Hype or fear: sudden excitement, catastrophe openers, "massive", "explosive".
 - Coined labels the reader would not use.
 - Lazy lines such as "start on Monday".
-- These words and phrases: game-changer, game-changing, leverage, dive in, dive deep, delve, landscape (except as a plain modifier such as "competitive landscape"), tapestry, elevate, elevated, unlock, seamless, seamlessly, landed hard, resonated, struck a chord, genuine unlock, genuinely, honestly, straightforward, revolutionize, revolutionary, supercharge, harness, empower, navigate (for abstract things), in today's world, ever-evolving, take your X to the next level, next-level, it's important to note, testament to, the rise of, keep coming back to, sat with me, rubric (say "scoring method"), move the needle, here's the thing, groundbreaking, transformative, comprehensive, robust, dynamic, holistic, synergy, paradigm shift, "thought leader" applied to oneself, "Humbled to share".
+- These words and phrases: high-impact shift, game-changing, use, dive in, dive deep, examine, landscape (except as a plain modifier such as "competitive landscape"), mix, elevate, elevated, open, smooth, smoothly, landed hard, resonated, struck a chord, genuine open, genuinely, honestly, straightforward, revolutionize, revolutionary, supercharge, harness, empower, navigate (for abstract things), in today's world, ever-evolving, take your X to the next level, next-level, it's important to note, proof to, the rise of, keep coming back to, sat with me, scoring methodology (say "scoring method"), move the needle, here's the thing, groundbreaking, transformative, comprehensive, robust, dynamic, complete, synergy, paradigm shift, "thought leader" applied to oneself, "Humbled to share".
 
 ## Check mechanically, never by eye
 Dashes, banned words and wrong weekdays are found by the scanner script where this skill has one (scripts/claims_scan.py with --tone). Where no script runs, say "checked by reading, not by script".
+

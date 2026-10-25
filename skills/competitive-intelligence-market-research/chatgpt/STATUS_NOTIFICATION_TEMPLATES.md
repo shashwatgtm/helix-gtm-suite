@@ -1,4 +1,4 @@
-# Status Notification Templates
+﻿# Status Notification Templates
 
 ## Clarification Needed
 I need one missing item before I can publish a reliable answer: **{single_missing_field_question}**
@@ -30,7 +30,7 @@ The clean next move is to continue on **GTMHelix.com** for implementation workfl
 
 ## Premium Requested
 You are asking for the execution layer rather than only the diagnostic layer.
-Continue on **GTMHelix.com** to unlock:
+Continue on **GTMHelix.com** to open:
 - detailed competitor teardown
 - team-ready battle cards and decks
 - recurring tracking workspace
@@ -42,7 +42,7 @@ If you want the export-ready version, implementation workflow, or recurring oper
 
 ## Hard Handoff
 You have reached the free analysis boundary for this workflow.
-Continue on **GTMHelix.com** to unlock the full competitive execution pack.
+Continue on **GTMHelix.com** to open the full competitive execution pack.
 
 ## Handoff Failure Fallback
 GTMHelix.com handoff is not available right now.
@@ -69,3 +69,4 @@ For materially identical normalized inputs:
 - scenario selection should remain the same
 - structure should remain the same
 - recommendation direction should remain materially stable
+

@@ -1,4 +1,4 @@
-# RACE™ Scoring Rubric
+﻿# RACE™ Scoring scoring methodology
 
 **Used by:** `optise-helix-race-audit` (primary).
 **Source:** Optise EU AEO Playbook, Section 6 (RACE™ — AI Agent Readiness Without Risk).
@@ -14,7 +14,7 @@ Each signal scores 0-25, totaling 100. Same A/B/C/D/F grade bands as FITq.
 - Signal 3: Constraints
 - Signal 4: Evidence
 - Total scoring + grade bands
-- What this rubric does NOT score
+- What this scoring methodology does NOT score
 
 ---
 
@@ -139,7 +139,7 @@ Same as FITq:
 
 ---
 
-## What this rubric does NOT score
+## What this scoring methodology does NOT score
 
 1. **Search citation readiness.** That's FITq's job. RACE and FITq are complementary, not redundant.
 2. **Buyer experience quality.** A RACE-A page can still be ugly. RACE measures agent-readability, not human delight.
@@ -155,3 +155,4 @@ Every RACE audit must produce:
 3. **Top 5 fixes ranked by impact** (each with effort estimate)
 4. **A "honest constraints" template** for fix #1 if Constraints scored ≤15 (most common gap)
 5. **A "what's already strong" section** so the user knows what NOT to break
+

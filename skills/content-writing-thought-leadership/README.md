@@ -1,4 +1,4 @@
-# Content Writing & Thought Leadership
+﻿# Content Writing & Thought Leadership
 
 **B2B SaaS content writing with daily workflows, batching systems, and industry-specific templates across Sales Tech, HR Tech, Fintech, and Ops Tech.**
 
@@ -272,7 +272,7 @@ Each vertical includes 6 content scenarios covering:
 - Build personal brand alongside company brand
 - Share founder journey and lessons learned
 - Attract investors through thought leadership
-- Recruit talent by showcasing culture
+- Recruit talent by showing culture
 - Generate inbound leads through content
 
 ### For Marketing Teams:
@@ -569,3 +569,4 @@ If this skill helps your content creation efforts, please:
 **Last Updated**: January 2026  
 **Version**: 1.0  
 **Status**: Production Ready ✅
+

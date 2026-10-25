@@ -1,4 +1,4 @@
-# Competitive Intelligence: ChatGPT Store App vs Skill Audit & 4-Day Plan
+﻿# Competitive Intelligence: ChatGPT Store App vs Skill Audit & 4-Day Plan
 
 ## Executive Recommendation
 
@@ -107,7 +107,7 @@ The content is valuable and reusable. It needs productization, not deletion.
 
 ### Deliverables
 - `evals/prompts.md` (24–48 prompts)
-- `evals/rubric.md` (completeness, specificity, actionability, evidence, UX clarity)
+- `evals/scoring methodology.md` (completeness, specificity, actionability, evidence, UX clarity)
 - `evals/results.md` baseline scores and fixes
 
 ### Exit criteria
@@ -146,7 +146,7 @@ I will execute autonomously between gates and pause only for your decision at ga
 - [ ] Approve template set and role modes.
 
 ### Gate G3 — Quality Threshold Approval
-- [ ] Review rubric and target thresholds.
+- [ ] Review scoring methodology and target thresholds.
 - [ ] Approve low-scoring scenario remediation plan.
 
 ### Gate G4 — Launch Approval
@@ -160,7 +160,7 @@ I will execute autonomously between gates and pause only for your decision at ga
 1. **Observe**: intake gaps, weak sections, low-confidence claims.
 2. **Reason**: determine if issue is missing context vs scenario prompt design.
 3. **Act**: ask one focused clarification or apply explicit assumption; regenerate.
-4. **Verify**: run rubric check; revise if below threshold.
+4. **Verify**: run scoring methodology check; revise if below threshold.
 
 ---
 
@@ -169,7 +169,7 @@ I will execute autonomously between gates and pause only for your decision at ga
 - 24/24 scenarios are runnable via one shared intake + output schema.
 - Every output includes executable 24h/7d/30d actions.
 - Role-based mode improves action relevance without changing core structure.
-- Rubric quality threshold is met across all scenario categories.
+- scoring methodology quality threshold is met across all scenario categories.
 - First-time user reaches usable output in under 10 minutes.
 
 
@@ -189,7 +189,7 @@ If ChatGPT Store packaging is constrained for direct paid gating, use a hybrid f
 
 3. **Progressive Handoff Trigger**
    - After free outputs complete, include CTA:
-     - “To unlock full implementation pack and execution workspace, continue at gtmhelix.com.”
+     - “To open full implementation pack and execution workspace, continue at gtmhelix.com.”
 
 4. **Commercial Controls**
    - Meter by scenario completions per user (2 free runs).
@@ -271,3 +271,4 @@ Additional approvals/reviews still recommended before launch:
 2. Keep paywall disabled during review/approval cycle.
 3. After approval, enable 30% free-depth paywall + 2 free runs policy.
 4. Then publish legal/policy pages on `gtmhelix.com` and enable cross-domain handoff tracking.
+

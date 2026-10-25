@@ -1,4 +1,4 @@
-# EU Market Guide (English-language only)
+﻿# EU Market Guide (English-language only)
 
 **Used by:** `optise-helix-prompt-pack-builder` (primary), `optise-helix-eu-trust-centre` (secondary), `optise-helix-fitq-audit` (tertiary).
 **Source:** Optise EU AEO Playbook, Section 7 (Europe-Specific Reality) + Section 10 Step 1.
@@ -175,7 +175,7 @@ When the user's category indicates a regulated vertical (e.g., "EHR", "patient m
 
 1. Include 4-6 vertical-specific compliance prompts in addition to the standard 8 EU buyer questions
 2. Score all vertical-specific compliance prompts 5/5 (these are universal disqualifiers in regulated verticals)
-3. Add a callout: *"This pack is for a regulated vertical. Compliance prompts dominate. Your Trust Centre is the highest-leverage page in this pack — recommend running `optise-helix-eu-trust-centre` immediately."*
+3. Add a callout: *"This pack is for a regulated vertical. Compliance prompts dominate. Your Trust Centre is the highest-use page in this pack — recommend running `optise-helix-eu-trust-centre` immediately."*
 
 ---
 
@@ -192,3 +192,4 @@ When the prompt-pack-builder generates a prompt for a specific EU market, presen
 ```
 
 Always include the Market column when the pack covers more than one EU market cluster.
+

@@ -1,4 +1,4 @@
-# Paywall Copy and Upgrade CTA
+﻿# Paywall Copy and Upgrade CTA
 
 ## Monetization Position
 
@@ -65,10 +65,10 @@ Premium layer includes:
 - support-backed execution
 
 ## Primary Headline
-**Unlock the Full Competitive Execution Pack**
+**open the Full Competitive Execution Pack**
 
 ## Supporting Copy
-You have completed the free diagnostic layer. Continue on GTMHelix.com to unlock the execution layer:
+You have completed the free diagnostic layer. Continue on GTMHelix.com to open the execution layer:
 - Detailed competitor teardown
 - Team-ready battle cards and decks
 - Execution workflows and premium templates
@@ -83,7 +83,7 @@ You have completed the free diagnostic layer. Continue on GTMHelix.com to unlock
 "You have completed the diagnostic layer. Continue on GTMHelix.com to turn this into execution-ready artifacts, workflows, and recurring tracking."
 
 ## Hard Handoff Text
-"You have reached the free analysis boundary. Continue on GTMHelix.com to unlock the full competitive execution pack."
+"You have reached the free analysis boundary. Continue on GTMHelix.com to open the full competitive execution pack."
 
 ## Handoff Failure Message
 "GTMHelix.com handoff is not available right now. Continuing inside ChatGPT with the best available end-to-end workflow."
@@ -105,3 +105,4 @@ For post-approval production:
 - optionally enable the 2 free runs policy
 - never allow paywall logic to fire before answer-readiness gates are satisfied
 - always preserve the in-ChatGPT fallback path
+

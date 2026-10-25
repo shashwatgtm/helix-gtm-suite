@@ -491,7 +491,7 @@ TOTAL OUTPUT:
 - 1 newsletter section (end of month)
 - 1 carousel (if warranted)
 
-LEVERAGE: 4 pieces of content from 65 minutes of work
+use: 4 pieces of content from 65 minutes of work
 
 EXAMPLE:
 
@@ -797,4 +797,5 @@ Benchmarks:
 - 5-10%: Great
 - 10%+: Excellent
 - <3%: Content not resonating
+
 

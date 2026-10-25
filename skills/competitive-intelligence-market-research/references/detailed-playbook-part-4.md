@@ -97,7 +97,7 @@ Reason:
 - Still early in India (50/2000 = 2.5% penetration)
 - US requires significant investment
 - India market understands our pain points better
-- Build case studies in India first, then leverage for US
+- Build case studies in India first, then use for US
 
 EXCEPTION: If US strategic investor leads Series B, then expand
 ```
@@ -617,3 +617,4 @@ If minimal info:
 DIAGNOSIS:
 □ G2 says competitor is $5K, Reddit says $10K?
 □ Crunchbase says $20M ARR, press release says $15M?
+

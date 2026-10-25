@@ -1,4 +1,4 @@
-# Plugin-Specific Rules — gtm-claude-skills
+﻿# Plugin-Specific Rules — gtm-claude-skills
 
 **Scope:** This file applies ONLY to the three skills in the `gtm-claude-skills` plugin (epic-motion-diagnostic, impact-quick-positioning, craft-context-engineering). It is read in addition to the shared `operating-principles.md` file in this same `references/` folder, NOT instead of it. The rules below are framework-specific operational rules that encode the methodology behind the EPIC, IMPACT, and CRAFT frameworks. Each rule prevents a common failure mode observed when these frameworks are applied without discipline.
 
@@ -49,7 +49,7 @@
 
 **The rule.** The craft-context-engineering skill MUST prioritize adding more context to an AI prompt over rewording the prompt for cleverness, brevity, or stylistic elegance. When in doubt between "shorter and cleverer" vs "longer and more contextual", always choose longer and more contextual.
 
-**Why this matters.** The dominant failure mode in prompt engineering is over-optimizing prompt wording while under-specifying context. Users spend hours tweaking a 50-word prompt hoping for better output when the actual fix is supplying 500 words of context (examples, constraints, role, task specifics, output format, edge cases). The CRAFT framework exists because context is high-leverage and wording is low-leverage. Treating prompt engineering as a wordsmithing exercise misses the entire point of the framework.
+**Why this matters.** The dominant failure mode in prompt engineering is over-optimizing prompt wording while under-specifying context. Users spend hours tweaking a 50-word prompt hoping for better output when the actual fix is supplying 500 words of context (examples, constraints, role, task specifics, output format, edge cases). The CRAFT framework exists because context is high-use and wording is low-use. Treating prompt engineering as a wordsmithing exercise misses the entire point of the framework.
 
 **What this means in practice.** When the skill generates a prompt or critiques a user-supplied prompt, it MUST evaluate the prompt across all 5 CRAFT dimensions: Character (who is the AI acting as), Result (what is the desired outcome), Artifact (what is the output format), Frame (what is the task's scope and constraints), Timeline (what is the temporal or process constraint). A prompt missing any of the 5 dimensions is incomplete. The skill's job is to fill in missing dimensions, not to rewrite present dimensions in fewer words. The output of the skill should be longer than the input in almost all cases, because the input is almost always under-specified.
 
@@ -88,3 +88,4 @@
 **File version:** 1.0 (April 2026)
 **Authorship:** gtm-claude-skills plugin
 **Read order:** AFTER `operating-principles.md` (shared core), BEFORE skill-specific SKILL.md body
+

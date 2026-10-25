@@ -1,10 +1,10 @@
-# FITq™ Scoring Rubric
+﻿# FITq™ Scoring scoring methodology
 
 **Used by:** `optise-helix-fitq-audit` (primary).
 **Source:** Optise EU AEO Playbook, Section 5 (FITq™ — How AI Search Selects Sources).
 **Trademark:** FITq™ is an Optise framework. Always use the trademark on first mention.
 
-The FITq framework scores a webpage on 4 signals. Each signal is scored 0-25, totalling 100. The rubric below is what makes the scoring repeatable across pages and skills.
+The FITq framework scores a webpage on 4 signals. Each signal is scored 0-25, totalling 100. The scoring methodology below is what makes the scoring repeatable across pages and skills.
 
 ---
 
@@ -154,3 +154,4 @@ Every FITq audit must produce:
 5. **A "what's already strong" section** (so the user knows what NOT to break)
 
 This format is non-negotiable. It maps to the 30/60/90 build order in the whitepaper.
+

@@ -1,4 +1,4 @@
-# AEO Tracker Rubric
+﻿# AEO Tracker scoring methodology
 
 **Used by:** `optise-helix-aeo-tracker` exclusively.
 **Source:** Optise EU AEO Playbook, Section 8 ("Measuring AI Search Visibility — The 3 KPIs That Matter").
@@ -131,3 +131,4 @@ Every tracker setup must produce:
 4. **The 3 KPI formulas** (citation rate, prominence, delta)
 5. **The "is it working" diagnostic** (if user is at week 4+)
 6. **Handoff note** (when to refresh pack vs when to run audit)
+

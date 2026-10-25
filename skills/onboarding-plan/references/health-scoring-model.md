@@ -1,8 +1,8 @@
-# GUARD Health Scoring Model — Gauge Mode Reference
+﻿# GUARD Health Scoring Model — Gauge Mode Reference
 
 ## 6-Signal Weighted Diagnostic
 
-Total score: 0-100. Each signal has a defined weight and scoring rubric.
+Total score: 0-100. Each signal has a defined weight and scoring scoring methodology.
 
 ### Signal 1: Product Adoption (0-20 points, weight 20%)
 
@@ -104,3 +104,4 @@ CSMs rarely have complete data. Score what you have, flag what you do not:
 - If 4+ signals scorable: Produce full assessment with caveats on missing signals.
 - If 2-3 signals scorable: Produce partial assessment, recommend data collection as first action.
 - If 0-1 signals scorable: Do not produce a score. Recommend a structured discovery call to gather baseline data.
+

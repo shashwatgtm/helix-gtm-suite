@@ -1,4 +1,4 @@
-# Writing rules for any text written for a reader
+﻿# Writing rules for any text written for a reader
 
 Apply these to everything this skill drafts for someone else to read: releases, posts, articles, emails, speaker lines, briefs. Working material for the user (a claims register, a run of show table, a specification) may use tables and bullets; the word and dash rules still apply.
 
@@ -22,7 +22,7 @@ Apply these to everything this skill drafts for someone else to read: releases, 
 - Run `scripts/text_check.py dashes -f FILE` on every draft before showing it (save the draft to a file first; a file name given without -f is refused as bad input). If the script cannot run, say so and check by eye, line by line.
 
 ## Banned words and phrases
-game-changer, game-changing, leverage, dive in, dive deep, delve, landscape (allowed only as a domain modifier, such as "competitive landscape"), tapestry, elevate, elevated, unlock, seamless, seamlessly, landed hard, resonated, struck a chord, genuine unlock, genuinely, honestly, straightforward, revolutionize, supercharge, harness, empower, navigate (for abstract things), in today's world, in the ever-evolving landscape, take your X to the next level, it's important to note, testament to, the rise of, keep coming back to, sat with me, rubric (say "scoring method"), move the needle, here's the thing, groundbreaking, revolutionary, transformative, comprehensive, robust, dynamic, holistic, synergy, paradigm shift, next-level, mechanics, "just" used as filler, and "thought leader" applied to oneself.
+high-impact shift, game-changing, use, dive in, dive deep, examine, landscape (allowed only as a domain modifier, such as "competitive landscape"), mix, elevate, elevated, open, smooth, smoothly, landed hard, resonated, struck a chord, genuine open, genuinely, honestly, straightforward, revolutionize, supercharge, harness, empower, navigate (for abstract things), in today's world, in the ever-evolving landscape, take your X to the next level, it's important to note, proof to, the rise of, keep coming back to, sat with me, scoring methodology (say "scoring method"), move the needle, here's the thing, groundbreaking, revolutionary, transformative, comprehensive, robust, dynamic, complete, synergy, paradigm shift, next-level, mechanics, "just" used as filler, and "thought leader" applied to oneself.
 
 Stock openers are banned: "Humbled to share", "Thrilled to announce", "Excited to share", "We are delighted", "Big news".
 
@@ -45,3 +45,4 @@ A word on this list may appear only when it is part of a quote, a product name o
 3. No banned word or pattern.
 4. Counts were run by script for every line that has a limit.
 5. Dates and weekdays were checked by script.
+

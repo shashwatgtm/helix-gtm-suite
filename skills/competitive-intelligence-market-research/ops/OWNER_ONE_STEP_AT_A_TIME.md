@@ -1,4 +1,4 @@
-# Owner Actions (One Instruction at a Time)
+﻿# Owner Actions (One Instruction at a Time)
 
 ## Current Gate Status
 - G0: Approved
@@ -31,7 +31,7 @@ Run G2 checklist:
 ## Step 5
 Run G3 checklist:
 - Execute eval prompts
-- Confirm rubric threshold
+- Confirm scoring methodology threshold
 - Fix low-scoring scenarios
 
 ## Step 6 (After app approval)
@@ -53,3 +53,4 @@ Publish policy pages on `gtmhelix.com`:
 Enable support channel SLA:
 - Response within 24 hours
 - Escalation to `shashwat@gtmhelix.com`
+

@@ -1,4 +1,4 @@
-# "Decides Deals" Scoring Rubric (1-5)
+﻿# "Decides Deals" Scoring scoring methodology (1-5)
 
 **Used by:** `optise-helix-prompt-pack-builder` exclusively.
 **Purpose:** Make the prompt scoring repeatable across users and runs. Two different users running the skill on the same input should get the same scores within ±1 point.
@@ -105,7 +105,7 @@ In a US market: Salesforce-vs-you wins (rule 2 — competitor-named in non-EU).
 
 ---
 
-## What the rubric does NOT score
+## What the scoring methodology does NOT score
 
 1. **Search volume.** A prompt with 100 searches/month at 5/5 beats a prompt with 10,000 searches/month at 3/5.
 2. **Difficulty to win.** Hard-to-win 5/5 prompts still rank above easy-to-win 3/5 prompts. The skill is for prioritization, not for excuses.
@@ -127,3 +127,4 @@ If your scoring distribution looks like this for a 25-prompt pack, you've calibr
 
 If you have 15+ prompts at 5/5, you're inflating scores — the user will lose trust. Re-rank.
 If you have <3 prompts at 5/5, you're missing disqualifier prompts — the pack is too soft. Add competitor-vs-you and EU compliance prompts.
+

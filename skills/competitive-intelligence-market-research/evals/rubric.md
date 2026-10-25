@@ -1,4 +1,4 @@
-# Evaluation Rubric (1–5)
+﻿# Evaluation scoring methodology (1–5)
 
 1. Completeness (all schema sections present)
 2. Specificity (named competitors, clear owners, concrete actions)
@@ -9,3 +9,4 @@
 ## Pass Threshold
 - Average >= 4.0
 - No dimension below 3 for any scenario
+

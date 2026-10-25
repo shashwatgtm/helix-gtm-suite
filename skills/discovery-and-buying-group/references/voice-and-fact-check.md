@@ -1,4 +1,4 @@
-# Short voice check and fact check (carried inside this skill so it stands alone)
+﻿# Short voice check and fact check (carried inside this skill so it stands alone)
 
 Method copied from the voice and fact check steps of the ready Helix plugins; no text of theirs is reused here.
 
@@ -13,7 +13,7 @@ Write:
 
 Never write:
 - Long or short dashes, or a hyphen with spaces on both sides used as a dash. Hyphens inside words are fine.
-- Exclamation marks, emoji, hype ("massive", "game-changer", "unlock", "supercharge", "seamless", "robust", "leverage" as a verb, "delve").
+- Exclamation marks, emoji, hype ("massive", "high-impact shift", "open", "supercharge", "smooth", "robust", "use" as a verb, "examine").
 - Staccato fragments ("No risk. No delay.") and "It is not X. It is Y." lines.
 - Coined labels the reader would not use.
 - A gender for a person known only by a role or placeholder: write the role or "they".
@@ -27,3 +27,4 @@ Never write:
 6. Write a weekday beside a date only when the user gave it or a calendar tool showed it; otherwise write the date alone.
 7. Buyer side lines: every sentence that says what a buyer seat said, asked, saw, knows, agreed, wants, must do, owns or plans, a deadline, a motive, a source, or an "only" or "nobody" about the buyer side, and every line of an asset in a buyer's or champion's voice, is matched to the seller's exact words or a script line, or becomes a "[User to add: ...]" slot, a question or a hedge. A question stays a question; a next step the seller named stays "our next step", never "agreed".
 8. Never say where an example default comes from or what it was made for; say only that it is an example default the user can change. A count written in a sentence ("two of the four") matches the list it introduces.
+

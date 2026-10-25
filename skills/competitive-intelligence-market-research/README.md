@@ -1,4 +1,4 @@
-# Competitive Intelligence & Market Research
+﻿# Competitive Intelligence & Market Research
 
 **B2B SaaS competitive intelligence with 24 ready-to-use scenarios across Sales Tech, HR Tech, Fintech, and Ops Tech verticals.**
 
@@ -464,7 +464,7 @@ For the updated **ChatGPT Store App vs Skill recommendation** and the **4-day fu
 2. Fill required fields in `chatgpt/INPUT_CONTRACT.md`.
 3. Generate response using `chatgpt/SYSTEM_PROMPT.md` + `chatgpt/OUTPUT_SCHEMA.md`.
 4. Copy the artifact into a template from `templates/`.
-5. Run quality check with `evals/rubric.md` and log in `evals/results.md`.
+5. Run quality check with `evals/scoring methodology.md` and log in `evals/results.md`.
 
 ### Recommended first run
 - Start with `ST-06` (Sales battle card) or `FT-03` (Fintech pricing snapshot).
@@ -526,3 +526,4 @@ For strict routing details, use [`chatgpt/TAXONOMY_STANDARD.md`](./chatgpt/TAXON
 - Owner one-step-at-a-time guide: [`ops/OWNER_ONE_STEP_AT_A_TIME.md`](./ops/OWNER_ONE_STEP_AT_A_TIME.md)
 - ChatGPT Store submission playbook: [`ops/CHATGPT_STORE_SUBMISSION_PLAYBOOK.md`](./ops/CHATGPT_STORE_SUBMISSION_PLAYBOOK.md)
 - MCP Server URL + next steps (Railway-first 24x7): [`ops/MCP_SERVER_URL_AND_NEXT_STEPS.md`](./ops/MCP_SERVER_URL_AND_NEXT_STEPS.md)
+

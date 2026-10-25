@@ -1,4 +1,4 @@
-# GUARD Input Rules
+﻿# GUARD Input Rules
 
 ## Rule 1: One Dump, One Output
 The CSM pastes or uploads everything they have in ONE message. The skill normalizes. Accept: conversational dump, messy notes, Slack pastes, CRM tables (any headers), PDFs (surgical extraction of 4-8 key slides), screenshots, voice-to-text, or any combination.
@@ -49,4 +49,5 @@ Detect these signals in ANY input — CSM does not need to label them:
 0-1 signals → do not score, recommend structured discovery call.
 
 ## Rule 8: No LLMisms
-Never use: "game-changer", "dive in", "leverage", "delve", "landscape", "tapestry", "elevate", "unlock", "seamlessly." Write like a seasoned CSM.
+Never use: "high-impact shift", "dive in", "use", "examine", "landscape", "mix", "elevate", "open", "smoothly." Write like a seasoned CSM.
+

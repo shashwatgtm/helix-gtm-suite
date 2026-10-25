@@ -1,4 +1,4 @@
-# 12 Most Common FITq Failure Modes — Template Fixes
+﻿# 12 Most Common FITq Failure Modes — Template Fixes
 
 **Used by:** `optise-helix-fitq-audit` exclusively.
 **Purpose:** When the audit identifies a common failure, the skill outputs the matching template fix, with no inventing new fixes per page. Templates are validated against the Optise EU AEO Playbook, Sections 4-5.
@@ -42,7 +42,7 @@ For dynamic CMS injection (preferred), use the CMS's "last modified" field and s
 - Inside a `<time datetime="...">` tag for AI engine extraction
 - Updated whenever content materially changes (not just on every save)
 
-**Why this matters:** Per the FITq rubric, Trust signal scores ≤15 if there's no date or the date is stale (>90 days). AI engines use freshness as a primary trust filter.
+**Why this matters:** Per the FITq scoring methodology, Trust signal scores ≤15 if there's no date or the date is stale (>90 days). AI engines use freshness as a primary trust filter.
 
 ---
 
@@ -343,3 +343,4 @@ Allow: /
 Cloudflare — disable "Block AI Bots" in the dashboard, OR add a Page Rule that whitelists AI crawler UAs. If you're worried about content scraping, use the `nosnippet` meta tag for selective sections instead of blocking entire crawlers.
 
 **Until this is fixed, no other AEO work matters.** Bot-blocking is the most common silent killer of AI citation.
+
