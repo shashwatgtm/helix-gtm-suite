@@ -1,0 +1,28 @@
+﻿{
+    "servers":  {
+                    "gtm-alpha":  {
+                                      "url":  "https://gtmalpha.gtmhelix.com/mcp",
+                                      "type":  "http"
+                                  },
+                    "craft-gtm":  {
+                                      "url":  "https://craft-gtm.gtmhelix.com/mcp",
+                                      "type":  "http"
+                                  },
+                    "craft-content":  {
+                                          "url":  "https://craft-content.gtmhelix.com/mcp",
+                                          "type":  "http"
+                                      },
+                    "impact-positioning":  {
+                                               "url":  "https://impact.gtmhelix.com/mcp",
+                                               "type":  "http"
+                                           },
+                    "icp-intelligence":  {
+                                             "url":  "https://icp-intelligence.gtmhelix.com/mcp",
+                                             "type":  "http"
+                                         },
+                    "revenue-enablement":  {
+                                               "url":  "https://revenue-enablement.gtmhelix.com/mcp",
+                                               "type":  "http"
+                                           }
+                }
+}

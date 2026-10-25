@@ -1,0 +1,8 @@
+﻿# Smithery.ai v1 Remote Streamable-HTTP Configuration
+startCommand:
+  type: http
+  url: https://gtmalpha.gtmhelix.com/mcp
+  configSchema:
+    type: object
+    properties: {}
+    required: []

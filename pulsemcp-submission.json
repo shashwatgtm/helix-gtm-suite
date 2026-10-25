@@ -1,0 +1,49 @@
+﻿{
+    "publisher":  "Helix GTM Consulting (Shashwat Ghosh)",
+    "website":  "https://tools.gtmhelix.com",
+    "repository":  "https://github.com/shashwatgtm/helix-gtm-suite",
+    "servers":  [
+                    {
+                        "name":  "gtm-alpha",
+                        "endpoint":  "https://gtmalpha.gtmhelix.com/mcp",
+                        "webApp":  "https://gtmalpha.gtmhelix.com/",
+                        "toolCount":  3,
+                        "description":  "GTM Alpha (3 tools): EPIC motion scoring from 1 to 10 and 180-day plan across days 1 to 30, 31 to 60, 61 to 90, and 91 to 180"
+                    },
+                    {
+                        "name":  "craft-gtm",
+                        "endpoint":  "https://craft-gtm.gtmhelix.com/mcp",
+                        "webApp":  "https://craft-gtm.gtmhelix.com/",
+                        "toolCount":  8,
+                        "description":  "CRAFT GTM (8 tools): pmf_scorecard, launch_commander, customer_interview_kit, retention_playbook, partner_architect, crisis_planner, competitive_intel, craft_gtm_analyzer"
+                    },
+                    {
+                        "name":  "craft-content",
+                        "endpoint":  "https://craft-content.gtmhelix.com/mcp",
+                        "webApp":  "https://craft-content.gtmhelix.com/",
+                        "toolCount":  8,
+                        "description":  "CRAFT Content (8 tools): case_study_generator, newsletter_builder, webinar_script, content_repurposer, thought_leadership_series, testimonial_capture, sales_enablement_content, craft_content_improver"
+                    },
+                    {
+                        "name":  "impact-positioning",
+                        "endpoint":  "https://impact.gtmhelix.com/mcp",
+                        "webApp":  "https://impact.gtmhelix.com/",
+                        "toolCount":  8,
+                        "description":  "IMPACT (8 tools): Identify Champions, Map Alternatives, Pinpoint Value, Anchor Market, Craft Message, Translate Execution, full positioning audit, and framework guide"
+                    },
+                    {
+                        "name":  "icp-intelligence",
+                        "endpoint":  "https://icp-intelligence.gtmhelix.com/mcp",
+                        "webApp":  "https://icp-intelligence.gtmhelix.com/",
+                        "toolCount":  9,
+                        "description":  "ICP Intelligence (9 tools): TAM SAM SOM Calculator, ideal customer profile definition, buying group mapping, and account scoring"
+                    },
+                    {
+                        "name":  "revenue-enablement",
+                        "endpoint":  "https://revenue-enablement.gtmhelix.com/mcp",
+                        "webApp":  "https://revenue-enablement.gtmhelix.com/",
+                        "toolCount":  12,
+                        "description":  "Revenue Enablement (12 tools): ROI Business Case Builder, deal qualification, MEDDPICC discovery, battlecards, mutual action plans, and seller execution"
+                    }
+                ]
+}
