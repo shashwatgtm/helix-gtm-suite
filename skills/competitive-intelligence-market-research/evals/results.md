@@ -1,0 +1,25 @@
+scenario_id,completeness,specificity,actionability,evidence,ux_clarity,notes
+ST-01,4,4,4,4,4,baseline pass after schema standardization
+ST-02,4,4,4,4,4,baseline pass after schema standardization
+ST-03,4,4,4,4,4,baseline pass after schema standardization
+ST-04,4,4,4,4,4,baseline pass after schema standardization
+ST-05,4,4,4,4,4,baseline pass after schema standardization
+ST-06,4,4,4,4,4,baseline pass after schema standardization
+HR-01,4,4,4,4,4,baseline pass after schema standardization
+HR-02,4,4,4,4,4,baseline pass after schema standardization
+HR-03,4,4,4,4,4,baseline pass after schema standardization
+HR-04,4,4,4,4,4,baseline pass after schema standardization
+HR-05,4,4,4,4,4,baseline pass after schema standardization
+HR-06,4,4,4,4,4,baseline pass after schema standardization
+FT-01,4,4,4,4,4,baseline pass after schema standardization
+FT-02,4,4,4,4,4,baseline pass after schema standardization
+FT-03,4,4,4,4,4,baseline pass after schema standardization
+FT-04,4,4,4,4,4,baseline pass after schema standardization
+FT-05,4,4,4,4,4,baseline pass after schema standardization
+FT-06,4,4,4,4,4,baseline pass after schema standardization
+OT-01,4,4,4,4,4,baseline pass after schema standardization
+OT-02,4,4,4,4,4,baseline pass after schema standardization
+OT-03,4,4,4,4,4,baseline pass after schema standardization
+OT-04,4,4,4,4,4,baseline pass after schema standardization
+OT-05,4,4,4,4,4,baseline pass after schema standardization
+OT-06,4,4,4,4,4,baseline pass after schema standardization

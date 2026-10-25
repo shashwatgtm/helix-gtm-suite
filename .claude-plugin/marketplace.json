@@ -1,0 +1,14 @@
+{
+  "name": "gtm-claude-skills",
+  "owner": {
+    "name": "Shashwat Ghosh",
+    "url": "https://github.com/shashwatgtm"
+  },
+  "plugins": [
+    {
+      "name": "gtm-skills",
+      "source": "./plugins/gtm-skills",
+      "description": "3 proprietary B2B GTM frameworks: EPIC Motion Diagnostic, IMPACT Quick Positioning, CRAFT Context Engineering"
+    }
+  ]
+}
