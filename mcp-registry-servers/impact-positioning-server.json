@@ -1,0 +1,13 @@
+﻿{
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name":  "io.github.shashwatgtm/impact-positioning",
+    "title":  "Helix GTM - impact-positioning MCP Server",
+    "description":  "IMPACT Positioning Server: Competitive Alternatives, Unique Attributes, Value Themes, and Messaging Architecture",
+    "version":  "1.2.0",
+    "remotes":  [
+                    {
+                        "type":  "streamable-http",
+                        "url":  "https://impact.gtmhelix.com/mcp"
+                    }
+                ]
+}

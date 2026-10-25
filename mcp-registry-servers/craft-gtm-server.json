@@ -1,0 +1,13 @@
+﻿{
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name":  "io.github.shashwatgtm/craft-gtm",
+    "title":  "Helix GTM - craft-gtm MCP Server",
+    "description":  "CRAFT GTM Server: B2B ICP, Account Research, Outbound Sequences, Content Strategy, and GTM Action Plans",
+    "version":  "1.2.0",
+    "remotes":  [
+                    {
+                        "type":  "streamable-http",
+                        "url":  "https://craft.gtmhelix.com/mcp"
+                    }
+                ]
+}
