@@ -1,7 +1,7 @@
 # Overnight Autonomous Deployment & 100% E2E Validation Report
 
-- **Last Updated**: 2026-10-25 08:28:36 IST
-- **Verification Pass**: 2 of 14
+- **Last Updated**: 2026-10-25 08:44:35 IST
+- **Verification Pass**: 3 of 14
 - **Workspace**: `C:\Users\shash\Documents\Gemini Plugin and MCP`
 - **Total Bundled 3-Layer Skills**: 55 (Passed E2E: 55)
 - **Total Hosted Streamable HTTP MCP Servers**: 6 (Tools Verified Live: 48 / 48)
@@ -18,7 +18,7 @@
 | `icp-intelligence` | `https://icp-intelligence.gtmhelix.com/mcp` | 9 | 9 / 9 | `tam_sam_som_calculator` -> PASS | **PASS (100%)** |
 | `revenue-enablement` | `https://revenue-enablement.gtmhelix.com/mcp` | 12 | 12 / 12 | `roi_business_case_builder` -> PASS | **PASS (100%)** |
 
-## 2. Marketplace Indexing & Repository Availability Matrix (Pass 2)
+## 2. Marketplace Indexing & Repository Availability Matrix (Pass 3)
 
 | Repository | GitHub Status | skills.sh Status | Marketplace Discovery Topics |
 | :--- | :---: | :---: | :--- |
@@ -31,7 +31,7 @@
 | `shashwatgtm/b2b-personal-branding` | 200 OK (LIVE) | 200 OK (INDEXED) | `gemini-cli-extension`, `mcp` |
 | `shashwatgtm/b2b-research-market-and-account` | 200 OK (LIVE) | 200 OK (INDEXED) | `gemini-cli-extension`, `mcp` |
 | `shashwatgtm/b2b-icp-and-customer-insight` | 200 OK (LIVE) | 200 OK (INDEXED) | `gemini-cli-extension`, `mcp` |
-| `shashwatgtm/b2b-deal-execution` | UNREACHABLE | 200 OK (INDEXED) | `gemini-cli-extension`, `mcp` |
+| `shashwatgtm/b2b-deal-execution` | 200 OK (LIVE) | 200 OK (INDEXED) | `gemini-cli-extension`, `mcp` |
 | `shashwatgtm/craft-gtm-mcp` | 200 OK (LIVE) | 200 OK (INDEXED) | `gemini-cli-extension`, `mcp` |
 | `shashwatgtm/craft-content-mcp` | 200 OK (LIVE) | 200 OK (INDEXED) | `gemini-cli-extension`, `mcp` |
 | `shashwatgtm/impact-mcp` | 200 OK (LIVE) | 200 OK (INDEXED) | `gemini-cli-extension`, `mcp` |
