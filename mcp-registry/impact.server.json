@@ -1,0 +1,26 @@
+{
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name":  "io.github.shashwatgtm/impact-mcp",
+    "description":  "8 hypothesis-driven B2B positioning and messaging tools covering all 6 steps of the IMPACT Framework.",
+    "repository":  {
+                       "url":  "https://github.com/shashwatgtm/impact-mcp",
+                       "source":  "github"
+                   },
+    "version":  "2.2.18",
+    "packages":  [
+                     {
+                         "registryType":  "npm",
+                         "identifier":  "@shashwatgtmalpha/impact-mcp",
+                         "version":  "2.2.18",
+                         "transport":  {
+                                           "type":  "stdio"
+                                       }
+                     }
+                 ],
+    "remotes":  [
+                    {
+                        "type":  "streamable-http",
+                        "url":  "https://impact.gtmhelix.com/mcp"
+                    }
+                ]
+}

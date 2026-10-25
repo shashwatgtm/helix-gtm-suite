@@ -1,0 +1,53 @@
+{
+    "name":  "helix-gtm-suite",
+    "version":  "1.1.0",
+    "description":  "All 81 free B2B GTM tools and skills by Shashwat Ghosh (Helix GTM Consulting): 6 hosted Streamable HTTP MCP connectors (48 deterministic tools) and complete 3-layer B2B GTM agent skills.",
+    "author":  "Shashwat Ghosh, Helix GTM Consulting (https://gtmhelix.com)",
+    "repository":  "https://github.com/shashwatgtm/helix-gtm-suite",
+    "license":  "MIT",
+    "contextFileName":  "GEMINI.md",
+    "mcpServers":  {
+                       "gtm-alpha":  {
+                                         "type":  "http",
+                                         "url":  "https://gtmalpha.gtmhelix.com/mcp",
+                                         "httpUrl":  "https://gtmalpha.gtmhelix.com/mcp",
+                                         "serverUrl":  "https://gtmalpha.gtmhelix.com/mcp",
+                                         "description":  "3 deterministic B2B go-to-market motion scoring and 180-day roadmap tools powered by the EPIC Framework."
+                                     },
+                       "craft-gtm":  {
+                                         "type":  "http",
+                                         "url":  "https://craft-gtm.gtmhelix.com/mcp",
+                                         "httpUrl":  "https://craft-gtm.gtmhelix.com/mcp",
+                                         "serverUrl":  "https://craft-gtm.gtmhelix.com/mcp",
+                                         "description":  "8 strategic B2B GTM execution tools powered by the CRAFT Framework (Character, Result, Artifact, Frame, Timeline)."
+                                     },
+                       "craft-content":  {
+                                             "type":  "http",
+                                             "url":  "https://craft-content.gtmhelix.com/mcp",
+                                             "httpUrl":  "https://craft-content.gtmhelix.com/mcp",
+                                             "serverUrl":  "https://craft-content.gtmhelix.com/mcp",
+                                             "description":  "8 B2B content creation and repurposing tools powered by the CRAFT Framework."
+                                         },
+                       "impact":  {
+                                      "type":  "http",
+                                      "url":  "https://impact.gtmhelix.com/mcp",
+                                      "httpUrl":  "https://impact.gtmhelix.com/mcp",
+                                      "serverUrl":  "https://impact.gtmhelix.com/mcp",
+                                      "description":  "8 hypothesis-driven B2B positioning and messaging tools covering all 6 steps of the IMPACT Framework."
+                                  },
+                       "icp-intelligence":  {
+                                                "type":  "http",
+                                                "url":  "https://icp-intelligence.gtmhelix.com/mcp",
+                                                "httpUrl":  "https://icp-intelligence.gtmhelix.com/mcp",
+                                                "serverUrl":  "https://icp-intelligence.gtmhelix.com/mcp",
+                                                "description":  "9 deep ICP pattern detection, market sizing, buying group, and account prioritization tools."
+                                            },
+                       "revenue-enablement":  {
+                                                  "type":  "http",
+                                                  "url":  "https://revenue-enablement.gtmhelix.com/mcp",
+                                                  "httpUrl":  "https://revenue-enablement.gtmhelix.com/mcp",
+                                                  "serverUrl":  "https://revenue-enablement.gtmhelix.com/mcp",
+                                                  "description":  "12 B2B deal execution, MEDDPICC discovery, CFO ROI business case, and seller enablement tools."
+                                              }
+                   }
+}

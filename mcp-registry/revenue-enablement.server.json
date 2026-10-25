@@ -1,0 +1,26 @@
+{
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name":  "io.github.shashwatgtm/revenue-enablement-mcp",
+    "description":  "12 B2B deal execution, MEDDPICC discovery, CFO ROI business case, and seller enablement tools.",
+    "repository":  {
+                       "url":  "https://github.com/shashwatgtm/revenue-enablement-mcp",
+                       "source":  "github"
+                   },
+    "version":  "1.0.0",
+    "packages":  [
+                     {
+                         "registryType":  "npm",
+                         "identifier":  "@shashwatgtmalpha/revenue-enablement-mcp",
+                         "version":  "1.0.0",
+                         "transport":  {
+                                           "type":  "stdio"
+                                       }
+                     }
+                 ],
+    "remotes":  [
+                    {
+                        "type":  "streamable-http",
+                        "url":  "https://revenue-enablement.gtmhelix.com/mcp"
+                    }
+                ]
+}

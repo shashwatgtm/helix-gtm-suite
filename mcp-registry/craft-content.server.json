@@ -1,0 +1,26 @@
+{
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name":  "io.github.shashwatgtm/craft-content-mcp",
+    "description":  "8 B2B content creation and repurposing tools powered by the CRAFT Framework.",
+    "repository":  {
+                       "url":  "https://github.com/shashwatgtm/craft-content-mcp",
+                       "source":  "github"
+                   },
+    "version":  "2.2.22",
+    "packages":  [
+                     {
+                         "registryType":  "npm",
+                         "identifier":  "@shashwatgtmalpha/craft-content-mcp",
+                         "version":  "2.2.22",
+                         "transport":  {
+                                           "type":  "stdio"
+                                       }
+                     }
+                 ],
+    "remotes":  [
+                    {
+                        "type":  "streamable-http",
+                        "url":  "https://craft-content.gtmhelix.com/mcp"
+                    }
+                ]
+}

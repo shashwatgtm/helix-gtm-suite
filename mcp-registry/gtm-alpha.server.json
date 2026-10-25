@@ -1,0 +1,26 @@
+{
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name":  "io.github.shashwatgtm/gtm-alpha-mcp-server",
+    "description":  "3 deterministic B2B go-to-market motion scoring and 180-day roadmap tools powered by the EPIC Framework.",
+    "repository":  {
+                       "url":  "https://github.com/shashwatgtm/gtm-alpha-mcp-server",
+                       "source":  "github"
+                   },
+    "version":  "1.0.0",
+    "packages":  [
+                     {
+                         "registryType":  "npm",
+                         "identifier":  "@shashwatgtmalpha/gtm-alpha-mcp-server",
+                         "version":  "1.0.0",
+                         "transport":  {
+                                           "type":  "stdio"
+                                       }
+                     }
+                 ],
+    "remotes":  [
+                    {
+                        "type":  "streamable-http",
+                        "url":  "https://gtmalpha.gtmhelix.com/mcp"
+                    }
+                ]
+}

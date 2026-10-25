@@ -1,0 +1,26 @@
+{
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name":  "io.github.shashwatgtm/icp-intelligence-mcp",
+    "description":  "9 deep ICP pattern detection, market sizing, buying group, and account prioritization tools.",
+    "repository":  {
+                       "url":  "https://github.com/shashwatgtm/icp-intelligence-mcp",
+                       "source":  "github"
+                   },
+    "version":  "1.2.25",
+    "packages":  [
+                     {
+                         "registryType":  "npm",
+                         "identifier":  "@shashwatgtmalpha/icp-intelligence-mcp",
+                         "version":  "1.2.25",
+                         "transport":  {
+                                           "type":  "stdio"
+                                       }
+                     }
+                 ],
+    "remotes":  [
+                    {
+                        "type":  "streamable-http",
+                        "url":  "https://icp-intelligence.gtmhelix.com/mcp"
+                    }
+                ]
+}

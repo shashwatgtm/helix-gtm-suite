@@ -1,14 +1,14 @@
 {
-  "name": "gtm-claude-skills",
-  "owner": {
-    "name": "Shashwat Ghosh",
-    "url": "https://github.com/shashwatgtm"
-  },
-  "plugins": [
-    {
-      "name": "gtm-skills",
-      "source": "./plugins/gtm-skills",
-      "description": "3 proprietary B2B GTM frameworks: EPIC Motion Diagnostic, IMPACT Quick Positioning, CRAFT Context Engineering"
-    }
-  ]
+    "name":  "helix-gtm-suite",
+    "owner":  {
+                  "name":  "Shashwat Ghosh",
+                  "url":  "https://github.com/shashwatgtm"
+              },
+    "plugins":  [
+                    {
+                        "name":  "helix-gtm-suite",
+                        "source":  "./",
+                        "description":  "All 81 free B2B GTM tools and skills by Shashwat Ghosh (Helix GTM Consulting): 6 hosted Streamable HTTP MCP servers (48 tools) and all B2B GTM agent skills."
+                    }
+                ]
 }
