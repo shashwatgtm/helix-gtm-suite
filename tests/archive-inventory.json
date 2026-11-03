@@ -1,0 +1,14 @@
+[
+  {
+    "repo": "helix-gtm-suite",
+    "file": "claude-ai-skill-zips/content-writing-thought-leadership.zip",
+    "entries": 9,
+    "sha256": "6939f48cfed61582edf5c82305413dbf3b761250a98b42a09d529478bb6b0877"
+  },
+  {
+    "repo": "helix-gtm-suite",
+    "file": "claude-ai-skill-zips/personal-branding-authority.zip",
+    "entries": 13,
+    "sha256": "9a4db8b33ce3f262294da510a1420ce8f604ac334c0b9da12d840e8cf42e458b"
+  }
+]
