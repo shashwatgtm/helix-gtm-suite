@@ -3,6 +3,13 @@ name: competitive-intelligence-market-research
 description: B2B SaaS competitive intelligence with 24 scenarios across Sales/HR/Fintech/Ops Tech
 metadata: {"clawdbot":{"emoji":"🔍","homepage":"https://github.com/shashwatgtm","always":true}}
 ---
+
+## Required region and industry context
+
+Before producing the answer, read [Region and industry reference](references/region-context.md) and apply its selection and output rules to every sector claim in this skill. Bind each affirmative seller offering and subtype to its own country. Ignore negated offerings and excluded markets. Transaction currency and receipt accounts do not establish markets. Keep countries separate. Preserve evidence limits, refusals, reviewed metadata and calculations. When the selling country or applicable source is missing, ask and omit unsupported jurisdiction advice.
+
+
+
 ## **🎯 Multi-Dimensional Navigator**
 
 **This skill serves B2B SaaS companies across multiple dimensions. Find your path:**

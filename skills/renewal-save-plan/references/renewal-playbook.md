@@ -7,7 +7,7 @@
 - Document value delivered since last renewal
 - Identify any unresolved issues or feature gaps
 - Map current stakeholder landscape (who is engaged, who left, who is new)
-- Output: renewal risk score (Low/Medium/High/Critical)
+- Output: documented renewal risks and missing evidence
 
 ### Day 120: Stakeholder Alignment Check
 - Confirm executive sponsor is still engaged and supportive
@@ -41,21 +41,21 @@
 
 ---
 
-## Renewal Probability Scoring
+## Renewal evidence method
 
-| Score Range | Probability | Label | Action |
-|-------------|-------------|-------|--------|
-| 80-100 | Very Likely | Green | Standard renewal process |
-| 60-79 | Likely | Yellow | Proactive value reinforcement, address soft concerns |
-| 40-59 | Uncertain | Orange | Formal save plan required, CS leadership involved |
-| 20-39 | At Risk | Red | Executive intervention, competitive save strategy |
-| 0-19 | Likely Lost | Black | Document lessons, prepare for churn, attempt Hail Mary |
+Method: renewal evidence review 20261103. This is an evidence checklist, not a numerical model. The reference supplies no factor weights, aggregation formula, probability calibration or retention forecast. Do not manufacture any of them. Do not derive a percentage from the number of favourable factors.
 
-### Probability Input Factors
+For every factor record the supplied fact, source and date, and one state: positive, adverse, conflicting or unknown. A missing or ambiguous fact is unknown. Contradictory facts are conflicting until verified, not averaged. Four or more evidenced factors permit a fuller evidence review; fewer permit a partial review. Neither permits a probability. Choose actions from the evidenced risk type and deadlines, not an invented likelihood band.
 
-Each factor contributes to the overall renewal probability:
+For a portfolio, sum only known ARR for the stated renewal period and currency. Sum ARR with documented adverse signals separately; its share of known renewal ARR is exposure, not expected loss. Show missing ARR and never assume it is zero. Do not probability weight ARR. Report observed GRR only when same-cohort starting ARR, contraction and churn for a stated period and currency are supplied: 100 * (starting ARR - contraction - churn) / starting ARR, with starting ARR greater than zero and losses between zero and starting ARR. Exclude expansion. If the basis or figures are missing, invalid or mixed, omit GRR and identify the gap. A future scenario is not an observed retention result.
 
-| Factor | High Renewal Signal | Low Renewal Signal |
+### Renewal Evidence Factors
+
+
+
+Each factor is qualitative evidence only. It has no assigned numerical contribution:
+
+| Factor | Positive Evidence | Adverse Evidence |
 |--------|--------------------|--------------------|
 | Product usage trend | Growing or stable | Declining |
 | Exec sponsor engagement | Active, responsive | Disengaged or departed |

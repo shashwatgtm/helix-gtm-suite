@@ -3,6 +3,11 @@ name: personal-branding-authority
 description: Founder vs employee personal branding strategies with LinkedIn positioning and exit planning
 metadata: {"clawdbot":{"emoji":"👤","homepage":"https://github.com/shashwatgtm","always":true}}
 ---
+
+## Required region and industry context
+
+Before producing the answer, read [Region and industry reference](references/region-context.md) and apply its selection and output rules to every sector claim in this skill. Bind each affirmative seller offering and subtype to its own country. Ignore negated offerings and excluded markets. Transaction currency and receipt accounts do not establish markets. Keep countries separate. Preserve evidence limits, refusals, reviewed metadata and calculations. When the selling country or applicable source is missing, ask and omit unsupported jurisdiction advice.
+
 ## 🎯 MULTI-DIMENSIONAL NAVIGATOR
 
 **Most Critical Decision: Are you Founder or Employee?**
@@ -82,11 +87,11 @@ RBI/SEC compliance made understandable."
 PROFILE:
 Voice: Educational, factual, conservative
 Risk tolerance: ZERO (regulatory = zero tolerance)
-Legal requirement: EVERY post reviewed (1-3 days)
+Editorial review policy: have qualified compliance counsel review each draft; agree the review time.
 Differentiation: Regulatory expertise
 Competitive edge: You've navigated licensing successfully
 
-MANDATORY FOR ALL FINTECH:
+CONSERVATIVE EDITORIAL CHECKLIST (verify actual legal requirements):
 🔴 Legal review EVERY post (no exceptions)
 🔴 Disclaimer on EVERY post
 🔴 NEVER share user financial data (even anonymized)
@@ -106,38 +111,26 @@ Template:
 "RBI updated [regulation]. Here's what changed."
 
 Example:
-"RBI Updated Payment Aggregator Guidelines (Jan 2026)
+"Payment aggregator regulatory update template
 
-What Changed:
-1. Net worth requirement: ₹25 Cr (was ₹15 Cr)
-2. Escrow account mandatory (new requirement)
-3. Monthly reporting to RBI (was quarterly)
-
-What This Means for Fintech Founders:
-- If you're payment aggregator: Need ₹10 Cr more capital
-- Timeline: 12 months to comply
-- If you can't: Apply for exemption or shut down
-
-Our Journey:
-We went through PA licensing in 2024.
-Timeline: 18 months from application to approval.
-Cost: ₹50 lakhs (legal + compliance)
-
-Lessons:
-1. Start 24 months before you need license
-2. Budget 2× what you think for legal
-3. Hire ex-RBI consultant (worth it)
-
-Disclaimer: This is educational content, not legal advice.
-Consult qualified legal counsel for your specific situation.
-
-Source: RBI Circular RBI/2026/23 [link to official RBI document]"
+This is a template, not a report of an actual regulatory change. The user must check the current rule before completing it.
+Jurisdiction and regulated entity: [verify]
+Primary instrument, issuing authority and official URL: [verify]
+Publication date, amendment status, effective date and date checked: [verify]
+Applicable provision and exact entity or activity scope: [verify]
+Current requirement and any genuinely changed requirement: [quote or accurately paraphrase the cited provision]
+Reporting: [verify each applicable annual, quarterly or monthly return separately]
+Authorisation, renewal, capital and transition conditions: [verify independently; do not infer]
+Action, accountable reviewer and due date: [only when supported by the current provision]
+Personal licensing experience: [include only the user's verified, authorised facts]
+Leave every unsupported item unverified. Do not invent a circular, deadline, amount, reporting frequency or company history.
+Have qualified compliance counsel confirm applicability before public use."
 
 Why this works:
-✅ Timely (just announced)
+Template: establish timeliness from the dated primary source
 ✅ Specific (exact numbers, dates)
 ✅ Helpful (what to do next)
-✅ Personal (you did this)
+Template: include personal experience only when verified
 ✅ Compliant (disclaimer, official sources)
 
 Legal review checklist:
@@ -152,49 +145,15 @@ Template:
 "KYC requirements for fintechs: Complete checklist"
 
 Example:
-"KYC Requirements for Indian Fintechs (2026 Update)
+"KYC applicability worksheet
 
-Mandatory Documents:
-□ PAN card (all customers)
-□ Aadhaar (for e-KYC via UIDAI)
-□ Address proof (if Aadhaar address >3 months old)
-□ Photograph (recent, clear)
-
-E-KYC via Aadhaar:
-- Allowed for: Bank accounts, wallets, small loans
-- NOT allowed for: Large loans (>₹50K), investment accounts
-- Process: OTP authentication + biometric
-- Cost: ₹5-10 per verification
-
-Video KYC:
-- RBI approved since 2020
-- Requirements:
-  * Live video call
-  * PAN + Aadhaar verification
-  * Geo-tagging
-  * Recording stored 10 years
-- Cost: ₹50-100 per verification
-
-Ongoing Monitoring:
-- Re-KYC every 10 years (low-risk)
-- Re-KYC every 2 years (high-risk)
-- Transaction monitoring (suspicious activity)
-- PEP (Politically Exposed Persons) screening
-
-How We Do It:
-- Primary: Aadhaar e-KYC (₹5/verification)
-- Fallback: Video KYC if Aadhaar fails
-- Ongoing: Monthly PEP screening
-
-Cost: ₹8/customer (average)
-Timeline: 2-5 minutes per customer
-
-Disclaimer: This is educational content, not legal/compliance advice.
-Regulations change frequently. Verify with CASA-certified consultant.
-
-Sources:
-- RBI Master Direction on KYC [link]
-- PMLA Rules 2002 (amended 2023) [link]"
+This is an evidence collection template, not a statement of current requirements. The user must check the current rule before use.
+Record the regulated entity, regulator, jurisdiction, account type and onboarding mode.
+For each document, identity method, limit and monitoring obligation, record the applicable primary provision, official URL, publication and effective dates, amendment status and date checked.
+For retention, record the category of record, minimum period and event that starts the period.
+Check OTP onboarding, biometric authentication and video identification separately. Do not infer eligibility from a generic fintech label.
+Leave unsupported fields unverified. Do not invent verification costs, processing times, company practices or regulatory changes.
+Have qualified compliance counsel verify the completed worksheet before public use."
 
 POSTING FREQUENCY: 2×/week MAXIMUM
 Why: Legal review bottleneck (1-3 days per post)

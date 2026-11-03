@@ -1,0 +1,465 @@
+{
+  "skills": [
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/guard-defend-renewal/SKILL.md",
+      "before_sha256": "ffe1211f3fa6ef2f048465d382a15c3af05b314759776ca77b8046d36fb126dc",
+      "after_sha256": "71dadf03e094e0e8b8ce67541d0cec60733b2998e25e17a27c4c3b53f0285f1c",
+      "frontmatter_sha256": "e631ba893a93cc4e5821a5471229354cc999f6fac72300cd61261364f807903a",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/prompt-improver/SKILL.md",
+      "before_sha256": "103e2ea84219cd948d8c27aab09b341f8f47a60709ff282be7b25605186a283e",
+      "after_sha256": "3d7267873e8639d3f1e12c9044cc7e837702ab9221f96a3e5c260381c0dc1076",
+      "frontmatter_sha256": "5c42d12f367e7d7bb30865b15ecd86d278478c62b69808090c98f2ac04e62159",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/executive-morning-briefing/SKILL.md",
+      "before_sha256": "ceaba3c545c08c5f0792162b22b16b622b23d2b2695550476077ea9536ab612f",
+      "after_sha256": "1bf006f8a0cf211297e3f0d1b6c1842fd5d790a4c87ebb455753eb9376baf511",
+      "frontmatter_sha256": "25df5fcb6cf91381c14730f753bfd6edbc74d778b59003fbb35ac345abc880de",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/helix-mcp-impact-positioning/SKILL.md",
+      "before_sha256": "ad1d2c4eb901479c027e7e1384e5ca8d75765d82ca020f66afc6d3c625d2ca6f",
+      "after_sha256": "7e5926926f9fb1cee0b8317e1a5833620af452fba91ab0cce2faf2ca45ff818f",
+      "frontmatter_sha256": "08714557dd5ac83a58ed4b48d2ac9b42f5527a1b826b4827331d31b48ba584bb",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/handcrafted-voice-audit/SKILL.md",
+      "before_sha256": "c5c41e70ab6a036a9ce4af8bed46daae91032d14377f8fab3b753ae2198cbb89",
+      "after_sha256": "f5a0d84d3f72c8b37abad569f1a9fe40d60a23559e092c8a5f1710c8a4918547",
+      "frontmatter_sha256": "f2ea718f4c4a8021501bd5b4d9f054c582e22926aad62b483a5f95cfc2007818",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/optise-helix-race-audit/SKILL.md",
+      "before_sha256": "0ddde5ece59559645352131cc1dd0f47e8430f92b308ff85beeabf26bcd8d26b",
+      "after_sha256": "d3d6ae4c4e18d5cc71c8c21e48f0022224ac79e963f9c3225fcd02b14d98ca72",
+      "frontmatter_sha256": "78c3dd4ba64e34fe943b95644b54ce4970cc47256704b7245c073d4b3be6ec99",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/competitive-intelligence-market-research/SKILL.md",
+      "before_sha256": "e61666d74d160c2750f1f24621955effccbb93566c39ec079061e3a9c466c57c",
+      "after_sha256": "e41dd4da53a5a06ece205f07d548cd5260f86983b070d8f7770f36263bd025e0",
+      "frontmatter_sha256": "23a6bd79d8599eaa38048a1b55980dacf39e409de1f8a894953695b2e1d96425",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/positioning-and-messaging/SKILL.md",
+      "before_sha256": "ae5edbd317572640c038ec6763b254d4a70c206525700f2c86d0b2719656e9fd",
+      "after_sha256": "30764c98d8eb833432a13c0db777dd72911f4b9bd0c10404e4c13e2cc8850a07",
+      "frontmatter_sha256": "a069ed864c8814add56ec80872df7a5fe1660d92bc6d20e2a4e7717899802c93",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/guard-gauge-diagnostic/SKILL.md",
+      "before_sha256": "eae4827e6b760ed73bda33efd9749230af37f36b27f6e3817950ae8667310c44",
+      "after_sha256": "39b7a88687908fdb0c201599527c7208cf8c9b61e04a028e6658ea40312075fd",
+      "frontmatter_sha256": "f7b4c8a08b2e2add0701cdc867914b48bf2b4d33e9d20caf6fdbaed44ad25ef2",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/event-speaker-kit/SKILL.md",
+      "before_sha256": "82b2f6f60a2381be4bcdef953a5532d7bfead7851238f9f3d0ec31c682014460",
+      "after_sha256": "3fede26fc21cba5ea91100ab59f8dc7032e4894869418fcc4e2618c5c01f4c1d",
+      "frontmatter_sha256": "9d4cd0702a5739ebf5332b0c716364b6425b2ac983d90d85fbea39dbb5028ae0",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/discovery-and-buying-group/SKILL.md",
+      "before_sha256": "8a6455ed5d99061edacfbb8693b4cc5cbd6d68e01060bd29d9684f2a566dd263",
+      "after_sha256": "acc40cb668816fed5dc15935d4cd5ecb9779590e84a411d90f03d71aa921987d",
+      "frontmatter_sha256": "0db9a0e7b5f6271f67c7726703dc304324a165c03493894378a83d386c310063",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/optise-helix-prompt-pack-builder/SKILL.md",
+      "before_sha256": "fa4032dedc61d19353527da43f5bce94c45b646adc67e5acde77bc66c7fd9920",
+      "after_sha256": "0a6d1e3309b397fc724ec71d2f103c676c3c7e1c4ef50944c2aaf792e64234e4",
+      "frontmatter_sha256": "f9e8adfc9f676908e04e7a30021a5324841c41b2876080993749e4e3ac7016b9",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/claims-fact-check/SKILL.md",
+      "before_sha256": "26f107c809d3e2292e168d5a2362d0d267da6e50e11799932a1460009690ed11",
+      "after_sha256": "86cd3dcaedee4ce78ec900500f6297c177a354fef5e2147c6f3b69d7806641ad",
+      "frontmatter_sha256": "7b7d3fe46f8316ab859f187924bbcd297fc83960ae5ee176aef964a880c8cce8",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/qbr-prep/SKILL.md",
+      "before_sha256": "a3cf8638e4a928afe5bd366407604ef06f1deba9d3fa7d0cb70fdc554a603005",
+      "after_sha256": "d4f70acf0135f93111b54b490f84fd8936ce77eb8582720407b46aeb9ca648e0",
+      "frontmatter_sha256": "49b19f25e348671f7604429b86f22455d862dc5d7e56a273c44b111fcdc77451",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/meeting-prep-debrief/SKILL.md",
+      "before_sha256": "6e484d23d7e4afc3f8bbffd647964c52524a6ee70f546f6b64d2f9636d2a55d6",
+      "after_sha256": "54b929cc8ecf262fa8bf0968b483aa82cc82be357bcbfd406755b7af282f9485",
+      "frontmatter_sha256": "d6a18a89d22f253f86406244dd7b2875b88122c1d3789a05b88516a642d6c751",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/helix-mcp-craft-content/SKILL.md",
+      "before_sha256": "f078e0870e059daddd4ffba3ab71bd3a2dcb167278e9f9b64f42b6a597c1c362",
+      "after_sha256": "e6c16ac7d7f716ff65e7124864fe343ae7adb671c782d7e7e98679b1bb960c0c",
+      "frontmatter_sha256": "270c527c48358662fb3f080a6d3c2c7eb73c965d1bf76cba1aa1d3ca81ed987e",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/optise-helix-fitq-audit/SKILL.md",
+      "before_sha256": "f3bb35f730c1277525d366cf243f2ffeaaed57e8921947b149a6dc3b4bbf66c7",
+      "after_sha256": "003ac16852571ddadc4c3f602f410b2f9e197c64415157139f778307b05867ff",
+      "frontmatter_sha256": "41da059d1aadb0c91314a31c4bc57d109ecf79ccee5559ff5ba4dc26c7c8b5fd",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/optise-helix-eu-trust-centre/SKILL.md",
+      "before_sha256": "df82c0c2e68f307fe9f18d1b208849938e41567e36fc2303fb2e7232bf6f0a81",
+      "after_sha256": "406162af7a961ddb5d836334ade6e06d1c677d795969f6fb9f2086e97abe3a0e",
+      "frontmatter_sha256": "d1e1099fe7b946fa76601202d33307ad75c5eaf4025e51f1ca9475f7c4e202bf",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/onboarding-plan/SKILL.md",
+      "before_sha256": "2c4a7a343965ab8fabd143bc7b717b9458421b37fcb6bdbae27549a51fff4583",
+      "after_sha256": "b0758520c4647971ac783e177a16a2ec37c99f8037d2489a548aca8934cc0a2f",
+      "frontmatter_sha256": "88d46a928c40fe65c1f9ad8c5f191daf8776496841dba424ca6aecc7aa1f9ba6",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/newsletter-creation-curation/SKILL.md",
+      "before_sha256": "e03c33f078734da9db25578f4b49d707c3337e917b3a7028b5543364a857814f",
+      "after_sha256": "5d882340bcecd939745d677e7bb4485882cca64cb5055e98f379233143649537",
+      "frontmatter_sha256": "28fdb8c3e8993b31645848cc161a830bb544ebd1356e45429d789b173e31b63d",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/helix-mcp-gtm-alpha/SKILL.md",
+      "before_sha256": "2f9e35f0099ff655d93946340b10f9c2f87f85970c1b389891adba2ae8ed702d",
+      "after_sha256": "437dba70b155c076fd633a59b47f5ed92cf1e54cfab2e2a3f41a80bd27d9254b",
+      "frontmatter_sha256": "2f698eae189264b86beeb0853ec24cb73f2bd01735471cf19cee17f738bfd691",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/pmf-check/SKILL.md",
+      "before_sha256": "989e5fcdb417de0e717a05bd039cfcb695e545dc741322a4dd5eb7ebc4eeb0f6",
+      "after_sha256": "e0a9c3fc0d75c30decea0e0aca6589bd106006beb6da0a1eded25bbe137a8194",
+      "frontmatter_sha256": "d70b8c065d0b52f2c48626844bf39291a642805267646cdcb61b6c9bb068011d",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/helix-mcp-craft-gtm/SKILL.md",
+      "before_sha256": "e0863b8b86467c673ac4478a895623fcd1f91e906307ca008eb9af83e1b7cfaa",
+      "after_sha256": "b7c7aa315647908e734f6eedaa59c26165feb514e29adda0e0bf6b6692da86a5",
+      "frontmatter_sha256": "a66b17379ae29a1f79d23fe1e0e97bd0781201d2099215366f1edc36672c55bf",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/helix-mcp-revenue-enablement/SKILL.md",
+      "before_sha256": "4a8e141f0d9a89d24cceb2941bc61c81b4dc293e58bfe6d1dfa955536e1d35d3",
+      "after_sha256": "476f2af6f724200f41a8b504bb6f4fc18c33a255620f598d1598c48674f5d250",
+      "frontmatter_sha256": "e02131e3e04f6cccde68c8b963b12c62d4e2642b2155ce7743c3f685328d53ad",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/guard-activate-onboarding/SKILL.md",
+      "before_sha256": "387df60d6449f9549ed22d0fceff2db29232bcc7eadcb24a1cd1f8ef3efca566",
+      "after_sha256": "bfe4cb6e928cc1e93726bd0d007b737da25947815815a455a6e8952f45191d38",
+      "frontmatter_sha256": "2ddc7b831afbf938c82b044a48703e54e0b394afc7a1d9ef2ecabb5116749288",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/event-planner/SKILL.md",
+      "before_sha256": "32319528a843b6fe1e59ad7a8cd1ea0ce646e9cd9d1c9fa5e07a7ce899e8bf2c",
+      "after_sha256": "e89832f77b77675c0dc49f4b245c893df954bc607fd1ce73ca0f8527f00464dc",
+      "frontmatter_sha256": "42789b1df2aa6d22f0963c62abfee3b37409fbcae556de46052fe612c5a02f68",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/gtm-motion-picker/SKILL.md",
+      "before_sha256": "237694d9ab1e97abdc160b6a1fc29f5cadefa8e8db3b2a776e658fcfdc07273e",
+      "after_sha256": "b11f5e27ac984d29de835dd2df3d7e5237d2eaacefd54fa984ed0bd41c037ac4",
+      "frontmatter_sha256": "546c1c69a4e4bd8cb29a286258c727f3aa306ee0339872d77b5fcc6dd5cc00d4",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/helix-mcp-icp-intelligence/SKILL.md",
+      "before_sha256": "9c4d6bf22202b3d111f2c09c2eddc9446f10eb577b00882b2f792552c4d46ba4",
+      "after_sha256": "8fdd9b4233c7cdd1d721a04a8d52b439195be04ab5a640af61004cd772b8c9a1",
+      "frontmatter_sha256": "af7f3899a5942e8da6957ab5f7c6df1323c502ee8733872eff2ee5419b4cdce1",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/pr-launch-pack/SKILL.md",
+      "before_sha256": "14f73a9ad2b9bb4c0a6d2bc9166817101a3bed25fd9b010ac288c365b87aae92",
+      "after_sha256": "1a6e5be8cea18e0f285a9382b7f478c0ddc98fa543895306548fb95692213732",
+      "frontmatter_sha256": "9584fb5674c748d8e6c030c960c9eb4dfbcd21b5d75ac4220df1bc72baf16850",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/evidence-research-asset/SKILL.md",
+      "before_sha256": "6e02fbe0f962d11c857ca3ae2a4b1e82d9e12cc7e14413622a2b649a4ff67ec0",
+      "after_sha256": "15b198e2faaaa822267f5f55762744ab1bddefb8041d72556d17f8a1a488d95a",
+      "frontmatter_sha256": "8c12cb5ead8e5014a7094d44869965dd7867f44eb91c81476b459f78b491486e",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/competitive-intelligence/SKILL.md",
+      "before_sha256": "4482eed919e697efda8a6ddcea6a5a6cab1af2e1eb69d2548bc9b0362baa41de",
+      "after_sha256": "94e5a599c80c8606f9376075158f987cd1eea636380c76f6ea0f6b9b8f73f5d5",
+      "frontmatter_sha256": "aa2642e0bfa783cb10cdcb9fd9d95233d75c506c4cd38057ad89e78d476bc4c7",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/customer-interviews/SKILL.md",
+      "before_sha256": "2a8679981f7efdfbdcbaf21aa931541a705ed0e1e2c4388d4a21cac0628a40a4",
+      "after_sha256": "95a60ed2ba6e1a6c417f63e4daa400c334f6cd43861f44c45092957933aee2bf",
+      "frontmatter_sha256": "179f8353877150a58fd8594c1606c8ece67692ef52c89d86f47a3f97dbc25332",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/epic-motion-diagnostic/SKILL.md",
+      "before_sha256": "8a4d157de60436c54ae99480d220fe9003da1acb2decd3f84bfc00bafffcbdac",
+      "after_sha256": "44335989af675989944f5c7964dff8bd861c5fde25c7499551c34dbd2f6ec179",
+      "frontmatter_sha256": "a947bacb480267bf0100404c9b54a8854ec9d94032661afc6f613eb7ae73785d",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/content-writing-thought-leadership/SKILL.md",
+      "before_sha256": "bda91ab82ec7ff1b7b7edc38698cef3254dccea53878bd2a843f73148aedabf1",
+      "after_sha256": "ea271ba30120e61dfa7bd62018e1cbde8740aba5af2fc6100f92f9b78f4cf0d6",
+      "frontmatter_sha256": "2589eea00d5e4ca4fc9e8f07aa2d4aee9c2e094630e28f98f40bb8221b472c2c",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/lead-scoring-model/SKILL.md",
+      "before_sha256": "44dafc875dbe3a4ae2beda08d185cab4c8bae2a5e6101c4df86835604650c667",
+      "after_sha256": "6aade2301a89839da4c090ce54e3ff622ec388a304ceb236f53701370bc06018",
+      "frontmatter_sha256": "c43a1d72a2c6f8133ee9aaa8cbabd4b631c04417a2b5fd67567c290ce6354dfd",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/impact-quick-positioning/SKILL.md",
+      "before_sha256": "11f067de71eecff591d3862a6632c2d6f42f8ddb161f8f238b85cc1749e3f2d6",
+      "after_sha256": "08699e31892cff0a172849966463c33cd0ec507a9d25f1e2841a271ec38e27fd",
+      "frontmatter_sha256": "d54326317866b5cd4d1973f723ec03340826f601a03d0d04268245051c4ab452",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/guard-review-qbr/SKILL.md",
+      "before_sha256": "86282aa891c039ef186fd2cdd2b23f696dccdccacec896079f6ed200ac7b55bf",
+      "after_sha256": "254feebc0c6537ab27895364f44777939e881dbe2b0865c051f08a5076bfda16",
+      "frontmatter_sha256": "163e5e924d50b5444b45fd1dc34e7901b49bfc3159a10e7fdd179b65eb0d419d",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/account-health-check/SKILL.md",
+      "before_sha256": "44ceea826754672828411534d04a66c655f5aa0a6aeec2503ea3f613f0478769",
+      "after_sha256": "6ac4612f6fa77c3b70b9b993533e5ba54f38d044630f72ea50e090dbbe36daf6",
+      "frontmatter_sha256": "a1be5f8eb55c1b2658def95a73a25492cadc821d97441841680b90dedae717be",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/account-research/SKILL.md",
+      "before_sha256": "d385baed97158094ab53664cd0dc0c520672f3a4517eae7e74de57e44e13d3c0",
+      "after_sha256": "c640aed03807b8394bf5fd646c6f0c70b1a0072ab4c23c78e385cc8d5a476eb9",
+      "frontmatter_sha256": "ef5d81ea78a7791d8070a2a4771cb4715b27028ee9f3dfeb28eb825f670b2b4a",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/personal-branding-authority/SKILL.md",
+      "before_sha256": "5c3fa170c42853b0a616625ad4d697890eac24fa70b8c66898417ec480619624",
+      "after_sha256": "d9268896a8891f0b5a64ad82cf0230ecb817eed2c9c92f804ddd17580dbbbec3",
+      "frontmatter_sha256": "9ae6a197c70929a311e8d984966fb551b0a8937a1214d3949be5ecc154b2b50a",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/guard-uplift-expansion/SKILL.md",
+      "before_sha256": "2c9717eaff9cf5716d4e83a20ccd3b0ac6cb6ec56a1e15e2bb78fea505dc00e6",
+      "after_sha256": "74dd545dd75fea7f51e9a04e28ef3961401e6109c9aeb6fb0bfd6ea227115182",
+      "frontmatter_sha256": "245bb94b12ea9bf2ade2c3b6c997430e9aa3ce70bc8ea3a21c3d05037f4cd6c2",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/social-media-management/SKILL.md",
+      "before_sha256": "97beb6e58784dc9e09fd27f0a778077ffe89a217dd74e587fa9bdf440097a0da",
+      "after_sha256": "5ae33716c2662dcf16719188414cfc8c6e7e35f011cccefb7cf426785b4a7487",
+      "frontmatter_sha256": "4244909f2f6e8a4f039e54b3496c44c30a0ee8dc0efaf706e5d45fcddf6d4a79",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/second-opinion-review/SKILL.md",
+      "before_sha256": "2fce03b59f93a4f43678dcf8b4d12917bf8e4497a9c266fa9b986df681e8b90d",
+      "after_sha256": "b0f6056eeab353ac751f8795ed70a62fcbc91b9cfff8afc62b9a20bf8641a1b4",
+      "frontmatter_sha256": "118ee3cc79bf8f90a0612a860637134e9cd258afaf3fd95f12d8bea6e891953f",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/sales-sequences/SKILL.md",
+      "before_sha256": "de7898a80441641ea811ea8721efa7910e7820a82209c20d50a915714a0431dc",
+      "after_sha256": "6d58069ecc531c25d02239d771c32b108fcadbba345932951094751004c8657e",
+      "frontmatter_sha256": "23a7a2f6ee2bb4babab67e307497207999d4fc8415a9ef01ff9de887c853ec49",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/craft-context-engineering/SKILL.md",
+      "before_sha256": "302cc59891a0901f7fca92b46ec97c882023f8ba21cc53f813a003eb44466be3",
+      "after_sha256": "29efeda697b721b52cd4fbeeaf48eefb532f805122d5b2daf148ae6ee282223d",
+      "frontmatter_sha256": "b6b05976074fdeaf4e067b1849bbabfb688d696bd5ca21202fc951bb7aec728d",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/deal-review-and-close-plan/SKILL.md",
+      "before_sha256": "8e99e0f306489bb29a6d8d216c6a9f95dc120ec26027c6606f4c928a2b5e5903",
+      "after_sha256": "26155cfd10057edb2a16080b694bdc0e36f359b5003f666e43502a45bfc60124",
+      "frontmatter_sha256": "ee6fd0626db138edfdbe5bb4caacfcf2352202a7e644263080e82da212d08ede",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/icp-review/SKILL.md",
+      "before_sha256": "a069825437aac5a7f87eaa60b176e6377d6def7118936a5e8fc125a89139924d",
+      "after_sha256": "8f318976e371d5a7bec89cf5239de9d6808b08952e6e3d755ca691c98750af49",
+      "frontmatter_sha256": "e3d71b81cadbb8f67fab0db36ad46716e0db916af6000cdaf3c7ceae52168e85",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/optise-helix-aeo-tracker/SKILL.md",
+      "before_sha256": "6cb813ac9c2bf257140e92030d3788392608c9da7bdd617ac3e0af832fd7dda9",
+      "after_sha256": "60889f8df000d591f0e21130c2a1c0ec04380ed879598a27253176263a95913d",
+      "frontmatter_sha256": "e9f3f17f9d31f40fa965779467dcf574e4df50a003659ef19cde13bbebd64eeb",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/negotiation-and-champion/SKILL.md",
+      "before_sha256": "4f93f692f44427dfc045fc572f49327ecfe1661684a6f0196c7a729aa7d58c0d",
+      "after_sha256": "95b3ef6de229625c68bd9e76185122c2a1326c3733821986384c8551f0224d5e",
+      "frontmatter_sha256": "ef8c82121478d9f33d042dc24c7bc2c0f31f642c18fac337c563bed584a0f6e1",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/upsell-and-expansion/SKILL.md",
+      "before_sha256": "418624f3d300519419ab3e6fb62e5a497e7dfb9001023b38cecc1e20c7581b21",
+      "after_sha256": "c3f50972e8b59ec44e5970738661144c0d3f83ea20d3cf154d52ef4a597df541",
+      "frontmatter_sha256": "570fa90f36c1e6154a298bc022359f1c827c5ec232bd679e472f14924fc52d4b",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/sales-proposal-builder/SKILL.md",
+      "before_sha256": "eef2684b19545812135ff744d5de45b9243154bad72bba6eb8e2107d98b71b65",
+      "after_sha256": "ec48860f6fd793b72c84f64c02923af38fcad7ce8e3294205e2c31a973a977d3",
+      "frontmatter_sha256": "6e2eee4e147e7cdb641319eab5896bab032a454974b1f212eae477ba034377ad",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/optise-helix-bluf-writer/SKILL.md",
+      "before_sha256": "e7eb6a0a9a6aecc0e747bbc4b8a6efe386ee4769b30e23fb09039d427997421a",
+      "after_sha256": "e372c9d63d311a8148da20d74ab76cbff38a83b2bf501f00edea7be3e3f2133b",
+      "frontmatter_sha256": "0ea046f6658eb01d3c83689c5290ab60f9c1cede5fa3406a1e6386a5994f49a1",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/event-follow-up-engine/SKILL.md",
+      "before_sha256": "16a0183fd5e3f7f756971990efaa37a48f6d061cc9c124b5ede8d2d72f277719",
+      "after_sha256": "2fd6509b46f0af24138ba7aa313ecaccc21c78d2010ce2546805ba2940ca1709",
+      "frontmatter_sha256": "31a5814e64aa0936b61b66f63932c83785ad1ebd81014377cb7a993b31aacfa3",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/buying-role-hypotheses/SKILL.md",
+      "before_sha256": "8ee5d593b7ec78e976476d12cc0b760ed9498d21ee81deb8e3192646dfd8911a",
+      "after_sha256": "2a4cf6505134bd0962f6c7b72a547a7b25a0a4efda120fe06262ed174d18b79f",
+      "frontmatter_sha256": "2ec329fefaf20149c05ca89ad2726dde44d071157784bed6fc538d6992b14865",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    },
+    {
+      "repo": "helix-gtm-suite",
+      "path": "skills/renewal-save-plan/SKILL.md",
+      "before_sha256": "5d72228549895db5f2b9f00d3c6eb4f33be10336fa5b2b85753769810421a3ff",
+      "after_sha256": "ae88b1dbf65ea32659de98e21f99e05e3814f4d0503ad00d1ce83f3d92afeacf",
+      "frontmatter_sha256": "7ed733a2892488113422cf7c41c1f270d29e481ae0444394fcf8760b34578000",
+      "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
+    }
+  ],
+  "tools": {
+    "alpha": [
+      "gtm_consultation",
+      "epic_audit",
+      "generate_roadmap"
+    ],
+    "revenue": [
+      "account_plan_builder",
+      "deal_strategy_coach",
+      "discovery_question_bank",
+      "roi_business_case_builder",
+      "mutual_action_plan_generator",
+      "win_loss_analyzer",
+      "proposal_section_writer",
+      "email_sequence_generator",
+      "demo_script_builder",
+      "pricing_negotiation_guide",
+      "champion_enablement_kit",
+      "competitive_trap_setter"
+    ]
+  }
+}

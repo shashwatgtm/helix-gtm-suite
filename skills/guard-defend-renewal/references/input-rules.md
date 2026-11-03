@@ -43,10 +43,8 @@ Detect these signals in ANY input — CSM does not need to label them:
 - Expansion scan: 3-8 accounts per run.
 - Onboarding: 1-3 accounts per run.
 
-## Rule 7: Score What You Have
-4+ signals scorable → full assessment with gaps flagged.
-2-3 signals → partial assessment, recommend data gathering.
-0-1 signals → do not score, recommend structured discovery call.
+## Rule 7: Use the evidence available
+For renewal work, follow renewal evidence review 20261103 in `renewal-playbook.md`. Four or more evidenced factors permit a fuller evidence review; two or three permit a partial review; zero or one calls for structured discovery. None authorizes a probability, numerical risk score or GRR forecast. Do not use an inferred or assumed signal to fill a gap. A supplied health score remains an attributed input, not a renewal probability.
 
 ## Rule 8: No LLMisms
 Never use: "high-impact shift", "dive in", "use", "examine", "landscape", "mix", "elevate", "open", "smoothly." Write like a seasoned CSM.

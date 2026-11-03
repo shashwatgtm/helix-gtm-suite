@@ -17,6 +17,12 @@ metadata:
   version: "1.4.0"
 ---
 
+## Required region and industry context
+
+Before producing the answer, read [Region and industry reference](references/region-context.md) and apply its selection and output rules to every sector claim in this skill. Bind each affirmative seller offering and subtype to its own country. Ignore negated offerings and excluded markets. Transaction currency and receipt accounts do not establish markets. Keep countries separate. Preserve evidence limits, refusals, reviewed metadata and calculations. When the selling country or applicable source is missing, ask and omit unsupported jurisdiction advice.
+
+
+
 # Optise–Helix RACE™ Audit
 
 A skill that audits any B2B webpage against the proprietary Optise RACE™ framework and returns specific, ranked fixes to make the page evaluable by AI agents doing multi-step buyer workflows (not just cited by AI search engines).
@@ -137,7 +143,7 @@ Uses the same schema as the FITq audit — see `optise-helix-fitq-audit/SKILL.md
 
 ### Step 4: Score against the 4 RACE signals
 
-Use `references/race-scoring methodology.md`.
+Use `references/race-rubric.md`.
 
 **Requirements (0-25):**
 - Explicit "you need" / "requires" / "prerequisites" section → +10

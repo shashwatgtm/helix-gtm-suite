@@ -12,6 +12,12 @@ description: >
   Created by Shashwat Ghosh, Cofounder & Fractional CMO, Helix GTM Consulting.
 ---
 
+## Required region and industry context
+
+Before producing the answer, read [Region and industry reference](references/region-context.md) and apply its selection and output rules to every sector claim in this skill. Bind each affirmative seller offering and subtype to its own country. Ignore negated offerings and excluded markets. Transaction currency and receipt accounts do not establish markets. Keep countries separate. Preserve evidence limits, refusals, reviewed metadata and calculations. When the selling country or applicable source is missing, ask and omit unsupported jurisdiction advice.
+
+
+
 # GUARD Defend — Renewal Risk Assessment & Save Strategy
 
 ## Section 0 — Operating Principles (MANDATORY)
@@ -20,15 +26,15 @@ Read `references/input-rules.md` BEFORE executing any workflow step. Rules: One 
 
 ## Golden Rule
 
-Start renewal management at Day 180, not Day 30. Every account that churns at renewal is an account where the CSM started the conversation too late. If the renewal date is within 60 days and no prior renewal conversation has happened, this is already a fire drill — treat it as such.
+Start renewal management at Day 180, not Day 30. Starting early creates time to investigate risk; it does not guarantee renewal or establish why an account churned. If the renewal date is within 60 days and no prior renewal conversation has happened, this is already a fire drill — treat it as such.
 
 ## Context and Role Detection
 
 | Persona | Output Adaptation |
 |---|---|
 | IC CSM | Per-account risk assessment + save strategy + conversation guides |
-| CS Manager | Renewal portfolio forecast, at-risk ARR summary, escalation needs |
-| VP/Head of CS | GRR forecast, save rate metrics, ARR at risk, executive intervention list |
+| CS Manager | Renewal portfolio evidence review, documented ARR exposure, escalation needs |
+| VP/Head of CS | Observed retention metrics where supplied, documented ARR exposure, executive intervention list |
 | Founder doing CS | Plain language, "here's what to do to keep this customer" |
 
 ## Priority Framework
@@ -36,7 +42,7 @@ Start renewal management at Day 180, not Day 30. Every account that churns at re
 1. Defend always takes priority over Uplift. Never pitch expansion to a renewal-at-risk account.
 2. The save strategy must match the risk type. A discount does not fix a champion departure. A feature roadmap does not fix a budget freeze.
 3. When renewal is within 30 days and unsigned, this is a daily-action situation.
-4. Run Gauge first if health context is missing. Never build a save strategy blind.
+4. If health context is missing, list the missing evidence. Do not invent a health score or convert a health score into a renewal probability.
 
 ## Trigger Phrases
 
@@ -51,15 +57,10 @@ Start renewal management at Day 180, not Day 30. Every account that churns at re
 ## Workflow Steps
 
 **Step 1: Accept input and extract signals.**
-Accept whatever the CSM provides. Renewal conversations often start with a worried Slack message or brief verbal dump. Extract renewal date, health signals, stakeholder status, competitive landscape, escalations, and payment behavior. Run Gauge inline if no health data available.
+Accept whatever the CSM provides. Renewal conversations often start with a worried Slack message or brief verbal dump. Extract renewal date, health signals, stakeholder status, competitive landscape, escalations, and payment behavior. If health data is absent, mark it missing and work from the supplied risk evidence.
 
-**Step 2: Score renewal probability.**
-Apply `references/renewal-playbook.md`:
-- Very Likely (80-100) → Standard process
-- Likely (60-79) → Proactive value reinforcement
-- Uncertain (40-59) → Formal save plan, CS leadership involved
-- At Risk (20-39) → Executive intervention, competitive save
-- Likely Lost (0-19) → Document lessons, Hail Mary attempt
+**Step 2: Assess renewal evidence without inventing a probability.**
+Read the evidence method in `references/renewal-playbook.md` (method: renewal evidence review 20261103). List the supplied positive, adverse, conflicting and missing signals with their source and date. Do not assign points, map signal counts to a percentage, or label an account Very Likely or Likely Lost. These references do not contain a calibrated probability model. Produce the save plan from the evidenced risk type even when no score can be produced. A supplied external forecast may be quoted separately with its source, date and stated method; never present it as this skill's calculation.
 
 **Step 3: Determine countdown position.**
 Where in the 180-day cadence? What should have happened by now? What is overdue?
@@ -79,12 +80,12 @@ From `references/renewal-playbook.md`:
 - Product Gap Save → roadmap timeline + workaround + honesty about fundamental gaps
 
 **Step 5: Produce output.**
-Renewal probability + risk factors + save strategy + conversation guides + escalation recommendation.
+Evidence summary + risk factors + save strategy + conversation guides + escalation recommendation. No generated renewal probability or GRR forecast.
 
 ### Escalation Threshold by ARR Tier
 - $250K+: VP CS same-day, CRO/founder awareness within 48h
-- $100K-$250K: VP CS within 48h, CS leader same-day
-- $50K-$100K: CS leader same-day, VP CS if competitive signal
+- $100K to under $250K: VP CS within 48h, CS leader same-day
+- $50K to under $100K: CS leader same-day, VP CS if competitive signal
 - Under $50K: CS leader awareness, no VP escalation unless logo-risk
 Do NOT default to "loop in VP CS today" for every account. Calibrate to ARR tier and risk severity.
 
@@ -92,7 +93,7 @@ Do NOT default to "loop in VP CS today" for every account. Calibrate to ARR tier
 
 ### Executive Summary Block (MANDATORY — always first)
 Every output MUST begin with a 5-line summary before any detail:
-Line 1: Health score or renewal probability + status classification
+Line 1: Evidence summary and coverage, with any supplied health score clearly attributed
 Line 2: Risk type in 5 words or fewer
 Line 3: #1 action TODAY with owner
 Line 4: Escalation decision (who, when)
@@ -103,7 +104,8 @@ The CSM should be able to read these 5 lines, close the chat, and take the right
 ```
 GUARD Renewal Assessment: [Account Name]
 
-Renewal Probability: [X]% — [CLASSIFICATION]
+Renewal probability: Not calculated. No calibrated model supplied.
+Evidence coverage: [N of 10 factors evidenced; list conflicts and missing factors]
 Renewal Date: [date] | Days Remaining: [N]
 Countdown Position: [Day X of 180] — [what should have happened by now]
 
@@ -128,21 +130,22 @@ Conversation Guide:
 Overdue Actions:
   [List anything that should have happened by now in the 180-day cadence]
 
-[Missing: X] — renewal probability estimated on available signals.
+[Missing: X]. Missing evidence is unknown, not a positive or negative renewal signal.
 ```
 
-**Portfolio renewal forecast:**
+**Portfolio renewal evidence review:**
 ```
-GUARD Renewal Forecast: [Period]
+GUARD Renewal Evidence Review: [Period]
 
-| Account | ARR | Renewal Date | Probability | Risk Type | Action |
+| Account | ARR | Renewal Date | Evidence and gaps | Risk Type | Action |
 |---------|-----|-------------|-------------|-----------|--------|
 
 Summary:
   Total renewal ARR: $[X]
-  At-risk ARR: $[Y] ([Z]%)
+  ARR with documented adverse signals: $[Y] ([Z]% of known renewal ARR), not expected loss
   Accounts needing executive intervention: [list]
-  Projected GRR: [X]%
+  Projected GRR: Not calculated from qualitative signals
+  Observed GRR: [only from supplied same-cohort starting ARR, contraction and churn for a stated period; otherwise not available]
 ```
 
 ## Edge Case Handling
@@ -158,8 +161,8 @@ Every diagnosis MUST include one alternative hypothesis. Format: "If this diagno
 
 ## Anti-Hallucination Rules
 
-- NEVER fabricate renewal probability without evidence-based signals.
-- NEVER say "this account is safe" without checking all 10 probability input factors.
+- NEVER generate a renewal probability from qualitative signals, factor counts or a health index. Evidence is not calibration.
+- NEVER say "this account is safe". Review all 10 evidence factors and state which are unknown; even complete coverage does not establish a renewal probability.
 - NEVER recommend a save strategy that does not match the identified risk type.
 - NEVER advise the CSM to "give them a discount" as a default save. Discounts address price objections only.
 - NEVER assume a champion departure means the account is lost. It means immediate action is needed.

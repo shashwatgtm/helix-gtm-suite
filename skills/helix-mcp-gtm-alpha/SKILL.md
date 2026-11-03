@@ -10,6 +10,12 @@ metadata:
   web_app: "https://gtmalpha.gtmhelix.com/"
 ---
 
+## Required region and industry context
+
+Before producing the answer, read [Region and industry reference](references/region-context.md) and apply its selection and output rules to every sector claim in this skill. Bind each affirmative seller offering and subtype to its own country. Ignore negated offerings and excluded markets. Transaction currency and receipt accounts do not establish markets. Keep countries separate. Preserve evidence limits, refusals, reviewed metadata and calculations. When the selling country or applicable source is missing, ask and omit unsupported jurisdiction advice.
+
+
+
 ## Section 0 - Operating Principles
 
 Read `references/operating-principles.md` and `references/plugin-specific-rules.md` before executing any workflow step. Preserve 100% deterministic calculation accuracy and never fabricate customer metrics, quotes, or URLs.
@@ -27,11 +33,15 @@ Read `references/operating-principles.md` and `references/plugin-specific-rules.
 - **Claude Code**: `claude mcp add --transport http gtm-alpha https://gtmalpha.gtmhelix.com/mcp`
 - **Gemini CLI / Google Antigravity**: Pre-configured in `gemini-extension.json` and `mcp_config.json` at `https://gtmalpha.gtmhelix.com/mcp`
 
-## 2. Included Deterministic MCP Tools
+## 2. Included MCP tools in the reviewed source contract
 
-- **epic_get_framework: Full EPIC framework methodology guide across Ecosystem & ABM, PLG, Inbound/Outbound, and Community-Led motions.**
-- **epic_gtm_audit: 24-question deterministic GTM motion diagnostic scoring E, P, I, and C from 1 to 10 with a 180-day execution plan.**
-- **epic_quick_score: Rapid EPIC motion fit calculator from company stage, ACV, sales cycle, and target buyer.**
+These are the registered names in the reviewed source snapshot. Use the connected server's tools/list to confirm its current names and schemas before invoking any tool. Do not invent aliases or translate an old advertised name into a call. A source inventory check is not a hosted transport or installation test.
+
+The roadmap accepts 30-day, 60-day or 90-day. The frozen description still refers to a 180 day roadmap; that wording does not authorize an unsupported timeframe. Ask for a supported timeframe if needed and do not silently substitute one.
+
+- **gtm_consultation:** Scores the four motions from 1 to 10 with the documented rubric, names the primary and secondary motion, and lists the first 30 days of steps for the primary motion, with sector notes when your inputs name the sector. Add the optional inputs (ACV, deal cycle, NRR, TAM, self-serve, deal source, geography) for a full score; without them the result is marked preliminary.
+- **epic_audit:** Get EPIC framework scores for your GTM strategy: Ecosystem and ABM, Product-Led Growth, Inbound and Outbound, Community-Led, each 1 to 10, with the lead motion, warnings and notes, and the sector's buying committee and usual objections when your inputs name the sector. Add the optional inputs for a full score; without them the result is marked preliminary.
+- **generate_roadmap:** Return a GTM action plan for one EPIC motion (E Ecosystem and ABM, P Product-Led Growth, I Inbound and Outbound, C Community-Led) over 30, 60 or 90 days: immediate, short-term and medium-term steps, without the self-serve steps when your business model is not a software subscription. Builds text from the inputs only.
 
 ## Security, Privacy & Untrusted Input Guardrails (Anti-Prompt-Injection)
 

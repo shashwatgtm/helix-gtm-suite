@@ -17,11 +17,17 @@ metadata:
   version: "1.4.0"
 ---
 
+## Required region and industry context
+
+Before producing the answer, read [Region and industry reference](references/region-context.md) and apply its selection and output rules to every sector claim in this skill. Bind each affirmative seller offering and subtype to its own country. Ignore negated offerings and excluded markets. Transaction currency and receipt accounts do not establish markets. Keep countries separate. Preserve evidence limits, refusals, reviewed metadata and calculations. When the selling country or applicable source is missing, ask and omit unsupported jurisdiction advice.
+
+
+
 # Optise–Helix FITq™ Audit
 
 A skill that audits any B2B webpage against the proprietary Optise FITq™ framework and returns specific, ranked fixes to make the page citable by ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews.
 
-FITq™ stands for Findability, Intent match, Trust, and Quoteability — the four signals AI engines use to select sources. Each signal scores 0-25 for a 100-point total, mapped to A/B/C/D/F grade bands. Full scoring scoring methodology is in `references/fitq-scoring methodology.md`.
+FITq™ stands for Findability, Intent match, Trust, and Quoteability — the four signals AI engines use to select sources. Each signal scores 0-25 for a 100-point total, mapped to A/B/C/D/F grade bands. Full scoring scoring methodology is in `references/fitq-rubric.md`.
 
 This skill is the headline FITq audit in the Optise-Helix AEO toolkit. It depends on `scripts/fetch_page.py` for URL fetching and structural analysis.
 
@@ -154,7 +160,7 @@ If `fetch_status != "ok"`, halt the workflow and output the error per the Golden
 
 ### Step 4: Score against the 4 FITq signals
 
-Use `references/fitq-scoring methodology.md`. For each signal, compute 0-25 based on the structured data from fetch_page.py:
+Use `references/fitq-rubric.md`. For each signal, compute 0-25 based on the structured data from fetch_page.py:
 
 **Findability (0-25):**
 - HTTP 200 + content in raw HTML body + TTFB < 2000ms + canonical present + not blocked by robots → 25

@@ -3,6 +3,13 @@ name: content-writing-thought-leadership
 description: B2B content writing with daily workflows and batching systems across Sales/HR/Fintech/Ops Tech
 metadata: {"clawdbot":{"emoji":"✍️","homepage":"https://github.com/shashwatgtm","always":true}}
 ---
+
+## Required region and industry context
+
+Before producing the answer, read [Region and industry reference](references/region-context.md) and apply its selection and output rules to every sector claim in this skill. Bind each affirmative seller offering and subtype to its own country. Ignore negated offerings and excluded markets. Transaction currency and receipt accounts do not establish markets. Keep countries separate. Preserve evidence limits, refusals, reviewed metadata and calculations. When the selling country or applicable source is missing, ask and omit unsupported jurisdiction advice.
+
+
+
 ## **🎯 Multi-Dimensional Navigator**
 
 **Content writing varies dramatically by industry, stage, and role. Find your path:**

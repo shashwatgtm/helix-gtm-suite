@@ -89,129 +89,27 @@ RESULT:
 - Maintains professional reputation
 ```
 
-### **Example 3: Fintech Founder, Series A, Regulatory Update Post**
+### **Example 3: Fintech Founder, Regulatory Update Template**
 
-```
-SCENARIO:
-- Company: Payment aggregator, $4M ARR, 40 employees
-- You: Founder & CEO
-- Context: RBI just released new PA guidelines
-- Goal: Educate fintech community
-- Constraint: Legal review mandatory
+This example contains no asserted regulatory change or company history. The user must check the current rule before completing or publishing it.
 
-CONTENT APPROACH:
+Use this evidence worksheet:
 
-STEP 1: READ OFFICIAL SOURCE
-- RBI circular: Download PDF, read thoroughly
-- Identify: 5-7 key changes
-- Clarify: What's new vs what's unchanged
-- Consult: Legal counsel for interpretation
+- Entity, activity and jurisdiction: [verify]
+- Official primary instrument and URL: [verify]
+- Publication date, effective date, current amendment status and date checked: [verify]
+- Exact provision and applicability: [verify]
+- What changed compared with the previous applicable text: [verify]
+- Each annual, quarterly or monthly report, its recipient and due date: [verify separately]
+- Capital, authorisation, renewal and transition conditions: [verify independently]
+- Supported action, owner and due date: [verify]
+- User's own implementation experience and permission to publish: [include only when supplied and verified]
 
-STEP 2: DRAFT POST (Conservative, Educational)
+Keep unsupported fields unverified. Do not invent a KYC rule, reporting frequency, capital threshold, audit requirement, renewal cycle, deadline or personal experience. Have qualified compliance counsel review the completed text against the current primary instrument before use.
 
-HOOK:
-"RBI released updated Payment Aggregator guidelines yesterday.
-Here's what fintech companies need to know:"
+## Software selection
 
-BODY:
-Key changes (effective April 1, 2026):
-
-1. KYC Requirements Strengthened
-- Previous: Basic KYC for merchants
-- New: Enhanced due diligence for high-risk categories
-- Action: Review your merchant onboarding process
-
-2. Data Localization Timeline
-- Previous: "As soon as possible"
-- New: Mandatory by June 30, 2026
-- Action: If you're not compliant, start now (6-month timeline)
-
-3. Reporting Requirements
-- Previous: Quarterly
-- New: Monthly submission to RBI
-- Action: Update your compliance calendar
-
-4. Net-Worth Requirements
-- No change: Still ₹15 crore minimum
-- Clarification: Must be maintained at all times
-
-NOT CHANGED (Important):
-- License renewal: Still 3 years
-- Merchant agreement requirements: Unchanged
-- Settlement timelines: Remain T+1
-
-DISCLAIMER:
-"This is for informational purposes only and does not constitute legal advice.
-Always consult qualified legal counsel for your specific situation."
-
-STEP 3: LEGAL REVIEW (1-2 days)
-Send to legal counsel:
-□ Check factual accuracy
-□ Verify no overstatement
-□ Confirm disclaimer is appropriate
-□ Ensure no competitive mentions
-
-STEP 4: PUBLISH + DISTRIBUTE
-- LinkedIn: Tuesday 10 AM IST (India market)
-- First comment: Link to official RBI circular
-- Distribution: Share in IAMAI fintech group
-- Email: Send to customer list (value-add)
-
-RESULT:
-- Positions you as: Helpful expert (not sales-y)
-- Builds trust: Fintech community appreciates clarity
-- Leads: "We need help with compliance" inquiries
-- Risk: Zero (factual, legal-reviewed, helpful)
-
-CONTRAST WITH WRONG APPROACH:
-
-❌ DON'T WRITE:
-"RBI's new rules will kill most payment companies.
-Here's why we're better positioned than our competitors."
-
-WHY IT'S WRONG:
-- Fear-mongering (unprofessional)
-- Competitor mention (unnecessary)
-- Could trigger regulatory scrutiny
-```
-
----
-
-## **Tool Comparison Matrix**
-
-| Tool | Cost | Best For | Not Good For | Series A | Series B | Series C+ |
-|------|------|----------|--------------|----------|----------|-----------|
-| **LinkedIn Native** | Free | Everyone (start here) | Scheduling, analytics | ✅ | ✅ | ✅ |
-| **Buffer** | $6/mo/channel | Budget-conscious, multi-platform | Advanced analytics | ✅ | ✅ | ✅ |
-| **Taplio** | $39/mo | LinkedIn power users, carousel creation | Multi-platform | ⚠️ | ✅ | ✅ |
-| **Shield** | $12/mo | Analytics junkies, engagement tracking | Content creation | ⚠️ | ✅ | ✅ |
-| **Canva Pro** | $13/mo | Visual content (carousels, infographics) | Video editing | ✅ | ✅ | ✅ |
-| **Figma** | Free-$12/mo | Design teams, brand consistency | Solo founders (overkill) | ❌ | ✅ | ✅ |
-| **Grammarly Premium** | $12/mo | Error-free writing, tone checker | Creative writing | ⚠️ | ✅ | ✅ |
-| **Hemingway** | Free | Simplifying complex writing | Sales copy (too simple) | ✅ | ✅ | ✅ |
-
-**RECOMMENDATIONS BY STAGE:**
-
-**Series A ($0-50/month):**
-✅ LinkedIn Native (free)
-✅ Canva Free (visual content)
-✅ Hemingway (editing)
-❌ Skip: Taplio, paid tools (use budget for product)
-
-**Series B ($50-200/month):**
-✅ Taplio or Shield ($39-50/mo)
-✅ Canva Pro ($13/mo)
-✅ Grammarly ($12/mo)
-Total: ~$64/mo
-
-**Series C+ ($200-500/month):**
-✅ Taplio + Shield ($51/mo)
-✅ Canva Pro + Figma ($25/mo)
-✅ Buffer ($60/mo for team)
-✅ Premium design tools
-Total: $200-500/mo (small portion of $20K-50K content budget)
-
----
+Software selection: book 45 minutes at https://calendly.com/shashwat-gtmhelix/45min. Use the tools the user already has for the agreed workflow; do not select products or spending tiers.
 
 ## **Quick Reference Cards**
 

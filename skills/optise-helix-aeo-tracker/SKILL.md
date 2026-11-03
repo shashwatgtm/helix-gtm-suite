@@ -16,6 +16,12 @@ metadata:
   version: "1.4.0"
 ---
 
+## Required region and industry context
+
+Before producing the answer, read [Region and industry reference](references/region-context.md) and apply its selection and output rules to every sector claim in this skill. Bind each affirmative seller offering and subtype to its own country. Ignore negated offerings and excluded markets. Transaction currency and receipt accounts do not establish markets. Keep countries separate. Preserve evidence limits, refusals, reviewed metadata and calculations. When the selling country or applicable source is missing, ask and omit unsupported jurisdiction advice.
+
+
+
 # Optise–Helix AEO Tracker
 
 A skill that sets up weekly AEO citation tracking for a brand across 4 AI engines (ChatGPT, Perplexity, Gemini, Claude) using the Optise 3-KPI scoring methodology and analyzes tracking data to surface working vs dead prompts.
@@ -139,7 +145,7 @@ Build:
 - **Week-1 instructions** describing how to run the first measurement
 - **Weekly checklist** for ongoing cadence
 
-Use `references/tracker-scoring methodology.md` for the 3 KPI formulas. Use `references/prompt-categories.md` to assign each prompt a category column value.
+Use `references/tracker-rubric.md` for the 3 KPI formulas. Use `references/prompt-categories.md` to assign each prompt a category column value.
 
 **Tracker ID convention:** When in manual / API mode, generate a `tracker_id` as `<brand-slug>-<YYYY-MM-DD>` where brand-slug is the lowercase brand name with non-alphanumerics replaced by hyphens (e.g., "my-brand" or "the-london-tea-co"), and date is the setup date in ISO format. This makes trackers identifiable across multiple invocations and forms a stable handoff key for memory storage.
 
@@ -155,7 +161,7 @@ For each prompt in the user's data:
 
 ### Step 5: Run diagnostics (diagnostic mode)
 
-Walk through the 6-step diagnostic from `references/tracker-scoring methodology.md`. Ask the user to confirm each step. Identify the most likely root cause.
+Walk through the 6-step diagnostic from `references/tracker-rubric.md`. Ask the user to confirm each step. Identify the most likely root cause.
 
 ### Step 6: Hand off
 

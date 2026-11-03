@@ -1,0 +1,332 @@
+[
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/account-health-check.zip",
+    "entries": 8,
+    "sha256": "75fdc68ee6f9b3cb5e8e8fa9c7c8a51b7792629d5fa294d4220166383bf91bbf"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/account-research.zip",
+    "entries": 11,
+    "sha256": "bef15a40419d88a18f47ebc1b30013b661f70bf8f984a504f51e3d221bdeecdc"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/buying-role-hypotheses.zip",
+    "entries": 9,
+    "sha256": "880dc86560b2e8ab7f7958fe8e8ea60bb46abe9372dfd7d2e35aa7ea234c5b63"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/claims-fact-check.zip",
+    "entries": 10,
+    "sha256": "4af6701144f80d8ec3778aa815682fb3562201d612c70f437751c7c97b2c4d99"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/competitive-intelligence-market-research.zip",
+    "entries": 80,
+    "sha256": "27c4fd6e0a57f4ce876a2e476a5216a8c031f180eb4a43e34e27f21c2e240437"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/competitive-intelligence.zip",
+    "entries": 5,
+    "sha256": "0e49d55f64c3f3fad01a961d99433e5ea54bc64867060f8437b7c76239ce0b70"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/content-writing-thought-leadership.zip",
+    "entries": 10,
+    "sha256": "b61aa10d51efbaa84237d97082d39c07e4cc45b9ff4e4451743dc380c71920c0"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/craft-context-engineering.zip",
+    "entries": 5,
+    "sha256": "3c1b75ce187509a1626b5ea5198cd73a23959d56d6801609ca22d72e506364f7"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/customer-interviews.zip",
+    "entries": 10,
+    "sha256": "0f60136eb9bef1b8c774df6dbdcda8c1314e6d519ffac0f2ca0c45f7b8b77b2c"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/deal-review-and-close-plan.zip",
+    "entries": 11,
+    "sha256": "e9b0395a4eebd1dd82f8cbe79a78b7c09dc7a3b814a85812f5f29233c882aa09"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/discovery-and-buying-group.zip",
+    "entries": 9,
+    "sha256": "27c190b8759f2434bcc54165f4bf96915dc42d64375250ac67f83d5379ffd076"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/epic-motion-diagnostic.zip",
+    "entries": 5,
+    "sha256": "b6b09f06ac29001b3f8181772f7861591e79e1529f1e97e3ba8e011daa0f0441"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/event-follow-up-engine.zip",
+    "entries": 12,
+    "sha256": "75f84eb259be66e505fe687dd5c3f95c06ca7de287de8d95042d190ea724739c"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/event-planner.zip",
+    "entries": 14,
+    "sha256": "85e1d0a758c125314d9be43cf6c8b438e1041efdde68e07337dfa73bd974dc10"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/event-speaker-kit.zip",
+    "entries": 13,
+    "sha256": "083343a3e7ce9a085bab1b7c46cb151233e41b7341ef88721599400e336c3d16"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/evidence-research-asset.zip",
+    "entries": 15,
+    "sha256": "149bea07d4833390e2a45d88b175bc04d922e7a99262699a6d4a342abb2f6c7c"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/executive-morning-briefing.zip",
+    "entries": 15,
+    "sha256": "03450061eee5b6de99b060c73fb3009848028e223ec2558833f9baebba862c3f"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/gtm-motion-picker.zip",
+    "entries": 5,
+    "sha256": "f989e2aa6f91b71bf41ffdc86cc9a744203ec54d894499d13716ea63b676ebc8"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/guard-activate-onboarding.zip",
+    "entries": 9,
+    "sha256": "86646e70bee9a2812f72a0cc3041af9e3cdc4c57c5dd0a512eeccb06dc156375"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/guard-defend-renewal.zip",
+    "entries": 9,
+    "sha256": "13755cc8f9a78e1b984fad9c7ed4634c291bec0bac546e768bd8cab8155fccf9"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/guard-gauge-diagnostic.zip",
+    "entries": 8,
+    "sha256": "9ebe0c18dc630e46746c018b4d85742dbfd4020ee090b0eaef7223e4feca5f59"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/guard-review-qbr.zip",
+    "entries": 9,
+    "sha256": "02c927f2ec56731338793af379541033604b14ef2c8fd2c3ed7b9e6ed577bda8"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/guard-uplift-expansion.zip",
+    "entries": 9,
+    "sha256": "3a4c93bf715fcd636e4fac186c98c03e32cb8214171005f82d1da93debcf447d"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/handcrafted-voice-audit.zip",
+    "entries": 9,
+    "sha256": "52dff66cf79f9fb920caea0c2d82ec9edd87c9fbe9f4bda2fd25575cb7465e42"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/helix-mcp-craft-content.zip",
+    "entries": 5,
+    "sha256": "7a4f0765ad0ce335a58d63422a9ec5100726d122ade517c790d8f98f38d426ae"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/helix-mcp-craft-gtm.zip",
+    "entries": 5,
+    "sha256": "886761b3a74b88317211b6aa581b39ab0f741e7998cd12290f5e0c14d3581275"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/helix-mcp-gtm-alpha.zip",
+    "entries": 5,
+    "sha256": "f46df8d054fa70a2577919622f74954977e7599df7fabd8219642d17764fb157"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/helix-mcp-icp-intelligence.zip",
+    "entries": 5,
+    "sha256": "3b477b19de4f781952af07c17b23dfc89e0c2defae4cd65db62261a6b8c64cc6"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/helix-mcp-impact-positioning.zip",
+    "entries": 5,
+    "sha256": "45a548809efe5e5634c69e230dea75df120c9db1b4df018424fff142abd9f936"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/helix-mcp-revenue-enablement.zip",
+    "entries": 5,
+    "sha256": "7a2123830ce48ff5bad794e8ce830892f30860ab9dab9782b77e7bdb6b4135d6"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/icp-review.zip",
+    "entries": 11,
+    "sha256": "7cfb43bf122a560ec72547377209f8b66c73d8f89419558892bb4683c5b341af"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/impact-quick-positioning.zip",
+    "entries": 5,
+    "sha256": "07d5330201a8245bda0f17a088b10b34e026ce3d72c0d80ea798687904373955"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/lead-scoring-model.zip",
+    "entries": 9,
+    "sha256": "b7f1c701c9ce8e8c0bbf9624a525de64d76c6e3dd2c1bb7e3d5abc64ed56e43f"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/meeting-prep-debrief.zip",
+    "entries": 5,
+    "sha256": "ae4bab59f2245683202db280c14e9530242a5cf60061e5ccabd769ee8fd74d3a"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/negotiation-and-champion.zip",
+    "entries": 10,
+    "sha256": "2fb23b049e900f55ea956cd1e26a89e78841e7144e390c5e2c04f42682da5a78"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/newsletter-creation-curation.zip",
+    "entries": 15,
+    "sha256": "5a29d892b155a26d21bee5bfe8678afa29fdb4c57a6166a9902aadcb53900b1d"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/onboarding-plan.zip",
+    "entries": 9,
+    "sha256": "aeb1ae938990dd27f900e7c4575da0ef0484f6e0e14e294a93c7fb492c3a3b32"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/optise-helix-aeo-tracker.zip",
+    "entries": 9,
+    "sha256": "4314cc3822ea792600a1b65d1d09bfe2945318032d3bd7b9679a0ababb44c1a9"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/optise-helix-bluf-writer.zip",
+    "entries": 7,
+    "sha256": "4f953f9d68342893aed66c6adc492fd7cc23102606411cdcdd79f42469b9a324"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/optise-helix-eu-trust-centre.zip",
+    "entries": 8,
+    "sha256": "633b7d4e9c0716181cdcba620fbf372017dcf01ee68a4ceed9c3c6bf1b2989e1"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/optise-helix-fitq-audit.zip",
+    "entries": 12,
+    "sha256": "86f7a421e89f9f0e5384ca3118fbb7a465a59464634df11a8780671d0e32887a"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/optise-helix-prompt-pack-builder.zip",
+    "entries": 10,
+    "sha256": "cc3378cdd39948d3be1af05edb6c8f3c7fbb6523ec7aa9e4ac54feb28953fb0c"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/optise-helix-race-audit.zip",
+    "entries": 12,
+    "sha256": "604fe4e29f75f69de91e90042cc06e00a529acdba6f001ba781ef7a40c5a335d"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/personal-branding-authority.zip",
+    "entries": 14,
+    "sha256": "fd9d3e457d923d2fa44e3c135ed59d7f2dc44c5b66c0ab1acf816843f56b4507"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/pmf-check.zip",
+    "entries": 9,
+    "sha256": "eb3e2a11ee644edcc1ef8696dba20f21a1f2ed7e4cfe91a25436b60df5360682"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/positioning-and-messaging.zip",
+    "entries": 5,
+    "sha256": "2caa1840e5f6e038d23ca598429969a881c54caef5af71d6a6da034c6920710f"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/pr-launch-pack.zip",
+    "entries": 12,
+    "sha256": "6f96df80838638297a9d84e3a269a58623e11397cfd86f0123f6f7f46d96966a"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/prompt-improver.zip",
+    "entries": 5,
+    "sha256": "aeb75e3b1c179fceaeeeba581edb1b3c81505816422682f00d662dfde4466658"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/qbr-prep.zip",
+    "entries": 9,
+    "sha256": "4a41fe29e8b15d65d2d03f62a7d219b9c1fca06a5ad288ffb204405f823ddbe9"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/renewal-save-plan.zip",
+    "entries": 9,
+    "sha256": "9e4d8075039204cebe207d5ce9d6f8372897b6c20de97ea491963add49537aab"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/sales-proposal-builder.zip",
+    "entries": 9,
+    "sha256": "0076307f8eb9a49ff2e3ae6599c7fc24c62a56ac0e7d2e7e2b6d8611e0c199e3"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/sales-sequences.zip",
+    "entries": 9,
+    "sha256": "1b2ddd8cff6c869bdcad26dc4bfe083b222f0500148a3c7a23654565e4891417"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/second-opinion-review.zip",
+    "entries": 10,
+    "sha256": "6b810e062453ae0cfdf7a4dd7ac811a21df20ebc013a94bc9f961ba232448b9f"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/social-media-management.zip",
+    "entries": 8,
+    "sha256": "bd698cde2d3098636fdd850bfddfc35928930fdd351e77d06b80cc9e1ba3d406"
+  },
+  {
+    "repo": "plugin-repos/helix-gtm-suite",
+    "file": "claude-ai-skill-zips/upsell-and-expansion.zip",
+    "entries": 9,
+    "sha256": "c7756249b550ef4734bf3eff8eedd79cb275dae281f5aa911233e433aa443c43"
+  }
+]
