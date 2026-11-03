@@ -167,126 +167,15 @@ RESULT:
 → Portable brand (built over 12 months)
 ```
 
-## D2: Non-Compete Considerations
+## D2: Employment covenant review template
 
-```
-UNDERSTANDING NON-COMPETES:
+This is an evidence worksheet, not a statement of enforceability. The user must check the current rule and actual agreement with qualified counsel.
 
-Most Companies Have:
-□ Non-compete (can't work for competitor for 6-12 months)
-□ Non-solicit (can't recruit employees or customers)
-□ IP agreement (company owns work created while employed)
+Separate obligations during employment from restraints after termination. Record the governing law, work location, termination date, covenant text and parties. Review confidentiality, intellectual property, non solicitation and non competition clauses separately. Do not infer an exception from seniority, title, a different industry or a consulting label.
 
-NON-COMPETE MYTHS:
+For each proposed activity, record the relevant primary statute or decision, official URL, publication date, current amendment or precedential status, date checked and any statutory exceptions. Ask counsel to assess the actual covenant and applicable exceptions. Leave the activity unverified until reviewed; broad positioning, networking or waiting a stated number of months is not an automatic clearance.
 
-Myth: "Non-competes aren't enforceable"
-Reality: Depends on state/country
-- California: Generally not enforceable (except for sale of business)
-- New York: Enforceable if reasonable (6-12 months, specific geography)
-- India: Enforceable for senior employees (directors, C-suite)
-
-Myth: "I can just ignore it"
-Reality: Company CAN sue
-- May not win, but legal battle costs ₹10-50 lakhs
-- Risk: Injunction (court orders you to stop)
-- Better: Understand and work around it
-
-SAFE PERSONAL BRAND STRATEGIES (Even with non-compete):
-
-1. Broad Expertise (Not Narrow Niche)
-✅ SAFE: "B2B SaaS Marketing"
-❌ VIOLATION: "Conversation Intelligence Marketing"
-
-If you work for conversation intelligence company:
-- Don't position as "Conversation intelligence expert"
-- Position as "B2B SaaS marketing expert"
-- When non-compete expires → narrow down
-
-2. Educator/Consultant (Not Direct Competitor)
-✅ SAFE: "I help B2B companies with content strategy" (consulting)
-❌ VIOLATION: "I do what my company does, freelance" (direct competition)
-
-Most non-competes:
-- Prohibit working for COMPETITORS
-- Don't prohibit CONSULTING (if you're not competing)
-- Gray area: Ask lawyer
-
-3. Different Industry
-✅ SAFE: Work in Sales Tech → Build brand in HR Tech (different vertical)
-❌ VIOLATION: Work in Sales Tech → Join competitor in Sales Tech
-
-Example:
-- You: VP Marketing @Gong (conversation intelligence)
-- Non-compete: 12 months
-- Strategy: Build brand in "B2B SaaS marketing" (broad)
-- After 12 months: Join HR Tech company (different vertical) OR
-- Narrow to "conversation intelligence" after non-compete expires
-
-WHAT YOU CAN'T DO (Clear Violations):
-
-❌ Solicit customers
-- Can't email customer list: "I'm at new company now, work with me"
-- This WILL get you sued
-- Courts enforce this aggressively
-
-❌ Recruit employees
-- Can't mass email colleagues: "Join me at new company"
-- This is theft of trade secrets (employee list)
-- Criminal liability possible
-
-❌ Use company IP
-- Can't take: Customer lists, code, documents, presentations
-- Can't recreate: Exact same product/process
-- Gray area: General knowledge (what you learned)
-
-WHAT YOU CAN DO (Generally Safe):
-
-✅ Build personal brand on industry expertise
-- Generic insights (not company secrets)
-- Your expertise (what's in your head)
-- Broad positioning (not company-specific)
-
-✅ Networking
-- Connect with industry peers (not soliciting)
-- Attend conferences
-- Build relationships
-
-✅ Consulting (if genuinely different)
-- Consult on different problems than your company solves
-- Example: You work for CRM company → Consult on marketing strategy (not CRM)
-- Gray area: Ask lawyer
-
-ALWAYS:
-
-□ Read employment agreement carefully
-□ Consult lawyer if planning to compete
-□ Document everything (if company sues, you need proof)
-□ Don't solicit customers/employees (this WILL get you sued)
-□ Build portable brand BEFORE you leave (12-month plan above)
-
-EXAMPLE SCENARIOS:
-
-Scenario 1: Ex-Gong VP Marketing
-Non-compete: 12 months
-Safe strategy:
-- Month 1-12: Consulting on "B2B marketing" (not conversation intelligence specifically)
-- Avoid: Sales tech companies (too close)
-- Target: HR Tech, Fintech, SaaS infrastructure (different verticals)
-- After 12 months: Join conversation intelligence competitor OR consult specifically in sales tech
-
-Scenario 2: Ex-Fintech Employee
-Non-compete: 6 months
-Safe strategy:
-- Month 1-6: Consulting on "product management" (not fintech-specific)
-- Avoid: Fintech companies
-- Target: E-commerce, SaaS, EdTech (different verticals)
-- After 6 months: Join fintech competitor
-
-Key: BE BORING for non-compete period
-- Don't test boundaries
-- Wait it out (6-12 months)
-- Build broad brand meanwhile
-```
+Do not invent litigation costs, guaranteed outcomes, criminal liability or safe transition scenarios. Use only the person's authorised facts and confirmed permissions.
 
 ---
 
