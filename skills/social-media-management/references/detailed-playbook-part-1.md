@@ -711,53 +711,14 @@ RESULTS (Typical Series B):
 - Quality: Professional, consistent
 ```
 
-## D3: Series C+ ($1K-3K/month)
+## D3: Series C+ operating requirements
 
-```
-GOAL: Corporate, scaled, multi-channel presence
-
-TOOLS:
-
-Oktopost or Hootsuite Enterprise: $500-1K/month
-✅ Multi-platform (LinkedIn, Twitter, Facebook, etc.)
-✅ Team collaboration (10+ users)
-✅ Approval workflows (manager → corp comms → publish)
-✅ Advanced analytics (attribution, ROI)
-
-Salesforce Marketing Cloud: Part of broader SF spend
-✅ Email/newsletter at scale
-✅ Automation (journey builder)
-✅ CRM integration (leads tracked)
-
-Adobe Creative Cloud: $50-80/month per user
-✅ Professional design (Photoshop, Illustrator)
-✅ Video editing (Premiere Pro)
-✅ Brand asset management
-
-Agorapulse or Sprout Social: $200-500/month
-✅ Social listening (brand mentions)
-✅ Team inbox (all DMs in one place)
-✅ Reporting (executive dashboards)
-
-TOTAL COST: $1K-3K/month
-
-TEAM:
-- Content Director (full-time) - strategy, oversight
-- 2 Writers (full-time) - content creation
-- 1 Designer (full-time) - visual assets
-- 1 Social Media Manager (full-time) - posting, engagement
-- Founder/CEO - thought leadership (1-2 posts/month)
-
-TIME INVESTMENT:
-- Team: 160+ hours/week (4 people full-time)
-- Founder: 1-2 hours/week
-
-RESULTS (Typical Series C+):
-- LinkedIn followers: 15K-50K+
-- Newsletter subscribers: 2K-10K+
-- Posting frequency: 7-10×/week (company + execs + team)
-- Quality: Media-level production
-```
+Confirm which channels, publishing volume and approval roles the team actually needs.
+Record current capacity, access controls, reporting requirements and the supplied budget.
+Agree responsibilities and delivery dates with the existing team. Do not infer headcount,
+weekly hours, software costs, audience growth or pipeline from the funding stage.
+For software selection or a buying shortlist, book 45 minutes:
+https://calendly.com/shashwat-gtmhelix/45min
 
 ---
 

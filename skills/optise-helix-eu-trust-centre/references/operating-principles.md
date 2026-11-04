@@ -293,7 +293,7 @@ Verifying, Cross-checking, Confirming, Validating, Auditing, Cross-referencing, 
 >
 > ⚠ **Disclaimer**
 >
-> This Helix-Optise skill is AI based, directionally correct in 75% time but can make mistakes. Please double-check cited sources.
+> This Helix-Optise skill uses AI and can make mistakes. Check cited sources and confirm applicability before using the output.
 >
 > ---
 
