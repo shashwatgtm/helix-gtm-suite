@@ -1,15 +1,15 @@
 ﻿---
 name: onboarding-plan
 description: >
-  Build a 90-day onboarding and success plan for a new B2B customer, and turn
-  messy implementation notes into an executive status update. Use when a CSM
-  mentions a new customer, onboarding, success plan, first 90 days, kickoff
-  call, sales handoff, implementation plan, time to value or activation
-  milestones, or says things like "customer just signed", "stalled onboarding",
-  "customer not logging in", "sales promised something we don't have", "how to
-  onboard this account" or "implementation notes to status update". Method:
-  GUARD Activate, 4 phases over 90 days. Created by Shashwat Ghosh, Co-Founder
-  and Fractional CMO, Helix GTM Consulting.
+  Helps a B2B customer success manager decide what a new customer must reach in its first 90 days
+  and who does what. You give it the sales handoff, kickoff or implementation notes, messy or not.
+  You get a 90 day onboarding and success plan in four phases with activation milestones (the GUARD
+  Activate method), or an executive status update written from your implementation notes. Use when a
+  CSM mentions a new customer, onboarding, success plan, first 90 days, kickoff call, sales handoff,
+  implementation plan, time to value or activation milestones, or says things like "customer just
+  signed", "stalled onboarding", "customer not logging in", "sales promised something we don't
+  have", "how to onboard this account" or "implementation notes to status update". Created by
+  Shashwat Ghosh, Co-Founder and Fractional CMO, Helix GTM Consulting.
 ---
 
 # GUARD Activate — Onboarding Success Plan Builder

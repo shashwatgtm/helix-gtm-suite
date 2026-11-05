@@ -1,19 +1,16 @@
 ﻿---
 name: sales-sequences
 description: >
-  Writes outbound and deal stage email sequences for B2B sellers: cold
-  outreach, warm follow up, post demo, proposal follow up, re-engagement of a
-  deal that went quiet, and referral requests. Send days come from a script
-  (example defaults, or the seller's own days and number of emails, which
-  always win), weekend dates moved to working days, subject and body counted
-  by script, every claim once with its source, one ask per email, and a
-  "before you send" list. For account executives, SDRs, founders who sell and
-  sales leaders. Use when someone says "email sequence", "cold outreach
-  sequence", "cadence", "outbound emails", "follow up sequence after the
-  demo", "post demo emails", "proposal follow up emails", "re-engage a dead deal", "the deal went
-  quiet", "referral request emails" or "write my follow ups". Not for event
-  follow up or nurture series, a single email after one meeting, or emails
-  that need facts the seller does not have.
+  Helps a B2B seller decide what to send and when in an outbound or deal stage email sequence. For
+  account executives, SDRs, founders who sell and sales leaders. You give it the buyer, the stage
+  and your facts. You get cold outreach, warm follow up, post demo, proposal follow up,
+  re-engagement or referral request emails, with send days set by script (your own days always win,
+  weekend dates moved to working days), one ask per email, each claim once with its source, and a
+  "before you send" list. Use when someone says "email sequence", "cold outreach sequence",
+  "cadence", "outbound emails", "follow up sequence after the demo", "post demo emails", "proposal
+  follow up emails", "re-engage a dead deal", "the deal went quiet", "referral request emails" or
+  "write my follow ups". Not for event follow up or nurture series, a single email after one
+  meeting, or emails that need facts the seller does not have.
 ---
 
 # Sales Sequences

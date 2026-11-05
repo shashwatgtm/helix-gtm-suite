@@ -1,14 +1,14 @@
 ﻿---
 name: guard-uplift-expansion
 description: >
-  Identify and action B2B expansion opportunities using the GUARD Framework's
-  4-signal model. Use when a CSM asks about upsell, cross-sell, expansion
-  opportunities, or says things like "customer hitting limits", "new department
-  interested", "how to pitch expansion", "when to upsell", "NRR improvement",
-  "usage growing fast", "they asked about advanced features", or "expansion
-  business case". Builds structured business cases and provides conversation
-  guides. Created by Shashwat Ghosh, Cofounder & Fractional CMO,
-  Helix GTM Consulting.
+  Helps a B2B customer success manager decide which expansion openings to act on and how to pitch
+  them. You give it the account's usage, requests and your notes. You get the expansion signals
+  found (the four signal GUARD Uplift model), a structured business case and conversation guides.
+  Use when a CSM asks about upsell, cross-sell or expansion opportunities, or says things like
+  "customer hitting limits", "new department interested", "how to pitch expansion", "when to
+  upsell", "NRR improvement", "usage growing fast", "they asked about advanced features" or
+  "expansion business case". Created by Shashwat Ghosh, Co-Founder and Fractional CMO, Helix GTM
+  Consulting.
 ---
 
 # GUARD Uplift — Expansion Signal Analysis & Business Case

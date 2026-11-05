@@ -1,15 +1,15 @@
 ﻿---
 name: guard-defend-renewal
 description: >
-  Assess B2B renewal risk and build save strategies using the GUARD Framework's
-  180-day countdown cadence. Use when a CSM mentions renewal, renewal risk,
-  renewal strategy, churn threat, save strategy, or says things like "customer
-  threatening to churn", "champion left and renewal is coming", "competitor
-  evaluation", "they want to downgrade", "budget cut affecting renewal",
-  "contract renewal in X months", "renewal forecast", "how to save this
-  account", "RFP for replacement", or "vendor review". Produces renewal
-  probability scores, risk-matched save playbooks, and conversation guides.
-  Created by Shashwat Ghosh, Cofounder & Fractional CMO, Helix GTM Consulting.
+  Helps a B2B customer success manager decide how at risk a renewal is and how to save it. You give
+  it what you know about the account, the risk and the renewal date. You get renewal probability
+  scores, save playbooks matched to the risk and conversation guides, on a 180 day countdown (the
+  GUARD Defend cadence). Use when a CSM mentions renewal, renewal risk, renewal strategy, churn
+  threat or save strategy, or says things like "customer threatening to churn", "champion left and
+  renewal is coming", "competitor evaluation", "they want to downgrade", "budget cut affecting
+  renewal", "contract renewal in X months", "renewal forecast", "how to save this account", "RFP for
+  replacement" or "vendor review". Created by Shashwat Ghosh, Co-Founder and Fractional CMO, Helix
+  GTM Consulting.
 ---
 
 # GUARD Defend — Renewal Risk Assessment & Save Strategy

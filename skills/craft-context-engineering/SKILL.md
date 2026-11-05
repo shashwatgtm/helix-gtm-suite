@@ -1,7 +1,15 @@
 ﻿---
 name: craft-context-engineering
 description: >
-  Structure any AI prompt using the CRAFT Framework for consistently high-quality outputs. Use this skill whenever someone asks how to write better prompts, how to get more useful AI outputs, how to structure instructions for AI, why their prompts give generic results, how to do context engineering, or how to use AI for business tasks like GTM strategy, content creation, competitive analysis, or sales enablement. Also trigger when someone says "Claude gave me generic output" or "the AI response was not useful" or "how do I get better results from AI" or when they paste a prompt that is clearly missing context. This skill teaches the CRAFT meta-framework: Character, Result, Artifact, Frame, Timeline. It turns AI from a generic chatbot into a domain-specific strategist. Created by Shashwat Ghosh, Fractional CMO with 24+ years B2B experience.
+  Helps you decide why an AI prompt gave generic output and how to brief AI for useful business
+  answers. For anyone using AI for GTM strategy, content, competitive analysis or sales enablement.
+  You give it your prompt or your task. You get the prompt structured with the CRAFT Framework
+  (Character, Result, Artifact, Frame, Timeline). Use when someone asks how to write better prompts,
+  how to get more useful AI outputs, how to structure instructions for AI, why their prompts give
+  generic results, how to do context engineering, or how to use AI for business tasks, or says
+  "Claude gave me generic output", "the AI response was not useful" or "how do I get better results
+  from AI", or pastes a prompt that is clearly missing context. Created by Shashwat Ghosh,
+  Fractional CMO with 24+ years B2B experience.
 license: MIT
 metadata:
   author: shashwat-ghosh

@@ -1,10 +1,14 @@
-# Helix GTM Suite: 81 Free B2B GTM Tools & Agent Skills
+# Helix GTM Suite: 85 Free B2B GTM Tools & Agent Skills
 
 Built by **Shashwat Ghosh**, Co-Founder and Fractional CMO, [Helix GTM Consulting](https://gtmhelix.com/) ([Free Tools Hub](https://tools.gtmhelix.com/)).
 
+For founders, CMOs and CROs of growth stage B2B firms and their marketing, sales and customer success teams. It helps a lean team decide which go-to-market motion should lead, which customers to target, how to position, whether a deal or account is at risk, and what it can publish, with a proven method it can run today in the tools it already uses. You give each tool or skill your own facts; you get a scored, structured answer, with every missing fact marked for you to fill.
+
 This repository provides a single installable package for **Google Antigravity**, **Gemini CLI (Gemini 4 Argon)**, **Claude Code / Cowork**, **ChatGPT**, **Cursor**, and **VS Code**, connecting:
 * **6 Hosted Streamable HTTP MCP Connectors (48 Deterministic Tools)**: Zero sign-in, stateless, rule-based TypeScript engines (`gtmalpha`, `craft-gtm`, `craft-content`, `impact`, `icp-intelligence`, `revenue-enablement`).
-* **8 B2B GTM Skill Plugins (33 Agent Skills)**: Built on the EPIC, IMPACT, CRAFT, and GUARD frameworks.
+* **9 B2B GTM Claude Plugins (37 Agent Skills)**, plus companion skills: Built on the EPIC, IMPACT, CRAFT, and GUARD frameworks.
+
+That is 85 free tools and skills: 48 tools in 6 connectors and 37 skills in 9 plugins.
 
 ## Quick Install Across Every Ecosystem
 

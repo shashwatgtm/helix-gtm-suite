@@ -1,17 +1,16 @@
 ﻿---
 name: sales-proposal-builder
 description: >
-  Build client-ready presentations (PPTX) and proposals (DOCX) using the client's own
-  brand styling. Use this skill whenever a sales person, AE, SDR, founder, or anyone
-  needs to create a client-facing deck, pitch presentation, sales proposal, one-pager,
-  solution overview, or business case document. Also trigger when someone says "I need
-  a deck for a client meeting", "help me build a proposal", "create a pitch for this
-  prospect", "make a presentation about our solution", "I have a meeting tomorrow and
-  need slides", or "prepare a client deliverable". This skill extracts the client's
-  brand colors, fonts, and layout from an uploaded sample file, then produces
-  professional output in that exact style. If no sample is uploaded, it produces clean
-  McKinsey-style output. Created by Shashwat Ghosh, Fractional CMO with 24+ years
-  B2B experience across Happay, Locus, FieldAssist, and 50+ consulting engagements.
+  Helps a seller decide how to present the offer to a client or prospect, in that client's own brand
+  style. For sales people, AEs, SDRs, founders and anyone preparing a client deliverable. You give
+  it the prospect, your solution and, if you have one, a sample file from the client. You get a
+  client ready deck (PPTX) or proposal (DOCX) in the colors, fonts and layout taken from the sample,
+  or clean consulting style output if there is no sample. Use when someone needs a client facing
+  deck, pitch presentation, sales proposal, one-pager, solution overview or business case document,
+  or says "I need a deck for a client meeting", "help me build a proposal", "create a pitch for this
+  prospect", "make a presentation about our solution", "I have a meeting tomorrow and need slides"
+  or "prepare a client deliverable". Created by Shashwat Ghosh, Fractional CMO with 24+ years B2B
+  experience across Happay, Locus, FieldAssist, and 37+ client engagements.
 license: MIT
 metadata:
   author: shashwat-ghosh

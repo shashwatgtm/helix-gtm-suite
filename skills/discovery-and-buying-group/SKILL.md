@@ -1,20 +1,17 @@
 ﻿---
 name: discovery-and-buying-group
 description: >
-  Writes discovery questions for a live B2B deal in the seller's framework
-  (MEDDPICC, BANT, SPICED, Challenger, Gap Selling, or a plain default), one
-  question per pain the seller named, in the buyer's words, with an opening
-  and a close; and maps the buying group from the people the seller named:
-  each person's seat, concern and next move, the champion test, and the seats
-  still missing. For account executives,
-  founders who sell, SDRs, sales engineers and sales leaders. Use when someone
-  says "discovery questions", "MEDDPICC questions", "BANT", "BANT
-  questions", "SPICED", "Challenger questions", "Gap Selling", "what should
-  I ask on the call", "questions for my next call",
-  "buying group", "buying committee", "who decides", "stakeholder map", "who
-  am I missing", "multi-thread this deal" or "is this person my champion".
-  Not for landmine questions against a competitor, meeting briefs or
-  debriefs, proposals or business case documents, or research on real people.
+  Helps a B2B seller decide what to ask on the next call and who else must be in the deal. For
+  account executives, founders who sell, SDRs, sales engineers and sales leaders. You give it the
+  pains and people you know. You get discovery questions in your framework (MEDDPICC, BANT, SPICED,
+  Challenger, Gap Selling or a plain default), one per pain in the buyer's words, with an opening
+  and a close; and a buying group map: each person's seat, concern and next move, the champion test
+  and the seats still missing. Use when someone says "discovery questions", "MEDDPICC questions",
+  "BANT", "BANT questions", "SPICED", "Challenger questions", "Gap Selling", "what should I ask on
+  the call", "questions for my next call", "buying group", "buying committee", "who decides",
+  "stakeholder map", "who am I missing", "multi-thread this deal" or "is this person my champion".
+  Not for landmine questions against a competitor, meeting briefs or debriefs, proposals or business
+  cases, or research on real people.
 ---
 
 # Discovery and Buying Group

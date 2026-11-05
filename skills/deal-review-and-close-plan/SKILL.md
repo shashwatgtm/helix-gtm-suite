@@ -1,20 +1,17 @@
 ﻿---
 name: deal-review-and-close-plan
 description: >
-  Reviews one live B2B deal and plans the path to signature, from the seller's
-  own deal facts: a deal health score by script with every point shown and
-  labelled an example default, the risks ranked, the stage plan and dated next
-  actions; a mutual close plan with the buyer on a working day calendar
-  (owners on both sides, pass marks, what moves the date); and a 30, 60 and 90
-  day account plan. For account executives, founders who sell, sales engineers
-  and sales leaders. Use when someone says "review my deal", "deal review",
-  "deal health", "is this deal at risk", "deal is stuck", "pressure test this
-  deal", "is this commit", "what should I do next on this deal", "mutual
-  action plan", "MAP", "mutual close plan", "close plan", "plan to
-  signature", "account plan", "30 60 90 day account plan" or pastes deal
-  facts from a CRM. Not for battle cards, proposals, meeting briefs, account
-  research, renewals, onboarding plans, event or deal demos, discovery
-  questions, discounts or email sequences.
+  Helps a B2B seller decide whether one live deal is on track and what to do next to reach
+  signature. For account executives, founders who sell, sales engineers and sales leaders. You give
+  it your own deal facts or a CRM paste. You get a deal health score with every point shown as an
+  example default you can change, the risks ranked, dated next actions, a mutual close plan with the
+  buyer on a working day calendar, and a 30, 60 and 90 day account plan. Use when someone says
+  "review my deal", "deal review", "deal health", "is this deal at risk", "deal is stuck", "pressure
+  test this deal", "is this commit", "what should I do next on this deal", "mutual action plan",
+  "MAP", "mutual close plan", "close plan", "plan to signature", "account plan", "30 60 90 day
+  account plan" or pastes deal facts from a CRM. Not for battle cards, proposals, meeting briefs,
+  account research, renewals, onboarding plans, event or deal demos, discovery questions, discounts
+  or email sequences.
 ---
 
 # Deal Review and Close Plan

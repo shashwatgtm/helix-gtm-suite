@@ -1,6 +1,11 @@
 ﻿---
 name: executive-morning-briefing
-description: Generate prioritized daily briefing from calendar, Slack, Notion, email, and dashboards. Adapts to role and level—works for ICs, managers, and executives across sales, marketing, and demand gen. Use when user asks for morning briefing, daily summary, catch-up, what's urgent, or what their day looks like.
+description: >
+  Helps you decide what needs you first today. For ICs, managers and executives in sales, marketing
+  and demand gen. It works from your calendar, Slack, Notion, email and dashboard data. You get a
+  prioritized daily briefing that says first whether anything is on fire, then what needs action and
+  what can wait, adapted to your role and level. Use when someone asks for a morning briefing, daily
+  summary, catch-up, what's urgent, or what their day looks like.
 ---
 
 # Morning Briefing

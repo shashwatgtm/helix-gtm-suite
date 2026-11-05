@@ -1,15 +1,14 @@
 ﻿---
 name: guard-review-qbr
 description: >
-  Prepare structured QBR and EBR materials using the GUARD Framework's
-  7-section template. Use when a CSM mentions QBR, quarterly business review,
-  EBR, executive business review, business review prep, QBR deck, value recap,
-  or says things like "what should I present to the customer", "preparing for
-  our quarterly review", "need a QBR brief", "post-QBR recap email", "QBR
-  for an at-risk account", or "first QBR after onboarding". Accepts messy
-  notes, previous QBR data, CRM exports, or conversational context and produces
-  review-ready materials. Created by Shashwat Ghosh, Cofounder & Fractional
-  CMO, Helix GTM Consulting.
+  Helps a B2B customer success manager decide what to present in a quarterly or executive business
+  review. You give it messy notes, previous QBR data, CRM exports or the context in conversation.
+  You get review ready QBR or EBR materials in seven sections (the GUARD Review template). Use when
+  a CSM mentions QBR, quarterly business review, EBR, executive business review, business review
+  prep, QBR deck or value recap, or says things like "what should I present to the customer",
+  "preparing for our quarterly review", "need a QBR brief", "post-QBR recap email", "QBR for an
+  at-risk account" or "first QBR after onboarding". Created by Shashwat Ghosh, Co-Founder and
+  Fractional CMO, Helix GTM Consulting.
 ---
 
 # GUARD Review — QBR/EBR Preparation

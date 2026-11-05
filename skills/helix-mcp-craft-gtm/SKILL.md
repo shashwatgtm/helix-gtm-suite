@@ -1,7 +1,12 @@
 ﻿---
 name: helix-mcp-craft-gtm
 description: >
-  Connect to and invoke the hosted CRAFT GTM MCP Server (8 Strategic GTM Execution Tools) at https://craft-gtm.gtmhelix.com/mcp (or web app at https://craft-gtm.gtmhelix.com/). 8 strategic B2B GTM execution tools powered by the CRAFT Framework (Character, Result, Artifact, Frame, Timeline). Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
+  Helps a B2B team make GTM execution calls: product market fit, a launch, customer interviews,
+  retention, partners, a crisis or a competitor. Connects to the hosted CRAFT GTM MCP connector at
+  https://craft-gtm.gtmhelix.com/mcp (web app: https://craft-gtm.gtmhelix.com/). You give it your
+  situation; you get output from its 8 tools, built on the CRAFT Framework (Character, Result,
+  Artifact, Frame, Timeline). Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM
+  Consulting.
 license: MIT
 metadata:
   author: shashwat-ghosh

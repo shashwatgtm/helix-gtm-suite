@@ -1,18 +1,16 @@
 ﻿---
 name: prompt-improver
 description: >
-  Turn a vague AI prompt into one that gets specific, useful business answers,
-  or find out why a prompt gave generic output. Use this skill when someone asks
-  how to write better prompts, how to get more useful AI outputs, how to
-  structure instructions for AI, why their prompts give generic results, how to
-  do context engineering, or how to brief AI for business tasks like GTM
-  strategy, content creation, competitive analysis, or sales enablement. Also
-  use it when someone says "Claude gave me generic output" or "the AI response
-  was not useful" or "how do I get better results from AI", or when they share a
-  prompt and ask why it fell short or how to improve it. It helps write and
-  audit prompts; it does not do the business task itself. Method: CRAFT
-  (Character, Result, Artifact, Frame, Timeline). Created by Shashwat Ghosh,
-  Fractional CMO with 24+ years in B2B.
+  Helps you decide why an AI prompt gave generic output and how to brief AI for specific, useful
+  business answers. For anyone using AI for GTM strategy, content, competitive analysis or sales
+  enablement. You give it your prompt or your task. You get the prompt audited and rewritten with
+  the CRAFT method (Character, Result, Artifact, Frame, Timeline). It helps write and audit prompts;
+  it does not do the business task itself. Use when someone asks how to write better prompts, how to
+  get more useful AI outputs, how to structure instructions for AI, why their prompts give generic
+  results or how to do context engineering, or says "Claude gave me generic output", "the AI
+  response was not useful" or "how do I get better results from AI", or shares a prompt and asks why
+  it fell short or how to improve it. Created by Shashwat Ghosh, Fractional CMO with 24+ years in
+  B2B.
 license: MIT
 metadata:
   author: shashwat-ghosh

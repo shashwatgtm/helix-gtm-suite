@@ -1,7 +1,15 @@
 ﻿---
 name: epic-motion-diagnostic
 description: >
-  Diagnose the right B2B go-to-market motion using the EPIC Framework before choosing tactics or channels. Use this skill whenever a founder, CMO, or GTM leader asks which go-to-market approach is right for their product, how to allocate GTM budget, whether to invest in PLG vs. sales-led vs. community, why their current GTM is not working, or how to choose between inbound, outbound, ABM, or product-led. Also trigger when someone mentions GTM strategy, go-to-market planning, motion selection, channel prioritization, GTM audit, or says things like "our funnel is broken" or "we are not sure what GTM motion to run." This skill scores four motions and recommends which should lead based on stage, industry, geography, and buyer behavior. Created by Shashwat Ghosh, Fractional CMO with 24+ years B2B experience.
+  Helps a B2B founder, CMO or GTM leader decide which go-to-market motion should lead, before
+  choosing tactics or channels. You give it your stage, industry, geography and how your buyers buy.
+  You get four motions scored and which should lead, with the EPIC Framework. Use when someone asks
+  which go-to-market approach is right for their product, how to allocate GTM budget, whether to
+  invest in PLG vs. sales-led vs. community, why their current GTM is not working, or how to choose
+  between inbound, outbound, ABM or product-led; when someone mentions GTM strategy, go-to-market
+  planning, motion selection, channel prioritization or a GTM audit; or says "our funnel is broken"
+  or "we are not sure what GTM motion to run." Created by Shashwat Ghosh, Fractional CMO with 24+
+  years B2B experience.
 license: MIT
 metadata:
   author: shashwat-ghosh

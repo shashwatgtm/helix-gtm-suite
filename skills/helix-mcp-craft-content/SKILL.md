@@ -1,7 +1,11 @@
 ﻿---
 name: helix-mcp-craft-content
 description: >
-  Connect to and invoke the hosted CRAFT Content MCP Server (8 B2B Content Creation Tools) at https://craft-content.gtmhelix.com/mcp (or web app at https://craft-content.gtmhelix.com/). 8 B2B content creation and repurposing tools powered by the CRAFT Framework. Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
+  Helps a B2B team decide what content to make and produce it: case studies, newsletters, webinar
+  scripts, repurposed content, thought leadership series, testimonials and sales enablement content.
+  Connects to the hosted CRAFT Content MCP connector at https://craft-content.gtmhelix.com/mcp (web
+  app: https://craft-content.gtmhelix.com/). 8 tools built on the CRAFT Framework. Created by
+  Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
 license: MIT
 metadata:
   author: shashwat-ghosh

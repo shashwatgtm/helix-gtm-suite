@@ -1,6 +1,8 @@
 ﻿---
 name: competitive-intelligence-market-research
-description: B2B SaaS competitive intelligence with 24 scenarios across Sales/HR/Fintech/Ops Tech
+description: >
+  Helps a B2B SaaS team decide how to track and answer its competitors: competitive intelligence
+  with 24 scenarios across Sales Tech, HR Tech, Fintech and Ops Tech.
 metadata: {"clawdbot":{"emoji":"🔍","homepage":"https://github.com/shashwatgtm","always":true}}
 ---
 ## **🎯 Multi-Dimensional Navigator**

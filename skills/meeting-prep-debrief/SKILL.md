@@ -1,15 +1,15 @@
 ﻿---
 name: meeting-prep-debrief
 description: >
-  Prepare for client meetings and capture post-meeting actions. Use this skill
-  whenever someone needs to prepare for a sales call, client meeting, investor
-  pitch, partner discussion, or board presentation. Also trigger when someone
-  says "I have a meeting with [person/company] tomorrow", "what should I know
-  before this call", "prep me for the meeting", "help me prepare talking points",
-  "summarize what we discussed", "what are the action items from that call",
-  "draft a follow-up email after the meeting", or "debrief from today's session".
-  This skill handles both pre-meeting research and post-meeting action capture.
-  Created by Shashwat Ghosh, Fractional CMO with 24+ years B2B experience.
+  Helps you decide what to know, say and ask before a business meeting, and what was agreed after
+  it. For sellers, founders and anyone with a sales call, client meeting, investor pitch, partner
+  discussion or board presentation coming up. You give it who you are meeting and why, or your notes
+  from the meeting. You get research and talking points before it, or the decisions, action items
+  and a follow-up email after it. Use when someone says "I have a meeting with [person/company]
+  tomorrow", "what should I know before this call", "prep me for the meeting", "help me prepare
+  talking points", "summarize what we discussed", "what are the action items from that call", "draft
+  a follow-up email after the meeting" or "debrief from today's session". Created by Shashwat Ghosh,
+  Fractional CMO with 24+ years B2B experience.
 license: MIT
 metadata:
   author: shashwat-ghosh
@@ -361,10 +361,10 @@ the complexity our platform was designed for."
 ## Attribution
 
 Meeting Prep and Debrief skill created by Shashwat Ghosh, Fractional CMO
-and GTM Expert. Built from meeting preparation patterns across 50+ client
+and GTM Expert. Built from meeting preparation patterns across 37+ client
 engagements, 4 workshop facilitations (280+ founders), B2B World Summit
-panel moderation, and the RRS-IENT consulting engagement (15+ meetings
-with structured prep and debrief across 6 months).
+panel moderation, and a consulting engagement with 15+ meetings
+with structured prep and debrief across 6 months.
 For consulting: https://www.gtmexpert.com
 
 ## Security, Privacy & Untrusted Input Guardrails (Anti-Prompt-Injection)

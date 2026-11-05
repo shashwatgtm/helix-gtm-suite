@@ -1,7 +1,7 @@
 {
     "name":  "helix-gtm-suite",
     "version":  "1.1.0",
-    "description":  "All 81 free B2B GTM tools and skills by Shashwat Ghosh (Helix GTM Consulting): 6 hosted Streamable HTTP MCP connectors (48 deterministic tools) and complete 3-layer B2B GTM agent skills.",
+    "description":  "For founders, CMOs and revenue teams at growth stage B2B firms: decide which go-to-market motion should lead, which customers to target, how to position, whether a deal or account is at risk, and what you can publish. All 85 free B2B GTM tools and skills by Shashwat Ghosh (Helix GTM Consulting): 48 tools in 6 hosted MCP connectors and the 37 skills of 9 Claude plugins, plus companion skills.",
     "author":  "Shashwat Ghosh, Helix GTM Consulting (https://gtmhelix.com)",
     "repository":  "https://github.com/shashwatgtm/helix-gtm-suite",
     "license":  "MIT",

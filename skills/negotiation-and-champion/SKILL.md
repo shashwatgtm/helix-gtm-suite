@@ -1,20 +1,16 @@
 ﻿---
 name: negotiation-and-champion
 description: >
-  Helps a B2B seller hold the price in a new deal and arm the champion:
-  discount requests, budget objections, a cheaper competitor price the buyer
-  quoted, procurement pressure, multi-year and enterprise terms, with the
-  cost of every concession worked out by script on the seller's own figures
-  and a trade asked for each; and the champion's internal asset in the
-  champion's own voice (an email to their CFO, a memo, talking points) with
-  one decision requested. For account executives, founders who
-  sell and sales leaders. Use when someone says "they asked for a discount",
-  "discount request", "price objection", "procurement is pushing on price", "hold the price", "budget objection",
-  "the competitor is cheaper", "multi-year deal terms", "enterprise
-  agreement", "champion kit", "help my champion sell internally", "internal
-  business case for my champion", "talking points for my champion" or "an
-  email my champion can forward". Not for renewals, battle cards, client
-  facing proposals, or buyers pushing a vendor's price down.
+  Helps a B2B seller decide what to concede, what to ask in return and how to hold the price in a
+  new deal. For account executives, founders who sell and sales leaders. You give it the buyer's ask
+  and your own figures. You get the cost of each concession worked out by script, a trade for each,
+  the words for the next talk, and your champion's internal asset in their own voice (an email to
+  their CFO, a memo, talking points) asking for one decision. Use when someone says "they asked for
+  a discount", "discount request", "price objection", "procurement is pushing on price", "hold the
+  price", "budget objection", "the competitor is cheaper", "multi-year deal terms", "enterprise
+  agreement", "champion kit", "help my champion sell internally", "internal business case for my
+  champion", "talking points for my champion" or "an email my champion can forward". Not for
+  renewals, battle cards, client facing proposals, or buyers pushing a vendor's price down.
 ---
 
 # Negotiation and Champion

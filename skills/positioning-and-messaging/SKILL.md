@@ -1,18 +1,16 @@
 ﻿---
 name: positioning-and-messaging
 description: >
-  Position a B2B product and write its core message, elevator pitch and value
-  proposition. Use this skill when a founder or product marketer asks how to
-  position their product, what their core message should be, how to
-  differentiate from competitors, what category they should own, how to write an
-  elevator pitch, or how to articulate their value proposition. Also use it when
-  positioning or core messaging needs to be set for an investor pitch, landing
-  page, or sales deck narrative, or when someone says "we sound like everyone
-  else" or "buyers don't understand what we do" or "our messaging feels
-  generic." It covers two steps: the category you own, and a three-level message
-  hierarchy (core message, elevator pitch, full narrative). It does not write
-  full landing pages, decks, or battle cards. Method: IMPACT, Anchor and Craft
-  steps. Created by Shashwat Ghosh, Fractional CMO with 24+ years in B2B.
+  Helps a B2B founder or product marketer decide which category to own and what to say about the
+  product. You give it your product, your buyers and the alternatives they consider. You get the
+  category you own and a three level message hierarchy: core message, elevator pitch and full
+  narrative (the Anchor and Craft steps of the IMPACT method). It does not write full landing pages,
+  decks or battle cards. Use when someone asks how to position their product, what their core
+  message should be, how to differentiate from competitors, what category they should own, how to
+  write an elevator pitch or how to articulate their value proposition; when positioning or core
+  messaging must be set for an investor pitch, landing page or sales deck narrative; or when someone
+  says "we sound like everyone else", "buyers don't understand what we do" or "our messaging feels
+  generic." Created by Shashwat Ghosh, Fractional CMO with 24+ years in B2B.
 license: MIT
 metadata:
   author: shashwat-ghosh

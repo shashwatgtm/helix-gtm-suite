@@ -1,7 +1,11 @@
 ﻿---
 name: helix-mcp-gtm-alpha
 description: >
-  Connect to and invoke the hosted GTM Alpha MCP Server (3 EPIC Framework Tools) at https://gtmalpha.gtmhelix.com/mcp (or web app at https://gtmalpha.gtmhelix.com/). 3 deterministic B2B go-to-market motion scoring and 180-day roadmap tools powered by the EPIC Framework. Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
+  Helps a B2B founder or GTM leader decide which go-to-market motion should lead. Connects to the
+  hosted GTM Alpha MCP connector at https://gtmalpha.gtmhelix.com/mcp (web app:
+  https://gtmalpha.gtmhelix.com/). You give it your company context; you get go-to-market motion
+  scores and a 180 day roadmap from its 3 EPIC Framework tools, with the scores computed by the
+  server. Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
 license: MIT
 metadata:
   author: shashwat-ghosh

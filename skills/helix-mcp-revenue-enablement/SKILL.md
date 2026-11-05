@@ -1,7 +1,11 @@
 ﻿---
 name: helix-mcp-revenue-enablement
 description: >
-  Connect to and invoke the hosted Revenue Enablement MCP Server (12 B2B Deal Strategy & Sales Tools) at https://revenue-enablement.gtmhelix.com/mcp (or web app at https://revenue-enablement.gtmhelix.com/). 12 B2B deal execution, MEDDPICC discovery, CFO ROI business case, and seller enablement tools. Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
+  Helps a B2B seller decide how to qualify, prove and close a deal. Connects to the hosted Revenue
+  Enablement MCP connector at https://revenue-enablement.gtmhelix.com/mcp (web app:
+  https://revenue-enablement.gtmhelix.com/). You give it your deal facts; you get output from its 12
+  tools for deal execution, MEDDPICC discovery, a CFO ROI business case and seller enablement.
+  Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
 license: MIT
 metadata:
   author: shashwat-ghosh

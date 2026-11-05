@@ -1,16 +1,15 @@
 ﻿---
 name: account-health-check
 description: >
-  Find which B2B accounts are at risk of churn and why, and which need your
-  attention this week. Use when a CSM asks about account health, churn risk,
-  risk signals, portfolio prioritization or a book of business review, or says
-  things like "should I be worried about this account", "my customer went
-  quiet", "NPS dropped", "usage declined", "portfolio review", "book of
-  business" or "which accounts are at risk". Accepts any input: a conversational
-  dump, messy notes, a CRM table or an uploaded PDF. Scores what is available
-  and flags what is missing. Method: GUARD Gauge, a 6-signal weighted health
-  score. Created by Shashwat Ghosh, Co-Founder and Fractional CMO, Helix GTM
-  Consulting.
+  Helps a B2B customer success manager decide which accounts are at risk of churn, why, and which
+  need attention this week. You give it whatever you have: a conversational dump, messy notes, a CRM
+  table or an uploaded PDF. You get a health score for each account from six weighted signals (the
+  GUARD Gauge method), the risk reasons, a portfolio order, and what is missing; it scores what is
+  there and flags the rest. Use when a CSM asks about account health, churn risk, risk signals,
+  portfolio prioritization or a book of business review, or says things like "should I be worried
+  about this account", "my customer went quiet", "NPS dropped", "usage declined", "portfolio
+  review", "book of business" or "which accounts are at risk". Created by Shashwat Ghosh, Co-Founder
+  and Fractional CMO, Helix GTM Consulting.
 ---
 
 # GUARD Gauge — Account Health Diagnostic

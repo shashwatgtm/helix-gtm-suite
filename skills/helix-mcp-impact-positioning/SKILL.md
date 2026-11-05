@@ -1,7 +1,11 @@
 ﻿---
 name: helix-mcp-impact-positioning
 description: >
-  Connect to and invoke the hosted IMPACT Positioning MCP Server (8 B2B Positioning & Messaging Tools) at https://impact.gtmhelix.com/mcp (or web app at https://impact.gtmhelix.com/). 8 hypothesis-driven B2B positioning and messaging tools covering all 6 steps of the IMPACT Framework. Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
+  Helps a B2B founder or product marketer decide how to position and message the product. Connects
+  to the hosted IMPACT Positioning MCP connector at https://impact.gtmhelix.com/mcp (web app:
+  https://impact.gtmhelix.com/). You give it your product, buyers and alternatives; you get output
+  from its 8 hypothesis driven positioning and messaging tools, covering all 6 steps of the IMPACT
+  Framework. Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
 license: MIT
 metadata:
   author: shashwat-ghosh

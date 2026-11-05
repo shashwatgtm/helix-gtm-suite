@@ -1,15 +1,14 @@
 ﻿---
 name: upsell-and-expansion
 description: >
-  Find upsell, cross-sell and expansion openings in B2B accounts and build the
-  business case to pitch them. Use when a CSM asks about upsell, cross-sell,
-  expansion opportunities or net revenue retention, or says things like
-  "customer hitting limits", "new department interested", "how to pitch
-  expansion", "when to upsell", "NRR improvement", "usage growing fast", "they
-  asked about advanced features" or "expansion business case". Produces a
-  business case and a conversation guide. Method: GUARD Uplift, a 4-signal
-  expansion model. Created by Shashwat Ghosh, Co-Founder and Fractional CMO,
-  Helix GTM Consulting.
+  Helps a B2B customer success manager decide whether, when and how to pitch an upsell, cross-sell
+  or expansion. You give it the account's usage, requests and your notes. You get the expansion
+  signals found (the four signal GUARD Uplift model), a business case for the pitch and a
+  conversation guide. Use when a CSM asks about upsell, cross-sell, expansion opportunities or net
+  revenue retention, or says things like "customer hitting limits", "new department interested",
+  "how to pitch expansion", "when to upsell", "NRR improvement", "usage growing fast", "they asked
+  about advanced features" or "expansion business case". Created by Shashwat Ghosh, Co-Founder and
+  Fractional CMO, Helix GTM Consulting.
 ---
 
 # GUARD Uplift — Expansion Signal Analysis & Business Case

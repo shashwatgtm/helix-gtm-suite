@@ -1,7 +1,12 @@
 ﻿---
 name: helix-mcp-icp-intelligence
 description: >
-  Connect to and invoke the hosted ICP Intelligence MCP Server (9 B2B Targeting & TAM/SAM/SOM Tools) at https://icp-intelligence.gtmhelix.com/mcp (or web app at https://icp-intelligence.gtmhelix.com/). 9 deep ICP pattern detection, market sizing, buying group, and account prioritization tools. Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
+  Helps a B2B team decide which customers and accounts to target and how big the market is. Connects
+  to the hosted ICP Intelligence MCP connector at https://icp-intelligence.gtmhelix.com/mcp (web
+  app: https://icp-intelligence.gtmhelix.com/). You give it your customer and market facts; you get
+  output from its 9 tools for ICP patterns, TAM, SAM and SOM market sizing, buying groups and
+  account prioritization. Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM
+  Consulting.
 license: MIT
 metadata:
   author: shashwat-ghosh

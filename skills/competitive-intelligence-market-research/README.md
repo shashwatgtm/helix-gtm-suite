@@ -407,7 +407,7 @@ Founder, Helix GTM Consulting | Fractional CMO for B2B SaaS
 ### Background:
 - Former CMO at FieldAssist (until Sept 2024)
 - Former VP Global Performance Marketing at Locus
-- 15+ years in B2B SaaS marketing and GTM strategy
+- 24+ years in B2B and 10+ years of fractional experience
 - Creator of EPIC GTM Framework (Ecosystem, PLG, Inbound/Outbound, Community)
 
 ### Connect:

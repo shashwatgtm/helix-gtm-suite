@@ -1,6 +1,8 @@
 ﻿---
 name: newsletter-creation-curation
-description: Industry-specific newsletter creation with cadence recommendations and automation workflows
+description: >
+  Helps a B2B team decide what kind of newsletter to run and how often: industry specific newsletter
+  creation with cadence recommendations and automation workflows.
 metadata: {"clawdbot":{"emoji":"📧","homepage":"https://github.com/shashwatgtm","always":true}}
 ---
 ## **🎯 Multi-Dimensional Navigator**

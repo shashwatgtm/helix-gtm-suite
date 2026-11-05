@@ -1,6 +1,8 @@
 ﻿---
 name: social-media-management
-description: Platform strategies, LinkedIn algorithm mastery, batching workflows, engagement tactics by industry
+description: >
+  Helps a B2B team decide which platforms to use and how to post: platform strategies, LinkedIn
+  algorithm guidance, batching workflows and engagement tactics by industry.
 metadata: {"clawdbot":{"emoji":"📱","homepage":"https://github.com/shashwatgtm","always":true}}
 ---
 ## 🎯 Multi-Dimensional Navigator

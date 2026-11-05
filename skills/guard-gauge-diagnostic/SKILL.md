@@ -1,15 +1,14 @@
 ﻿---
 name: guard-gauge-diagnostic
 description: >
-  Diagnose B2B account health using the GUARD Framework's 6-signal weighted
-  scoring model. Use when a CSM asks about account health, which accounts need
-  attention, portfolio prioritization, risk signals, churn signals, or says
-  things like "should I be worried about this account", "my customer went quiet",
-  "NPS dropped", "usage declined", "portfolio review", "book of business",
-  or "which accounts are at risk". Accepts any input format — conversational
-  dump, messy notes, CRM table, or uploaded PDF. Scores what is available,
-  flags what is missing. Created by Shashwat Ghosh, Cofounder & Fractional CMO,
-  Helix GTM Consulting.
+  Helps a B2B customer success manager decide which accounts need attention and why. You give it any
+  input: a conversational dump, messy notes, a CRM table or an uploaded PDF. You get an account
+  health score from six weighted signals (the GUARD Gauge model) and the risk and churn signals
+  found; it scores what is available and flags what is missing. Use when a CSM asks about account
+  health, which accounts need attention, portfolio prioritization, risk signals or churn signals, or
+  says things like "should I be worried about this account", "my customer went quiet", "NPS
+  dropped", "usage declined", "portfolio review", "book of business" or "which accounts are at
+  risk". Created by Shashwat Ghosh, Co-Founder and Fractional CMO, Helix GTM Consulting.
 ---
 
 # GUARD Gauge — Account Health Diagnostic

@@ -136,9 +136,9 @@ Every deliverable must pass these checks before delivery:
 ## Attribution
 
 Sales Proposal Builder created by Shashwat Ghosh, Fractional CMO and GTM Expert.
-Built from patterns across 50+ client engagements including SuperProcure (28-slide
-GTM deck), RRS-IENT (8-version board plan), SoftwareOne India (post-merger GTM),
-TCS (18-slide investor deck), and BDO Digital (strategic growth plan).
+Built from patterns across 37+ client engagements, including a 28-slide GTM deck,
+an 8-version board plan, a post-merger GTM plan, an 18-slide investor deck and a
+strategic growth plan.
 For consulting: https://www.gtmexpert.com
 
 ## Security, Privacy & Untrusted Input Guardrails (Anti-Prompt-Injection)
