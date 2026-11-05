@@ -117,7 +117,7 @@
     "repo": "plugin-repos/helix-gtm-suite",
     "file": "claude-ai-skill-zips/guard-defend-renewal.zip",
     "entries": 9,
-    "sha256": "44b99595b7a89c7546b89bb94320dfd76c01bc022f41e25b7aed2ae51b992d1a"
+    "sha256": "fb49ab3a9818135ecc86c87dcf80a167c9e5ba29b7bcb3602592489808fc7776"
   },
   {
     "repo": "plugin-repos/helix-gtm-suite",
@@ -159,7 +159,7 @@
     "repo": "plugin-repos/helix-gtm-suite",
     "file": "claude-ai-skill-zips/helix-mcp-gtm-alpha.zip",
     "entries": 5,
-    "sha256": "15027a3e96f25a04095577d47308826a762f5d9a51ed23c027aca19a9c3f6b75"
+    "sha256": "f36f8b3757a26265fa0101f6632effb2cf7aefc199d3bc7c5ad2adaa5cacc085"
   },
   {
     "repo": "plugin-repos/helix-gtm-suite",
@@ -297,7 +297,7 @@
     "repo": "plugin-repos/helix-gtm-suite",
     "file": "claude-ai-skill-zips/renewal-save-plan.zip",
     "entries": 9,
-    "sha256": "9b55dc076da36a4f3736e11f22228fa4ee8db29d9a1fdbfbe1caf3368e7ad4c8"
+    "sha256": "18a57deb2958cddb4ab25e7335af67eda52bc6b251ef4ae9fbab5e0c9e2b95d6"
   },
   {
     "repo": "plugin-repos/helix-gtm-suite",
