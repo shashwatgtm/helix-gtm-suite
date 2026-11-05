@@ -1,7 +1,7 @@
 {
     "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
     "name":  "io.github.shashwatgtm/gtm-alpha-mcp-server",
-    "description":  "3 deterministic B2B go-to-market motion scoring and 180-day roadmap tools powered by the EPIC Framework.",
+    "description":  "3 deterministic B2B go-to-market motion scoring and 30, 60 or 90 day roadmap tools powered by the EPIC Framework.",
     "repository":  {
                        "url":  "https://github.com/shashwatgtm/gtm-alpha-mcp-server",
                        "source":  "github"

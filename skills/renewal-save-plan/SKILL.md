@@ -7,8 +7,8 @@ description: >
   and renewal is coming", "competitor evaluation", "they want to downgrade",
   "budget cut affecting renewal", "contract renewal in X months", "renewal
   forecast", "how to save this account", "RFP for replacement" or "vendor
-  review". Produces a renewal probability score, a save playbook matched to the
-  risk and a conversation guide. Method: GUARD Defend, a 180-day renewal
+  review". Produces an evidence review of renewal risk (no renewal probability is
+  generated), a save playbook matched to the risk and a conversation guide. Method: GUARD Defend, a 180-day renewal
   countdown. Created by Shashwat Ghosh, Co-Founder and Fractional CMO, Helix GTM
   Consulting.
 ---

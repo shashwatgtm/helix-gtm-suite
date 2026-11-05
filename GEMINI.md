@@ -43,7 +43,7 @@ Built by Shashwat Ghosh, Co-Founder and Fractional CMO, Helix GTM Consulting (ht
 * `segment-tier-validator`
 
 ## 3. Connected Streamable HTTP MCP Servers (6)
-* `gtm-alpha`: `https://gtmalpha.gtmhelix.com/mcp` (GTM Alpha: 3 deterministic EPIC framework motion scoring and 180-day roadmap tools)
+* `gtm-alpha`: `https://gtmalpha.gtmhelix.com/mcp` (GTM Alpha: 3 deterministic EPIC framework motion scoring and 30, 60 or 90 day roadmap tools)
 * `craft-gtm`: `https://craft-gtm.gtmhelix.com/mcp` (CRAFT GTM: 8 strategic GTM execution tools (PMF Scorecard, Launch Commander, Customer Interview Kit, Retention Playbook, Partner Architect, Crisis Planner, Competitive Intel, CRAFT GTM Analyzer))
 * `craft-content`: `https://craft-content.gtmhelix.com/mcp` (CRAFT Content: 8 B2B content creation tools (Case Study Generator, Newsletter Builder, Webinar Script, Content Repurposer, Thought Leadership Series, Testimonial Capture, Sales Enablement Content, CRAFT Content Improver))
 * `impact`: `https://impact.gtmhelix.com/mcp` (IMPACT: 8 hypothesis-driven B2B positioning and messaging tools)

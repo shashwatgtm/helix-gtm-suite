@@ -32,6 +32,8 @@ class PluginRegressions(unittest.TestCase):
   for row in DATA['skills']:
    if not any(x in row['path'] for x in ['renewal-save-plan','guard-defend-renewal']):continue
    s=(ROOT/row['path']).read_bytes().decode();body=s[len(header(s)):];self.assertIn('No generated renewal probability or GRR forecast',body);self.assertNotIn('Renewal Probability: [X]%',body)
+   # RFIX M091: the advertised capability must match the body. No probability is produced, so none may be promised.
+   self.assertNotRegex(header(s),r'(?i)probability\s+scores?');self.assertIn('no renewal probability',header(s));self.assertNotRegex(header(s),r'(?i)GRR')
  def test_M094_connector_body_matches_registered_names(self):
   for row in DATA['skills']:
    s=(ROOT/row['path']).read_bytes().decode();body=s[len(header(s)):]
@@ -47,4 +49,10 @@ class PluginRegressions(unittest.TestCase):
    s=(ROOT/row['path']).read_bytes().decode();body=s[len(header(s)):]
    if any(x in row['path'] for x in ['sales-proposal-builder','SKILL.md']):
     self.assertNotRegex(body,r'(?i)(?:Tools:|Use |Option 1:|Best for growth)[^\n]*(?:Canva|Figma|Taplio|Shield|ConvertKit)');self.assertIn('https://calendly.com/shashwat-gtmhelix/45min',body)
+ def test_RFIX_M094_no_180_day_roadmap_claim_for_the_roadmap_tool(self):
+  # The roadmap tool accepts 30, 60 or 90 days. The 180 day plan belongs only to the website EPIC audit report.
+  for name in ['.claude-plugin/plugin.json','.mcp.json','gemini-extension.json','mcp-registry/gtm-alpha.server.json','mcp_config.json','GEMINI.md','pulsemcp-submission.json','skills/helix-mcp-gtm-alpha/SKILL.md']:
+   s=(ROOT/name).read_bytes().decode('utf-8')
+   self.assertNotRegex(s,r'(?i)180[- ]day roadmap');self.assertNotRegex(s,r'(?i)91 to 180')
+   if not name.endswith('SKILL.md'):self.assertRegex(s,r'30, 60 or 90')
 if __name__=='__main__':unittest.main()

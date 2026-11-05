@@ -1,7 +1,7 @@
 ﻿---
 name: helix-mcp-gtm-alpha
 description: >
-  Connect to and invoke the hosted GTM Alpha MCP Server (3 EPIC Framework Tools) at https://gtmalpha.gtmhelix.com/mcp (or web app at https://gtmalpha.gtmhelix.com/). 3 deterministic B2B go-to-market motion scoring and 180-day roadmap tools powered by the EPIC Framework. Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
+  Connect to and invoke the hosted GTM Alpha MCP Server (3 EPIC Framework Tools) at https://gtmalpha.gtmhelix.com/mcp (or web app at https://gtmalpha.gtmhelix.com/). 3 deterministic B2B go-to-market motion scoring and 30, 60 or 90 day roadmap tools powered by the EPIC Framework. Created by Shashwat Ghosh, Co-Founder and Fractional CMO at Helix GTM Consulting.
 license: MIT
 metadata:
   author: shashwat-ghosh
@@ -37,7 +37,7 @@ Read `references/operating-principles.md` and `references/plugin-specific-rules.
 
 These are the registered names in the reviewed source snapshot. Use the connected server's tools/list to confirm its current names and schemas before invoking any tool. Do not invent aliases or translate an old advertised name into a call. A source inventory check is not a hosted transport or installation test.
 
-The roadmap accepts 30-day, 60-day or 90-day. The frozen description still refers to a 180 day roadmap; that wording does not authorize an unsupported timeframe. Ask for a supported timeframe if needed and do not silently substitute one.
+The roadmap accepts 30-day, 60-day or 90-day. The roadmap tool has no 180 day option; the 180 day plan belongs to the separate website EPIC audit report. Ask for a supported timeframe if needed and do not silently substitute one.
 
 - **gtm_consultation:** Scores the four motions from 1 to 10 with the documented rubric, names the primary and secondary motion, and lists the first 30 days of steps for the primary motion, with sector notes when your inputs name the sector. Add the optional inputs (ACV, deal cycle, NRR, TAM, self-serve, deal source, geography) for a full score; without them the result is marked preliminary.
 - **epic_audit:** Get EPIC framework scores for your GTM strategy: Ecosystem and ABM, Product-Led Growth, Inbound and Outbound, Community-Led, each 1 to 10, with the lead motion, warnings and notes, and the sector's buying committee and usual objections when your inputs name the sector. Add the optional inputs for a full score; without them the result is marked preliminary.

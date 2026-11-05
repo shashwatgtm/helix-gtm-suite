@@ -7,8 +7,9 @@ description: >
   threatening to churn", "champion left and renewal is coming", "competitor
   evaluation", "they want to downgrade", "budget cut affecting renewal",
   "contract renewal in X months", "renewal forecast", "how to save this
-  account", "RFP for replacement", or "vendor review". Produces renewal
-  probability scores, risk-matched save playbooks, and conversation guides.
+  account", "RFP for replacement", or "vendor review". Produces an
+  evidence review of renewal risk (no renewal probability is generated),
+  risk-matched save playbooks, and conversation guides.
   Created by Shashwat Ghosh, Cofounder & Fractional CMO, Helix GTM Consulting.
 ---
 

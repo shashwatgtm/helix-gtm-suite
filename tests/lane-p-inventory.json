@@ -4,8 +4,8 @@
       "repo": "helix-gtm-suite",
       "path": "skills/guard-defend-renewal/SKILL.md",
       "before_sha256": "ffe1211f3fa6ef2f048465d382a15c3af05b314759776ca77b8046d36fb126dc",
-      "after_sha256": "71dadf03e094e0e8b8ce67541d0cec60733b2998e25e17a27c4c3b53f0285f1c",
-      "frontmatter_sha256": "e631ba893a93cc4e5821a5471229354cc999f6fac72300cd61261364f807903a",
+      "after_sha256": "07e54adeec5bb85d27c5489e0daf4e724ffa93d87c5bea2697f40a1f06f3b174",
+      "frontmatter_sha256": "484148f22db6237608bc49385af03a59eec5911fbbd4f478469c8d18f9d2a49a",
       "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
     },
     {
@@ -164,8 +164,8 @@
       "repo": "helix-gtm-suite",
       "path": "skills/helix-mcp-gtm-alpha/SKILL.md",
       "before_sha256": "2f9e35f0099ff655d93946340b10f9c2f87f85970c1b389891adba2ae8ed702d",
-      "after_sha256": "437dba70b155c076fd633a59b47f5ed92cf1e54cfab2e2a3f41a80bd27d9254b",
-      "frontmatter_sha256": "2f698eae189264b86beeb0853ec24cb73f2bd01735471cf19cee17f738bfd691",
+      "after_sha256": "0120c6804990f1fcd1e2dba999eb36ac6353d263e24dda2bff09a9712587e45d",
+      "frontmatter_sha256": "f3064755305ee2c19f89da982f8f5b161ab10412a38421ac584996897933ef86",
       "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
     },
     {
@@ -436,8 +436,8 @@
       "repo": "helix-gtm-suite",
       "path": "skills/renewal-save-plan/SKILL.md",
       "before_sha256": "5d72228549895db5f2b9f00d3c6eb4f33be10336fa5b2b85753769810421a3ff",
-      "after_sha256": "ae88b1dbf65ea32659de98e21f99e05e3814f4d0503ad00d1ce83f3d92afeacf",
-      "frontmatter_sha256": "7ed733a2892488113422cf7c41c1f270d29e481ae0444394fcf8760b34578000",
+      "after_sha256": "f9fc5450199de5c81639e815228afb3fde419ba23675111fa07051e1962dc3ce",
+      "frontmatter_sha256": "c1e108d7f8e61b234bbf3cc6af5b8b15ea32e82bb731ba3c87d21577504dff45",
       "reference_sha256": "48e5917aecb374a4dfd467a5a74a066c1061c275d6110cc51b36a4860fe0bd8e"
     }
   ],

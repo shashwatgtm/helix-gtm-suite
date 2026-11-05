@@ -8,7 +8,7 @@
                         "endpoint":  "https://gtmalpha.gtmhelix.com/mcp",
                         "webApp":  "https://gtmalpha.gtmhelix.com/",
                         "toolCount":  3,
-                        "description":  "GTM Alpha (3 tools): EPIC motion scoring from 1 to 10 and 180-day plan across days 1 to 30, 31 to 60, 61 to 90, and 91 to 180"
+                        "description":  "GTM Alpha (3 tools): EPIC motion scoring from 1 to 10 and a 30, 60 or 90 day roadmap"
                     },
                     {
                         "name":  "craft-gtm",
