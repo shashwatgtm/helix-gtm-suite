@@ -134,18 +134,20 @@ class TestExtractBrandStyleUnsupported(unittest.TestCase):
     def test_unsupported_file_type(self):
         with tempfile.NamedTemporaryFile(suffix=".xlsx", delete=False) as f:
             f.write(b"fake")
-            f.flush()
+        try:
             result = extract_brand_style(f.name)
             self.assertIn("error", result)
             self.assertIn("Unsupported", result["error"])
+        finally:
             os.unlink(f.name)
 
     def test_invalid_zip(self):
         with tempfile.NamedTemporaryFile(suffix=".pptx", delete=False) as f:
             f.write(b"not a zip file at all")
-            f.flush()
+        try:
             result = extract_brand_style(f.name)
             self.assertIn("error", result)
+        finally:
             os.unlink(f.name)
 
 
