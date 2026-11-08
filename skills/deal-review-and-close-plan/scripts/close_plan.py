@@ -24,6 +24,7 @@ working day when it is not; a date before today (or --today) is flagged "in the 
 Exit code 0 ok, 2 bad input (a clear message, never a traceback). Standard library only; no network; writes no file.
 """
 import datetime as dt, json, math, re, sys
+from fractions import Fraction
 
 STAGES = ["discovery", "evaluation", "proposal", "negotiation", "procurement"]
 LONG_EVAL = {"ites", "telecom", "investment"}
@@ -71,12 +72,8 @@ def back(d, hol):
 
 
 def workdays(a, b, hol):
-    out, d = [], a
-    while d <= b:
-        if is_work(d, hol):
-            out.append(d)
-        d += dt.timedelta(days=1)
-    return out
+    days = (dt.date.fromordinal(o) for o in range(a.toordinal(), b.toordinal() + 1))
+    return [d for d in days if is_work(d, hol)]
 
 
 def fmt(d):
@@ -152,9 +149,10 @@ def plan(a):
     n, p = len(days), len(phases)
     if n < p:
         raise BadInput(f"only {n} working days from {start.isoformat()} to {close.isoformat()} for {p} phases ({', '.join(phases)}): move the close date, or start from a later stage")
-    total = sum(weights.values())
+    exact = {ph: Fraction(str(w)) for ph, w in weights.items()}   # exact arithmetic: a very large or very small weight never overflows
+    total = sum(exact.values())
     floor_len = 2 if n >= 2 * p else 1
-    lens = [max(round(n * weights[ph] / total), floor_len) for ph in phases[:-1]]
+    lens = [max(round(n * exact[ph] / total), floor_len) for ph in phases[:-1]]
     while sum(lens) > n - 1:   # the close phase keeps at least one day; trim the longest phase first
         i = max(range(len(lens)), key=lambda j: lens[j])
         if lens[i] <= 1:
@@ -240,6 +238,13 @@ def run(argv):
     if argv and (argv[0] in ("--help", "-h") or "--help" in argv):
         return 0, __doc__.strip()
     try:
+        return run_checked(argv)
+    except OverflowError:
+        return 2, "BAD INPUT: a date or a number of days goes past the year 9999; give a nearer date or fewer days"
+
+
+def run_checked(argv):
+    try:
         if not argv or argv[0] not in ("plan", "account", "dates"):
             raise BadInput("first word must be plan, account or dates; see the usage at the top of close_plan.py (or --help)")
         if argv[0] == "dates":
@@ -251,6 +256,8 @@ def run(argv):
         else:
             a = parse_opts(argv[1:], {"--today", "--offsets", "--format"})
             d = account(a)
+        if a.get("--format", "text") not in ("text", "json"):
+            raise BadInput(f"--format must be text or json, got {a['--format']!r}")
     except BadInput as e:
         return 2, f"BAD INPUT: {e}"
     if a.get("--format") == "json":
@@ -276,6 +283,8 @@ def run(argv):
 
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")   # non Latin step names print on Windows consoles too
     code, text = run(sys.argv[1:])
     print(text)
     sys.exit(code)

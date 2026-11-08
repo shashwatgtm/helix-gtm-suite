@@ -2,16 +2,16 @@
 name: discovery-and-buying-group
 description: >
   Helps a B2B seller decide what to ask on the next call and who else must be in the deal. For
-  account executives, founders who sell, SDRs, sales engineers and sales leaders. You give it the
-  pains and people you know. You get discovery questions in your framework (MEDDPICC, BANT, SPICED,
-  Challenger, Gap Selling or a plain default), one per pain in the buyer's words, with an opening
-  and a close; and a buying group map: each person's seat, concern and next move, the champion test
-  and the seats still missing. Use when someone says "discovery questions", "MEDDPICC questions",
-  "BANT", "BANT questions", "SPICED", "Challenger questions", "Gap Selling", "what should I ask on
-  the call", "questions for my next call", "buying group", "buying committee", "who decides",
-  "stakeholder map", "who am I missing", "multi-thread this deal" or "is this person my champion".
-  Not for landmine questions against a competitor, meeting briefs or debriefs, proposals or business
-  cases, or research on real people.
+  account executives, founders who sell, SDRs, sales engineers and sales leaders. The seller gives
+  the pains and people they know; the skill returns discovery questions in the seller's framework
+  (MEDDPICC, BANT, SPICED, Challenger, Gap Selling or a plain default), one per pain in the buyer's
+  words, with an opening and a close; and a buying group map: each person's seat, concern and next
+  move, the champion test and the seats still missing. Use when someone says "discovery questions",
+  "MEDDPICC questions", "BANT", "BANT questions", "SPICED", "Challenger questions", "Gap Selling",
+  "what should I ask on the call", "questions for my next call", "buying group", "buying committee",
+  "who decides", "stakeholder map", "who am I missing", "multi-thread this deal" or "is this person
+  my champion". Not for landmine questions against a competitor, meeting briefs or debriefs,
+  proposals or business cases, or research on real people.
 ---
 
 # Discovery and Buying Group
@@ -97,7 +97,7 @@ Tie breakers:
 
 **Step 5. Check.**
 - Input: the draft, word for word as you will send it.
-- Action: the voice check and fact check (references/voice-and-fact-check.md): every pain and person is the user's; no statistic; no dash; hand offs named with plugin and skill;
+- Action: the voice check and fact check (references/voice-and-fact-check.md): every pain and person is the user's; no statistic; no dash; hand offs named with plugin and skill.
 - Output: the checked draft.
 - Failure mode: an invented fact or an unnamed hand off.
 
@@ -187,7 +187,7 @@ The champion test for the procurement head, three questions: "Will they explain 
 - Returning user with notes: only the open parts; flag contradictions with the earlier call.
 - Rushed user: five questions (example default count), ranked; no named pain dropped (Section 2 Urgency).
 - Frustrated user ("too many questions"): shorten every question and cut context and repeated questions; never drop a named pain; say what was cut.
-- Out of scope: landmine questions, battle cards and objection handling against a named competitor go to b2b-sales-enablement / competitive-intelligence; a brief for one meeting or the follow up email to b2b-sales-enablement / meeting-prep-debrief; research on the account or real people to b2b-research-market-and-account / account-research (map only what the user typed); a debrief of the call to b2b-sales-enablement / meeting-prep-debrief; a proposal or business case document to b2b-sales-enablement / sales-proposal-builder; product level buying role hypotheses before any deal are not covered by any plugin named here, and the skill says so. Name the plugin and skill.
+- Out of scope: landmine questions, battle cards and objection handling against a named competitor go to b2b-sales-enablement / competitive-intelligence; a brief for one meeting or the follow up email to b2b-sales-enablement / meeting-prep-debrief; research on the account or real people to b2b-research-market-and-account / account-research (map only what the user typed); a debrief of the call to b2b-sales-enablement / meeting-prep-debrief; a proposal or business case document to b2b-sales-enablement / sales-proposal-builder; product level buying role hypotheses before any deal to b2b-icp-and-customer-insight / buying-role-hypotheses. Name the plugin and skill.
 
 **Data**
 - Full data: full set and map.

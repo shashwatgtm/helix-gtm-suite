@@ -2,15 +2,16 @@
 name: negotiation-and-champion
 description: >
   Helps a B2B seller decide what to concede, what to ask in return and how to hold the price in a
-  new deal. For account executives, founders who sell and sales leaders. You give it the buyer's ask
-  and your own figures. You get the cost of each concession worked out by script, a trade for each,
-  the words for the next talk, and your champion's internal asset in their own voice (an email to
-  their CFO, a memo, talking points) asking for one decision. Use when someone says "they asked for
-  a discount", "discount request", "price objection", "procurement is pushing on price", "hold the
-  price", "budget objection", "the competitor is cheaper", "multi-year deal terms", "enterprise
-  agreement", "champion kit", "help my champion sell internally", "internal business case for my
-  champion", "talking points for my champion" or "an email my champion can forward". Not for
-  renewals, battle cards, client facing proposals, or buyers pushing a vendor's price down.
+  new deal. For account executives, founders who sell and sales leaders. The seller gives the
+  buyer's ask and their own figures; the skill returns the cost of each concession worked out by
+  script, a trade for each, the words for the next talk, and the champion's internal asset in the
+  champion's own voice (an email to their CFO, a memo, talking points) asking for one decision. Use
+  when someone says "they asked for a discount", "discount request", "price objection", "procurement
+  is pushing on price", "hold the price", "budget objection", "the competitor is cheaper",
+  "multi-year deal terms", "enterprise agreement", "champion kit", "help my champion sell
+  internally", "internal business case for my champion", "talking points for my champion" or "an
+  email my champion can forward". Not for renewals, battle cards, client facing proposals, or buyers
+  pushing a vendor's price down.
 ---
 
 # Negotiation and Champion
@@ -38,7 +39,7 @@ Detect these before answering. If a missing fact changes the work, ask once.
 
 **Platform mode:**
 - Code execution available: run scripts/concession_math.py for every money figure; never by hand.
-- No code execution: say "worked out by reading, not by script", show the formula with the user's figures, and ask the user to check the arithmetic.
+- No code execution: say "worked out by reading, not by script", show the formula in words with the user's figures ("60 lakh times 10% is 6 lakh at risk; 60 lakh minus 6 lakh is 54 lakh"), never with a minus sign, a times sign or a dash; work out only the figures the decision needs (the cost of the ask and of the walk away point, and a multi year total only when the seller asks), each once on its own line, never corrected in mid sentence; and ask the user to check the arithmetic.
 - Web: not needed. Never look up a competitor's price; use only the gap the buyer stated. Open a page only to check a fact the user gave, and cite it.
 
 **Urgency:**
@@ -110,7 +111,7 @@ Negotiation: read back; "The numbers" (script output, labelled your figures); "W
 
 ### Example 1: happy path, a discount request (seller in SaaS, buyer in ITeS)
 
-Klenty is used only as an example of the seller's own company; the buyer, the people, the deal and every figure are hypothetical, and no real Klenty employee or customer is described. Facts about Klenty are quoted from its pricing page title "Sales Engagement Platform Pricing & Plans"; it shows plans "per user/month billed annually"), fetched 14 October 2026.
+Klenty is used only as an example of the seller's own company; the buyer, the people, the deal and every figure are hypothetical, and no real Klenty employee or customer is described. Facts about Klenty are quoted from its pricing page (title "Sales Engagement Platform Pricing & Plans"; it shows plans "per user/month billed annually"), fetched 14 October 2026.
 
 User input (hypothetical): "I'm an AE at Klenty. An IT services firm wants 20% off a 36 lakh annual deal for 60 SDR seats to sign this month. I could live with a discount if they sign for two years; I value that at 3 lakh. They would also give a case study."
 
@@ -221,6 +222,7 @@ The renewal discount: renewals belong to b2b-customer-success / renewal-save-pla
 13. Domain rule: never assume an approval limit; a line that depends on one is written as conditional on the seller's own limit.
 14. Restate every user fact with its exact meaning: a reply deadline is not a signing date ("procurement wants an answer by Friday" means a reply by Friday), an ask is not an agreement, an offer the seller is considering is not an offer already made; a trade line names a date as "[User to add: the date you set]" unless the seller gave one. A figure worked out from the buyer's words is the script's working, never the buyer's price.
 15. Domain rule: a claim about how the seller's product handles, stores, hosts or protects data (where data sits, who holds it, the deployment model, a certification) is written "[User to add: how the product handles this data]" unless the seller gave it or a cited page shows it; this holds in the champion's asset, the words to say and the note to the champion.
+16. Never state how buyers in a sector or a role behave as a fact ("banks often cannot give references"); a trade the buyer may not be able to give is asked about ("Can your team act as a reference after go live?"), never assumed away.
 
 ## 8. Trigger Phrases
 

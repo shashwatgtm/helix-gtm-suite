@@ -45,7 +45,7 @@ Each stage has: the objective, the evidence that the stage is really done (exit 
 - Action: one direct message to the champion or signer that names the stall and asks a yes or no question; a deadline the user sets (two weeks is an example default) to either restart with a dated next step or move it out of the pipeline.
 
 ## The champion test
-A champion is someone who (1) sells for you when you are not in the room, (2) shares information you would not otherwise get (the process, the competition, the budget), and (3) gives you access to the economic buyer and the other seats. Someone who does one of the three is a potential champion; none is a contact.
+A champion is someone who (1) sells for you when you are not in the room, (2) shares information you would not otherwise get (the process, the competition, the budget), and (3) gives you access to the economic buyer and the other seats. Someone who does all three is a champion; one or two of the three, a potential champion; none, a contact.
 
 ## The economic buyer
 The person who can say yes when everyone else says no, and can find budget that was not planned. "Named" means the user knows who it is; "engaged" means the person has met or replied to the seller about this deal. A buyer the user calls disengaged, no longer engaged or not engaged is named, not engaged.

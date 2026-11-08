@@ -2,16 +2,16 @@
 name: deal-review-and-close-plan
 description: >
   Helps a B2B seller decide whether one live deal is on track and what to do next to reach
-  signature. For account executives, founders who sell, sales engineers and sales leaders. You give
-  it your own deal facts or a CRM paste. You get a deal health score with every point shown as an
-  example default you can change, the risks ranked, dated next actions, a mutual close plan with the
-  buyer on a working day calendar, and a 30, 60 and 90 day account plan. Use when someone says
-  "review my deal", "deal review", "deal health", "is this deal at risk", "deal is stuck", "pressure
-  test this deal", "is this commit", "what should I do next on this deal", "mutual action plan",
-  "MAP", "mutual close plan", "close plan", "plan to signature", "account plan", "30 60 90 day
-  account plan" or pastes deal facts from a CRM. Not for battle cards, proposals, meeting briefs,
-  account research, renewals, onboarding plans, event or deal demos, discovery questions, discounts
-  or email sequences.
+  signature. For account executives, founders who sell, sales engineers and sales leaders. The
+  seller gives their own deal facts or a CRM paste; the skill returns a deal health score with every
+  point shown as an example default the seller can change, the risks ranked, dated next actions, a
+  mutual close plan with the buyer on a working day calendar, and a 30, 60 and 90 day account plan.
+  Use when someone says "review my deal", "deal review", "deal health", "is this deal at risk",
+  "deal is stuck", "pressure test this deal", "is this commit", "what should I do next on this
+  deal", "mutual action plan", "MAP", "mutual close plan", "close plan", "plan to signature",
+  "account plan", "30 60 90 day account plan" or pastes deal facts from a CRM. Not for battle cards,
+  proposals, meeting briefs, account research, renewals, onboarding plans, event or deal demos,
+  discovery questions, discounts or email sequences.
 ---
 
 # Deal Review and Close Plan
@@ -40,7 +40,7 @@ Detect these before answering. If a missing fact changes the score or the plan, 
 
 **Platform mode:**
 - Code execution available: run scripts/deal_health.py and scripts/close_plan.py from the skill folder (use `python` where `python3` is missing); add `--today` with the date the user states, or today's date, and write the date used in the answer; quote their output; never compute a score or a date by hand.
-- No code execution: say "no score computed: code execution is not available", list the factors (champion, economic buyer, days against the stage, competitors, blockers) as risks without points, and give dates only as the user's own dates or as "to be set with the buyer", never a computed calendar.
+- No code execution: say "no score computed: code execution is not available", list the factors (champion, economic buyer, days against the stage, competitors, blockers) as risks without points, and give dates only as the user's own dates or as "to be set with the buyer", never a computed calendar, a computed weekday or a count of weeks to the close date.
 - Web available: not needed for this skill. Do not research the account here; that is b2b-research-market-and-account / account-research. Use the web only when the user asks to check a fact they gave, and cite the page.
 - CRM or other connector: use the deal fields it returns as the user's facts, and say which fields were empty.
 
@@ -100,7 +100,7 @@ Tie breakers:
 
 **Step 5. Dated next actions.**
 - Input: the risks.
-- Action: three to five actions, each with an owner (the seller, the champion, a seat by role the user named; a seat the user did not name is "to be named by the buyer"), a suggested date, and the fact it changes in the score. Action dates are suggestions to agree with the buyer, written "suggested"; every suggested date carries its weekday from a script: dates inside the close plan from its output, any other suggested date from `python3 scripts/close_plan.py dates --dates <date>,<date> [--today YYYY-MM-DD] [--holidays YYYY-MM-DD,YYYY-MM-DD]` (it also flags a weekend, or a holiday when the user's holidays are passed in --holidays, and gives the next working day, and flags a date before today as in the past). Never write a weekday by mental arithmetic; with no code execution, write the date alone. The competitors field takes a list of objects, for example `[{"name": "their current dialer", "incumbent": true}]`, or a phrase.
+- Action: three to five actions, each with an owner (the seller, the champion, a seat by role the user named; a seat the user did not name is "to be named by the buyer"), a suggested date, and the fact it changes in the score. Action dates are suggestions to agree with the buyer, written "suggested"; every suggested date carries its weekday from a script: dates inside the close plan from its output, any other suggested date from `python3 scripts/close_plan.py dates --dates <date>,<date> [--today YYYY-MM-DD] [--holidays YYYY-MM-DD,YYYY-MM-DD]` (it also flags a weekend, or a holiday when the user's holidays are passed in --holidays, and gives the next working day, and flags a date before today as in the past). Never write a weekday by mental arithmetic. With no code execution, give no calendar date or weekday that you worked out: write the timing in words ("this week", "within two working days", "before the CFO meeting") or use a date the user gave. The competitors field takes a list of objects, for example `[{"name": "their current dialer", "incumbent": true}]`, or a phrase.
 - Output: an action table.
 - Failure mode: an action without an owner or date; an action that needs a battle card, a proposal or research (hand those off by name).
 
@@ -118,7 +118,7 @@ Tie breakers:
 
 **Step 8. Check.**
 - Input: the draft, word for word as you will send it.
-- Action: the voice check and the fact check in references/voice-and-fact-check.md (every number the user's, a script's or a cited page's; every example default labelled; hand offs named with plugin and skill;).
+- Action: the voice check and the fact check in references/voice-and-fact-check.md (every number the user's, a script's or a cited page's; every example default labelled; hand offs named with plugin and skill).
 - Output: the checked draft.
 - Failure mode: an unlabelled default, an invented figure, a dash, a count that does not match its list.
 

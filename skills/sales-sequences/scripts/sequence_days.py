@@ -16,7 +16,8 @@ next working day if it is a weekend, and said so) and the later emails keep the 
 not both. Example defaults: cold_outreach 1, 3, 7, 12, 17;
 warm_follow_up 0, 3, 7; post_demo 0, 2, 5, 10; proposal_follow_up 1, 3, 7, 12; referral_request 1, 4, 9.
 check: emails start at a line "Subject: ..."; for each email the subject words and characters and the body words; problems:
-long or short dashes and a hyphen with spaces on both sides used as a dash. A file with 0 emails fails.
+long or short dashes and a hyphen with spaces on both sides used as a dash (a hyphen that opens a line, as in a bullet
+list, is not a dash). A file with 0 emails fails.
 Exit code 0 ok, 1 problems found by check, 2 bad input. Standard library only; no network; writes no file.
 """
 import datetime as dt, json, re, sys
@@ -112,7 +113,25 @@ def days_cmd(a):
     return out
 
 
-DASHES = [("long dash", re.compile("[\\u2014\\u2015]")), ("short dash", re.compile("[\\u2012\\u2013]")), ("spaced hyphen used as a dash", re.compile(r"(?<=\s)-(?=\s)"))]
+LONG_DASHES = "\u2014\u2015"
+SHORT_DASHES = "\u2012\u2013"
+
+
+def spaced_hyphens(txt):
+    """Hyphens with white space on both sides, used as a dash. A hyphen that opens a line (a bullet) is not counted."""
+    found = 0
+    for i in range(1, len(txt) - 1):
+        if txt[i] == "-" and txt[i - 1].isspace() and txt[i + 1].isspace():
+            line_start = txt.rfind("\n", 0, i) + 1
+            if txt[line_start:i].strip():   # something written before it on its line, so not a bullet
+                found += 1
+    return found
+
+
+def dash_problems(txt):
+    return [("long dash", sum(txt.count(c) for c in LONG_DASHES)),
+            ("short dash", sum(txt.count(c) for c in SHORT_DASHES)),
+            ("spaced hyphen used as a dash", spaced_hyphens(txt))]
 
 
 def check_cmd(a):
@@ -140,9 +159,8 @@ def check_cmd(a):
         rows.append({"email": i, "subject": e["subject"], "subject_words": len(e["subject"].split()), "subject_chars": len(e["subject"]),
                      "body_words": len(body.split())})
         for part, txt in (("subject", e["subject"]), ("body", body)):
-            for name, rx in DASHES:
-                for _ in rx.finditer(txt):
-                    problems.append(f"email {i} {part}: {name}")
+            for name, count in dash_problems(txt):
+                problems += [f"email {i} {part}: {name}"] * count
     return {"emails": rows, "problems": problems}
 
 
@@ -150,12 +168,21 @@ def run(argv):
     if argv and (argv[0] in ("--help", "-h") or "--help" in argv):
         return 0, __doc__.strip()
     try:
+        return run_checked(argv)
+    except OverflowError:
+        return 2, "BAD INPUT: a send date goes past the year 9999; give a nearer start date or fewer days"
+
+
+def run_checked(argv):
+    try:
         if not argv or argv[0] not in ("days", "check"):
             raise BadInput("first word must be days or check; see the usage at the top of sequence_days.py")
         if argv[0] == "days":
             a = parse(argv[1:], {"--type", "--days", "--count", "--start", "--first-send", "--format"}); d = days_cmd(a)
         else:
             a = parse(argv[1:], {"--file", "--format"}); d = check_cmd(a)
+        if a.get("--format", "text") not in ("text", "json"):
+            raise BadInput(f"--format must be text or json, got {a['--format']!r}")
     except BadInput as e:
         return 2, f"BAD INPUT: {e}"
     code = 1 if argv[0] == "check" and d["problems"] else 0
@@ -175,6 +202,8 @@ def run(argv):
 
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")   # non Latin subjects print on Windows consoles too
     code, text = run(sys.argv[1:])
     print(text)
     sys.exit(code)

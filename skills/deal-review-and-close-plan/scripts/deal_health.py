@@ -32,8 +32,33 @@ DEFAULT_POINTS = {"start": 70, "champion_multi_threaded": 15, "champion_confirme
                   "incumbent": -10, "other_competitor": -5, "blockers": -10, "at_risk_below": 50, "needs_attention_below": 70}
 CHAMPION = {"multi_threaded": "multi_threaded", "multi-threaded": "multi_threaded", "confirmed": "confirmed", "confirmed_champion": "confirmed",
             "potential": "potential", "potential_champion": "potential", "none": "none", "no_champion": "none"}
-UNKNOWN_RX = re.compile(r"\b(unknown|unclear|no idea|not sure who|(do not|don't|dont) know|not (yet )?(named|identified|known|found))\b")
-NONE_RX = re.compile(r"^\s*(none|nil|n/?a|nothing( known)?|no (known )?(blockers?|competitors?|competition|objections?|one))\s*\.?\s*$", re.I)
+# Short patterns, each tried on its own (any one matching is enough), so every pattern stays plain and readable.
+UNKNOWN_PATTERNS = [
+    r"\bunknown\b",
+    r"\bunclear\b",
+    r"\bno idea\b",
+    r"\bnot sure who\b",
+    r"\b(do not|don't|dont) know\b",
+    r"\bnot (yet )?(named|identified|known|found)\b",
+]
+NONE_PATTERNS = [
+    r"^\s*(none|nil|n/?a)\s*\.?\s*$",
+    r"^\s*nothing( known)?\s*\.?\s*$",
+    r"^\s*no (known )?(blockers?|competitors?|competition)\s*\.?\s*$",
+    r"^\s*no (known )?(objections?|one)\s*\.?\s*$",
+]
+UNKNOWN_RXS = [re.compile(p) for p in UNKNOWN_PATTERNS]
+NONE_RXS = [re.compile(p, re.I) for p in NONE_PATTERNS]
+
+
+def says_unknown(text):
+    return any(rx.search(text) for rx in UNKNOWN_RXS)
+
+
+def says_none(text):
+    return any(rx.match(text) for rx in NONE_RXS)
+
+
 NEGATIONS = {"not", "no", "never", "longer", "nobody", "isn't", "hasn't", "wasn't", "hadn't", "haven't", "aren't", "un", "barely"}
 
 
@@ -49,6 +74,13 @@ def number(v, what, minimum=None):
     if minimum is not None and v < minimum:
         raise BadInput(f"{what} must be {minimum} or more, got {v}")
     return v
+
+
+def signed(v):
+    """A point value with its sign: +10, -5, +2.5 (a user's value may have decimals)."""
+    if isinstance(v, float) and v.is_integer():
+        v = int(v)
+    return f"{v:+d}" if isinstance(v, int) else f"{v:+g}"
 
 
 def words(text):
@@ -72,7 +104,7 @@ def buyer_state(v):
     t = v.strip().lower()
     if t in ("engaged", "named", "unknown"):
         return t, v
-    if t in ("none", "tbd", "n/a") or UNKNOWN_RX.search(t):
+    if t in ("none", "tbd", "n/a") or says_unknown(t):
         return "unknown", v
     return ("engaged" if positive_word(v, "engaged") else "named"), v
 
@@ -88,7 +120,7 @@ def competitor_kind(v):
                 raise BadInput("competitors[].incumbent must be true or false")
         return "incumbent" if any(c.get("incumbent") is True for c in v) else "other"
     if isinstance(v, str):
-        if NONE_RX.match(v):
+        if says_none(v):
             return None
         return "incumbent" if positive_word(v, "incumbent") else "other"
     raise BadInput("competitors must be a list or a phrase")
@@ -102,7 +134,7 @@ def has_blockers(v):
             raise BadInput("blockers must be a list of text items or a phrase")
         return any(b.strip() for b in v)
     if isinstance(v, str):
-        return bool(v.strip()) and not NONE_RX.match(v)
+        return bool(v.strip()) and not says_none(v)
     raise BadInput("blockers must be a list or a phrase")
 
 
@@ -111,7 +143,7 @@ def score(deal, thresholds, t_src, points, p_src):
         raise BadInput(f"each deal must be an object, got {json.dumps(deal)}")
     lines, total, missing = [], points["start"], []
     lab = lambda k: p_src[k]
-    lines.append(f"start {points['start']:+d} ({lab('start')})")
+    lines.append(f"start {signed(points['start'])} ({lab('start')})")
     stage = deal.get("stage")
     if stage not in STAGES + ["stuck"]:
         raise BadInput(f"stage must be one of {', '.join(STAGES + ['stuck'])}, got {json.dumps(stage)}")
@@ -126,7 +158,7 @@ def score(deal, thresholds, t_src, points, p_src):
         c = CHAMPION[ch.strip().lower()]
         k = "champion_" + c
         total += points[k]
-        lines.append(f"champion {c.replace('_', ' ')}: {points[k]:+d} ({lab(k)})")
+        lines.append(f"champion {c.replace('_', ' ')}: {signed(points[k])} ({lab(k)})")
     # economic buyer
     eb_said = deal.get("economic_buyer_said")
     if eb_said is not None and not isinstance(eb_said, str):
@@ -139,7 +171,7 @@ def score(deal, thresholds, t_src, points, p_src):
         t = eb_said.lower()
         neg = bool(re.search(r"\bdisengaged\b", t)) or ("engaged" in words(t) and not positive_word(eb_said, "engaged"))
         pos = positive_word(eb_said, "engaged")
-        unk = bool(UNKNOWN_RX.search(t))
+        unk = bool(says_unknown(t))
         if (state == "engaged" and (neg or unk)) or (state != "engaged" and pos):
             raise BadInput(f"economic_buyer {json.dumps(eb)} and economic_buyer_said {json.dumps(eb_said)} conflict: "
                            "check with the seller which is right, then pass the state that matches their words")
@@ -149,7 +181,7 @@ def score(deal, thresholds, t_src, points, p_src):
     total += points[k]
     shown = {"engaged": "engaged", "named": "named, not engaged", "unknown": "unknown"}[state]
     src = f'you said: "{eb_said.strip()}"' if eb_said and eb_said.strip() else f"from: {said}"
-    lines.append(f"economic buyer {shown} ({src}): {points[k]:+d} ({lab(k)})")
+    lines.append(f"economic buyer {shown} ({src}): {signed(points[k])} ({lab(k)})")
     # days in stage
     days = deal.get("days_in_stage")
     eff_stage = stage
@@ -170,22 +202,22 @@ def score(deal, thresholds, t_src, points, p_src):
             src = t_src[eff_stage]
             if days > th * 2:
                 total += points["over_twice_threshold"]
-                lines.append(f"{days} days in {eff_stage}, more than twice the threshold of {th} days ({src}): {points['over_twice_threshold']:+d} ({lab('over_twice_threshold')})")
+                lines.append(f"{days} days in {eff_stage}, more than twice the threshold of {th} days ({src}): {signed(points['over_twice_threshold'])} ({lab('over_twice_threshold')})")
             elif days > th:
                 total += points["over_threshold"]
-                lines.append(f"{days} days in {eff_stage}, over the threshold of {th} days ({src}): {points['over_threshold']:+d} ({lab('over_threshold')})")
+                lines.append(f"{days} days in {eff_stage}, over the threshold of {th} days ({src}): {signed(points['over_threshold'])} ({lab('over_threshold')})")
             else:
                 lines.append(f"{days} days in {eff_stage}, within the threshold of {th} days ({src}): +0")
     # competitors and blockers
     kind = competitor_kind(deal.get("competitors"))
     if kind == "incumbent":
-        total += points["incumbent"]; lines.append(f"incumbent competitor: {points['incumbent']:+d} ({lab('incumbent')})")
+        total += points["incumbent"]; lines.append(f"incumbent competitor: {signed(points['incumbent'])} ({lab('incumbent')})")
     elif kind == "other":
-        total += points["other_competitor"]; lines.append(f"other competitor in the deal: {points['other_competitor']:+d} ({lab('other_competitor')})")
+        total += points["other_competitor"]; lines.append(f"other competitor in the deal: {signed(points['other_competitor'])} ({lab('other_competitor')})")
     else:
         lines.append("competitors: none given (+0)")
     if has_blockers(deal.get("blockers")):
-        total += points["blockers"]; lines.append(f"known blockers: {points['blockers']:+d} ({lab('blockers')})")
+        total += points["blockers"]; lines.append(f"known blockers: {signed(points['blockers'])} ({lab('blockers')})")
     else:
         lines.append("blockers: none given (+0)")
     clamped = max(0, min(100, total))
@@ -238,6 +270,8 @@ def run(argv):
             a[argv[i]] = argv[i + 1]; i += 2
         if "--json" not in a:
             raise BadInput("give the deal with --json")
+        if a["--format"] not in ("text", "json"):
+            raise BadInput(f"--format must be text or json, got {a['--format']!r}")
         data = load(a["--json"])
         thresholds, t_src = merged(DEFAULT_THRESHOLDS, load(a["--thresholds"]) if "--thresholds" in a else None, "thresholds")
         points, p_src = merged(DEFAULT_POINTS, load(a["--points"]) if "--points" in a else None, "points")
@@ -278,6 +312,8 @@ def run(argv):
 
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")   # non Latin text (Hindi, the rupee sign) prints on Windows consoles too
     code, text = run(sys.argv[1:])
     print(text)
     sys.exit(code)

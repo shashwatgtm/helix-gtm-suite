@@ -2,15 +2,15 @@
 name: sales-sequences
 description: >
   Helps a B2B seller decide what to send and when in an outbound or deal stage email sequence. For
-  account executives, SDRs, founders who sell and sales leaders. You give it the buyer, the stage
-  and your facts. You get cold outreach, warm follow up, post demo, proposal follow up,
-  re-engagement or referral request emails, with send days set by script (your own days always win,
-  weekend dates moved to working days), one ask per email, each claim once with its source, and a
-  "before you send" list. Use when someone says "email sequence", "cold outreach sequence",
-  "cadence", "outbound emails", "follow up sequence after the demo", "post demo emails", "proposal
-  follow up emails", "re-engage a dead deal", "the deal went quiet", "referral request emails" or
-  "write my follow ups". Not for event follow up or nurture series, a single email after one
-  meeting, or emails that need facts the seller does not have.
+  account executives, SDRs, founders who sell and sales leaders. The seller gives the buyer, the
+  stage and their facts; the skill returns cold outreach, warm follow up, post demo, proposal follow
+  up, re-engagement or referral request emails, with send days set by script (the seller's own days
+  always win, weekend dates moved to working days), one ask per email, each claim once with its
+  source, and a "before you send" list. Use when someone says "email sequence", "cold outreach
+  sequence", "cadence", "outbound emails", "follow up sequence after the demo", "post demo emails",
+  "proposal follow up emails", "re-engage a dead deal", "the deal went quiet", "referral request
+  emails" or "write my follow ups". Not for event follow up or nurture series, a single email after
+  one meeting, or emails that need facts the seller does not have.
 ---
 
 # Sales Sequences

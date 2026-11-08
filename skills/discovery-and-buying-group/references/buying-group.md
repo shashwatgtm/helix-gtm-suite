@@ -15,12 +15,12 @@ Rewritten for this skill from the method of the Helix ICP intelligence connector
 - Place only the people the user named, by the title the user gave. Never add a person.
 - Usual placements (confirm with the user when the deal says otherwise): CFO, CEO, COO, CIO, managing director, business unit head, founder: economic buyer; procurement, legal, compliance, audit, risk, vendor management: blocker or reviewer; IT, CTO, engineers, architects, platform, infrastructure, network, data: technical evaluator; in a cybersecurity sale the CISO is usually the economic buyer and security is not a blocker; the people who do the work: users.
 - Finance leaders (head of finance, finance controller): economic buyer or champion; show both readings and ask "Who signs off spend at this level?" Plant, site or regional managers and operations heads: user, or the champion for their site, or the economic buyer for a site budget; show the readings and ask "Is the budget for this held at your site or centrally?" CTO and CIO: technical evaluator or economic buyer; show both unless the buyer's sector note says who signs.
-- Champion labels: champion when the user gives evidence for at least two of the three tests below; potential champion when one, or when the user gives only the label (write "test: not shown"); contact when none.
+- Champion labels: champion when the user gives evidence for all three tests below; potential champion when one or two, or when the user gives only the label (write "test: not shown"); contact when none. This is the same rule deal-review-and-close-plan uses.
 - When a title fits two seats (for example "Head of Platform", "Head of Operations"), show both and the question that settles it ("Who would approve the budget for this, you or someone above you?"). Never decide from one word.
 - One person can hold two seats (a founder who is economic buyer and champion); say so.
 
 ## The champion test
-A champion (1) sells for you when you are not in the room, (2) shares information you would not otherwise get, (3) gives access to the economic buyer and the other seats. One of three: a potential champion. None: a contact. When the user calls someone a champion and also says they block, show both readings and ask the three test questions.
+A champion (1) sells for you when you are not in the room, (2) shares information you would not otherwise get, (3) gives access to the economic buyer and the other seats. All three: a champion. One or two of three: a potential champion. None: a contact. When the user calls someone a champion and also says they block, show both readings and ask the three test questions.
 
 ## Who is missing
 List every empty seat, with the question to the champion that finds who holds it ("Who in finance will review this?"), and the risk of leaving it empty. Use references/verticals.md for the seats the buyer's sector usually has (for example internal audit in fintech, the TMS owner in logistics tech).

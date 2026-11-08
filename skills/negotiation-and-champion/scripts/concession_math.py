@@ -1,7 +1,9 @@
 """Concession arithmetic for a new deal negotiation, on the seller's own figures only.
 
 No default price, discount or gap exists in this script: every figure comes from the user and is shown as "your figures".
-Money may be typed as 4000000, 40,00,000, 4,000,000, "40 lakh" or "1.2 crore"; results are printed in the same plain units.
+Money may be typed as 4000000, 40,00,000, 4,000,000, "40 lakh", "1.2 crore", "1.5 million" or "250k", with or without a currency
+sign (Rs, INR, a rupee, dollar, euro or pound sign); results are printed in the same plain units. The arithmetic is exact decimal
+arithmetic, rounded half up to 2 decimal places, so a very large figure keeps every digit.
 
 Usage:
   python concession_math.py discount --value 4000000 --discount 20 [--trade "three year term=150000" ...] [--format text|json]
@@ -16,9 +18,14 @@ gap: the amount of a price gap the user typed as a percentage of the deal value 
 Refused with a clear message: a discount below 0 or above 100, a negative or missing deal value, NaN, Infinity, text that is not
 a number, a trade without "label=worth". Exit code 0 ok, 2 bad input. Standard library only; no network; writes no file.
 """
-import json, math, re, sys
+import json, re, sys
+from decimal import Decimal, ROUND_HALF_UP
 
-UNITS = {"lakh": 100000, "lakhs": 100000, "lac": 100000, "crore": 10000000, "crores": 10000000, "cr": 10000000}
+UNITS = {"lakh": 100000, "lakhs": 100000, "lac": 100000, "crore": 10000000, "crores": 10000000, "cr": 10000000,
+         "thousand": 1000, "k": 1000, "million": 1000000, "mn": 1000000, "billion": 1000000000, "bn": 1000000000}
+CURRENCY = ["\u20b9", "$", "\u20ac", "\u00a3", "rs.", "rs", "inr", "usd", "eur", "gbp"]
+CENT = Decimal("0.01")
+MAX_DIGITS = 30   # a figure longer than this is refused rather than printed as a wall of digits
 
 
 class BadInput(Exception):
@@ -28,17 +35,24 @@ class BadInput(Exception):
 def money(raw, what, allow_negative=False):
     if raw is None:
         raise BadInput(f"{what} not given: it is reported missing, never read as 0")
-    s = str(raw).strip().lower().replace("₹", "").replace("$", "").replace("rs.", "").replace("inr", "").strip()
+    s = str(raw).strip().lower()
+    for sign in CURRENCY:   # one currency sign or code, before or after the figure
+        if s.startswith(sign) or s.startswith("-" + sign) or s.startswith("+" + sign):
+            s = s.replace(sign, "", 1).strip()
+            break
+        if s.endswith(" " + sign) or (not sign.isalpha() and s.endswith(sign)):
+            s = s[: -len(sign)].strip()
+            break
     m = re.fullmatch(r"([+-]?[\d,]*\.?\d+)\s*([a-z]*)", s)
     if not m or (m.group(2) and m.group(2) not in UNITS):
-        raise BadInput(f"{what} must be a number (for example 4000000, 40,00,000 or 40 lakh), got {raw!r}")
-    num = float(m.group(1).replace(",", ""))
-    if math.isnan(num) or math.isinf(num):
-        raise BadInput(f"{what} must be a real number, got {raw!r}")
-    num *= UNITS.get(m.group(2), 1)
+        raise BadInput(f"{what} must be a number (for example 4000000, 40,00,000, 40 lakh or 1.5 million), got {raw!r}")
+    digits = m.group(1).replace(",", "")
+    if len(digits.lstrip("+-").replace(".", "")) > MAX_DIGITS:
+        raise BadInput(f"{what} has more than {MAX_DIGITS} digits; check the figure, got {raw!r}")
+    num = Decimal(digits) * UNITS.get(m.group(2), 1)
     if num < 0 and not allow_negative:
         raise BadInput(f"{what} cannot be negative, got {raw} (the minus sign is kept and refused, never dropped)")
-    return int(num) if float(num).is_integer() else round(num, 2)
+    return r2(num)
 
 
 def percent(raw, what):
@@ -47,19 +61,34 @@ def percent(raw, what):
     s = str(raw).strip().rstrip("%").strip()
     if not re.fullmatch(r"[+-]?\d*\.?\d+", s):
         raise BadInput(f"{what} must be a percentage from 0 to 100, got {raw!r}")
-    v = float(s)
+    v = Decimal(s)
     if v < 0 or v > 100:
         raise BadInput(f"{what} must be from 0 to 100, got {raw}")
-    return int(v) if v.is_integer() else v
+    return Decimal(format(v.normalize(), "f")) if v != v.to_integral_value() else Decimal(int(v))
 
 
 def r2(x):
-    x = round(x, 2)
-    return int(x) if float(x).is_integer() else x
+    """Exact decimal, rounded half up to 2 places; a whole amount keeps no decimals."""
+    x = Decimal(x).quantize(CENT, rounding=ROUND_HALF_UP)
+    return Decimal(int(x)) if x == x.to_integral_value() else x
 
 
 def show(x):
-    return f"{x:,.2f}".rstrip("0").rstrip(".") if isinstance(x, float) else f"{x:,}"
+    x = r2(x)
+    if x == x.to_integral_value():
+        return f"{int(x):,}"
+    return f"{x:,.2f}".rstrip("0").rstrip(".")
+
+
+def plain(x):
+    """A figure for the JSON output: a whole number, or a number with up to 2 decimals."""
+    if isinstance(x, Decimal):
+        return int(x) if x == x.to_integral_value() else float(x)
+    if isinstance(x, list):
+        return [plain(i) for i in x]
+    if isinstance(x, dict):
+        return {k: plain(v) for k, v in x.items()}
+    return x
 
 
 def parse(argv, allowed, multi=()):
@@ -92,7 +121,7 @@ def discount(a):
         trades.append({"trade": label.strip(), "worth": money(worth, f"the worth of {label.strip()!r}", allow_negative=True)})
     after = r2(v - risk)
     return {"value": v, "discount_percent": d, "revenue_at_risk": risk, "value_after_discount": after, "trades": trades,
-            "net_after_trades": r2(after + sum(t["worth"] for t in trades)) if trades else None,
+            "net_after_trades": r2(after + sum((t["worth"] for t in trades), Decimal(0))) if trades else None,
             "label": "your figures; the worth of each trade is the value you put on it"}
 
 
@@ -104,7 +133,7 @@ def multiyear(a):
         raise BadInput(f"--discounts must list one percentage per year separated by commas, got {raw!r}")
     ds = [percent(p, f"the discount for year {i}") for i, p in enumerate(parts, 1)]
     rows = [{"year": i, "list": v, "discount_percent": d, "after": r2(v - v * d / 100)} for i, d in enumerate(ds, 1)]
-    tot_list, tot_after = r2(v * len(ds)), r2(sum(r["after"] for r in rows))
+    tot_list, tot_after = r2(v * len(ds)), r2(sum((r["after"] for r in rows), Decimal(0)))
     return {"annual": v, "years": len(ds), "by_year": rows, "total_at_list": tot_list, "total_after": tot_after, "given_up": r2(tot_list - tot_after),
             "label": "your figures"}
 
@@ -132,10 +161,12 @@ def run(argv):
             a = parse(argv[1:], {"--annual", "--discounts", "--format"}); d = multiyear(a)
         else:
             a = parse(argv[1:], {"--value", "--gap-percent", "--format"}); d = gap(a)
+        if a.get("--format", "text") not in ("text", "json"):
+            raise BadInput(f"--format must be text or json, got {a['--format']!r}")
     except BadInput as e:
         return 2, f"BAD INPUT: {e}"
     if a.get("--format") == "json":
-        return 0, json.dumps(d, indent=1)
+        return 0, json.dumps(plain(d), indent=1)
     if cmd == "discount":
         o = [f"Deal value {show(d['value'])}, discount asked {d['discount_percent']}% (your figures).",
              f"Revenue at risk: {show(d['revenue_at_risk'])}", f"Value after discount: {show(d['value_after_discount'])}"]
@@ -154,6 +185,8 @@ def run(argv):
 
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")   # a rupee sign or non Latin trade label prints on Windows consoles too
     code, text = run(sys.argv[1:])
     print(text)
     sys.exit(code)
