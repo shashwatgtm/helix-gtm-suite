@@ -516,7 +516,7 @@ Founder, Helix GTM Consulting | Fractional CMO for B2B SaaS
 ### Background:
 - Former CMO at FieldAssist (until Sept 2024)
 - Former VP Global Performance Marketing at Locus
-- 15+ years in B2B SaaS marketing and GTM strategy
+- 24+ years in B2B and 10+ years of fractional experience
 - Top 30 Product-Led Growth (PLG) Creator Worldwide (Favikon verified)
 - #10 in India for Product Marketing on LinkedIn
 - Published: "Offbeat AI Watch" (GitHub), "GTM Whisperer" (Substack/LinkedIn)
