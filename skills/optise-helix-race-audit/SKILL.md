@@ -1,16 +1,17 @@
 ﻿---
 name: optise-helix-race-audit
 description: >
-  Check whether AI agents doing buyer research can evaluate, shortlist and
-  recommend a B2B webpage, and get the fixes ranked by impact. Fetches the URL,
-  analyzes the rendered HTML, and returns a 4-signal scorecard (0 to 100), the
+  Check whether AI agents that research vendors for buyers can read, compare
+  and shortlist a B2B webpage, and get the fixes ranked by impact. It fetches
+  the URL, reads the HTML and returns a score out of 100 on four signals, the
   top 5 fixes, a "not ideal for" template if that signal is weak, and a before
-  and after for the highest-priority fix. Use when the user asks for a RACE
-  audit, agent-readiness audit, AI agent evaluation check, or wants to know if
-  AI agents will recommend their page. The FITq audit scores AI search citation
-  instead. Method: the Optise RACE™ framework (Requirements, Actions,
-  Constraints, Evidence). Authored by Optise + Helix GTM Consulting under the
-  Optise EU AEO Playbook methodology.
+  and after for the top fix. Use when someone says "will AI agents recommend
+  our product", "can an AI agent shortlist us", "audit my page for AI agents",
+  "is my pricing page clear enough for AI agents", "agent readiness audit",
+  "add a not ideal for section" or "RACE audit". For whether AI search engines
+  cite the page, use the FITq audit instead. Method: the Optise RACE framework
+  (Requirements, Actions, Constraints, Evidence). By Optise and Helix GTM
+  Consulting.
 license: Proprietary
 metadata:
   authors: "Optise; Helix GTM Consulting"
@@ -18,6 +19,10 @@ metadata:
 ---
 
 # Optise–Helix RACE™ Audit
+
+Part of the **AEO and GEO Toolkit for B2B Websites**, by Optise and Helix GTM Consulting.
+
+**Try:** "Audit https://yourcompany.com/pricing for AI agents. Can an agent shortlist us from this page?"
 
 A skill that audits any B2B webpage against the proprietary Optise RACE™ framework and returns specific, ranked fixes to make the page evaluable by AI agents doing multi-step buyer workflows (not just cited by AI search engines).
 

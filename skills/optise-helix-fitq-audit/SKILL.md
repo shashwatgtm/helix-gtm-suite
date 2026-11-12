@@ -1,16 +1,17 @@
 ﻿---
 name: optise-helix-fitq-audit
 description: >
-  Find out why a B2B webpage is or is not cited by ChatGPT, Perplexity, Gemini
-  and Claude, and get the fixes ranked by impact. Fetches the URL, analyzes the
-  rendered HTML, and returns a 4-signal scorecard (0 to 100 total), the top 5
-  fixes ranked by impact and a before and after for the highest-priority fix,
-  not generic best practices. Use whenever the user asks for an AEO audit, FITq
-  audit, AI visibility check, ChatGPT citation readiness check, or wants to know
-  why their page isn't being cited by AI engines, including URL audit requests
-  related to AI search visibility. Method: the Optise FITq™ framework
-  (Findability, Intent match, Trust, Quoteability). Authored by Optise + Helix
-  GTM Consulting under the Optise EU AEO Playbook methodology.
+  Audit a B2B webpage for AI search visibility and find out why ChatGPT,
+  Perplexity, Gemini, Claude or Google AI Overviews do or do not cite it. An
+  AEO audit and GEO audit in one: it fetches the URL, reads the HTML and
+  returns a score out of 100 on four signals, the top 5 fixes ranked by impact
+  and a before and after for the top fix, not generic best practice. Use when
+  someone says "why isn't ChatGPT citing my page", "audit my page for AI
+  search", "AEO audit", "GEO audit", "LLM SEO audit", "is my site visible in
+  AI search", "is my page ready for AI Overviews" or "check my page for AI citation
+  readiness", or pastes a URL with an AI search question. Method: the Optise
+  FITq framework (Findability, Intent match, Trust, Quoteability), also asked
+  for as a FITq audit. By Optise and Helix GTM Consulting.
 license: Proprietary
 metadata:
   authors: "Optise; Helix GTM Consulting"
@@ -19,11 +20,25 @@ metadata:
 
 # Optise–Helix FITq™ Audit
 
+Part of the **AEO and GEO Toolkit for B2B Websites**, by Optise and Helix GTM Consulting.
+
+**Try:** "Audit https://yourcompany.com/pricing for AI search. Why isn't ChatGPT citing it?"
+
+**Worked example (real public page, fetched 12 Nov 2026).** Prompt: "Audit https://gtmhelix.com/fractional-cmo/ for AI search, for the prompt 'how much does a fractional CMO cost'." This is a Helix GTM Consulting page, so no outside company is named. What the fetch measured:
+
+- HTTP 200, text/html, 39 KB, with the content in the raw HTML and a canonical tag. Time to first byte was 1.8 seconds on this fetch.
+- robots.txt allows GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot and PerplexityBot by name.
+- One JSON-LD block with Organization, Person, WebPage, BreadcrumbList and FAQPage (12 questions). The page shows a byline and "Published 6 November 2026", and the schema has a matching dateModified.
+- The first sentence defines a fractional CMO in 29 words, short of a 40 to 60 word answer block.
+- The price is first reached at word 893 of 2,223, in the tier cards, and again in the FAQ at word 1,958. It is not in the opening.
+
+The gaps become ranked fixes: put a short price answer near the top for the pricing prompt, and grow the opening definition into a 40 to 60 word answer block. The full run adds the four signal scores, the top 5 fixes and a before and after for fix 1. This example shows the shape of the output only. Its facts belong to that page on that date. Always fetch the user's own page, and never reuse these facts for another page.
+
 A skill that audits any B2B webpage against the proprietary Optise FITq™ framework and returns specific, ranked fixes to make the page citable by ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews.
 
 FITq™ stands for Findability, Intent match, Trust, and Quoteability — the four signals AI engines use to select sources. Each signal scores 0-25 for a 100-point total, mapped to A/B/C/D/F grade bands. Full scoring scoring methodology is in `references/fitq-scoring methodology.md`.
 
-This skill is the headline FITq audit in the Optise-Helix AEO toolkit. It depends on `scripts/fetch_page.py` for URL fetching and structural analysis.
+This skill is the headline FITq audit in the AEO and GEO Toolkit for B2B Websites. It depends on `scripts/fetch_page.py` for URL fetching and structural analysis.
 
 ---
 

@@ -1,15 +1,17 @@
 ﻿---
 name: optise-helix-aeo-tracker
 description: >
-  Track week by week how often ChatGPT, Perplexity, Gemini and Claude cite your
-  brand, and which prompts are working. Sets up the tracking sheet (CSV
-  columns), week-1 instructions, a weekly checklist and scoring formulas, and
-  after 4 or more weeks analyzes the data to surface working prompts, dead
-  prompts and refreshes. Use when the user wants to track AI search citations,
-  set up AEO measurement, analyze tracker data, or understand which prompts are
-  converting in AI engines. Never invents historical citation data: tracking is
-  forward-looking only. Method: the Optise 3-KPI scoring methodology (Citation Rate,
-  Prominence, Competitor Delta). Authored by Optise + Helix GTM Consulting.
+  Track week by week how often ChatGPT, Perplexity, Gemini and Claude cite
+  your brand, and which buyer prompts are working. Sets up the tracking sheet
+  (CSV columns), week 1 steps, a weekly checklist and scoring formulas, and
+  after 4 or more weeks reads the data to show working prompts, dead prompts
+  and pages to refresh. Never invents past citation data: tracking starts the
+  day it is set up. Use when someone says "track our AI search visibility",
+  "how often does ChatGPT mention us", "set up AI citation tracking", "is our
+  AEO work paying off", "compare our AI citations with competitors", "which
+  prompts cite us" or "analyse our tracker data". Method: the Optise 3 KPI
+  rubric (Citation Rate, Prominence, Competitor Delta). By Optise and Helix
+  GTM Consulting.
 license: Proprietary
 metadata:
   authors: "Optise; Helix GTM Consulting"
@@ -17,6 +19,10 @@ metadata:
 ---
 
 # Optise–Helix AEO Tracker
+
+Part of the **AEO and GEO Toolkit for B2B Websites**, by Optise and Helix GTM Consulting.
+
+**Try:** "Set up weekly tracking of how often ChatGPT, Perplexity, Gemini and Claude cite us for these 10 prompts."
 
 A skill that sets up weekly AEO citation tracking for a brand across 4 AI engines (ChatGPT, Perplexity, Gemini, Claude) using the Optise 3-KPI scoring methodology and analyzes tracking data to surface working vs dead prompts.
 

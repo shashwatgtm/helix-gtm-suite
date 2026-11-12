@@ -2,14 +2,15 @@
 name: optise-helix-bluf-writer
 description: >
   Write the 40 to 60 word answer block at the top of a B2B webpage so ChatGPT,
-  Perplexity, Gemini and Claude can quote it. Produces 3 length variants (40, 50
-  and 60 words), matches the page's existing voice when a sample is given, and
-  flags a prompt that is too broad for a short answer. Use whenever the user
-  asks for a BLUF, answer block, AI-citable introduction, page opener for AEO,
-  or needs help rewriting an existing intro to be citation-ready. Never
-  generates marketing language or superlatives. Method: 6 Optise Bottom Line Up
-  Front (BLUF) patterns matched to the buyer's prompt type. Authored by Optise +
-  Helix GTM Consulting.
+  Perplexity, Gemini, Claude and Google AI Overviews can quote it. Gives 3
+  length variants (40, 50 and 60 words), matches the page's voice when a
+  sample is given, and flags a prompt that is too broad for a short answer. No
+  marketing language and no superlatives. Use when someone says "write an
+  answer block for this page", "rewrite my intro so ChatGPT quotes it", "make
+  this page citable by AI", "write a page opener for AI search", "give me a
+  short answer AI engines can lift", "fix the intro the audit flagged" or
+  "write a BLUF". Method: 6 Optise Bottom Line Up Front (BLUF) patterns
+  matched to the buyer's prompt type. By Optise and Helix GTM Consulting.
 license: Proprietary
 metadata:
   authors: "Optise; Helix GTM Consulting"
@@ -17,6 +18,17 @@ metadata:
 ---
 
 # Optise–Helix BLUF Writer
+
+Part of the **AEO and GEO Toolkit for B2B Websites**, by Optise and Helix GTM Consulting.
+
+**Try:** "Write an answer block for https://yourcompany.com/pricing for the prompt 'how much does [product] cost'."
+
+**Worked example (real public page, fetched 12 Nov 2026).** Prompt: "Write an answer block for https://gtmhelix.com/fractional-cmo/ for 'how much does a fractional CMO from Helix cost'." This is a Helix GTM Consulting page, so no outside company is named.
+
+- Before: the price sits in three tier cards and in an FAQ answer near the end of the page. The FAQ answer opens with "Mentor or Advisor, 6 to 10 hours a week", so lifted on its own it does not say whose price it is.
+- After (Pattern 1, Direct Answer, the longest of the three variants at 57 words, built only from facts on the page): "A fractional CMO from Helix GTM Consulting starts from $3,100 or INR 2.49 lakh a month for Mentor or Advisor, 6 to 10 hours a week. Micro CMO, 8 to 12 hours, starts from $4,100 or INR 3.49 lakh. Fractional CMO, 15 to 20 hours, starts from $5,250 or INR 4.49 lakh. INR bills carry 18% GST."
+
+The full run also gives the shorter variants. This example shows the shape of the output only. Its facts belong to that page on that date. Always fetch the user's own page, and never reuse these facts for another page.
 
 Writes self-contained 40-60 word answer blocks that AI search engines cite. BLUFs follow one of 6 proprietary Optise patterns matched to the buyer's specific prompt type — never blended, never padded with marketing language.
 

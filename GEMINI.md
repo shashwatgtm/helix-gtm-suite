@@ -18,7 +18,7 @@ The 37 skills of the 9 Helix GTM Claude plugins (the plugin repos hold the newes
 * Research, market and account (4): `account-research`, `evidence-research-asset`, `claims-fact-check`, `second-opinion-review`
 * Sales enablement (3): `competitive-intelligence`, `meeting-prep-debrief`, `sales-proposal-builder`
 * Positioning and GTM strategy (3): `gtm-motion-picker`, `positioning-and-messaging`, `prompt-improver`
-* AEO, built with Optise (6): `optise-helix-prompt-pack-builder`, `optise-helix-fitq-audit`, `optise-helix-race-audit`, `optise-helix-bluf-writer`, `optise-helix-eu-trust-centre`, `optise-helix-aeo-tracker`
+* AEO and GEO Toolkit for B2B Websites, by Optise and Helix GTM Consulting (6): `optise-helix-prompt-pack-builder`, `optise-helix-fitq-audit`, `optise-helix-race-audit`, `optise-helix-bluf-writer`, `optise-helix-eu-trust-centre`, `optise-helix-aeo-tracker`
 * Deal execution (4): `deal-review-and-close-plan`, `discovery-and-buying-group`, `negotiation-and-champion`, `sales-sequences`
 
 Companion skills in this package (earlier versions and connector guides): `epic-motion-diagnostic`, `impact-quick-positioning`, `craft-context-engineering`, `guard-gauge-diagnostic`, `guard-uplift-expansion`, `guard-activate-onboarding`, `guard-review-qbr`, `guard-defend-renewal`, `content-writing-thought-leadership`, `social-media-management`, `competitive-intelligence-market-research`, `executive-morning-briefing`, `helix-mcp-gtm-alpha`, `helix-mcp-craft-gtm`, `helix-mcp-craft-content`, `helix-mcp-impact-positioning`, `helix-mcp-icp-intelligence`, `helix-mcp-revenue-enablement`

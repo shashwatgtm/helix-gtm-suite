@@ -4,13 +4,15 @@ description: >
   Write or audit a Trust Centre page that answers the 8 questions European
   buyers ask before they buy: GDPR compliance, data storage, residency, DPA,
   subprocessors, data collection and retention, third-party AI providers and
-  security standards. Produces the full page in an extractable format with a
-  BLUF, answer blocks, JSON-LD schema and a DPA request call to action. Use
-  whenever the user needs to draft, audit, or expand a Trust Centre page, trust
-  portal, GDPR FAQ, security centre, or any page answering EU compliance
-  questions. Never invents data residency, certifications, or subprocessors.
-  Method: Optise answer ordering (Q1, Q2, Q3, Q8, Q4, Q5, Q6, Q7) for European
-  procurement reviews. Authored by Optise + Helix GTM Consulting.
+  security standards. Gives the full page in a form AI engines can quote, with
+  a short answer at the top, answer blocks, JSON-LD schema and a DPA request
+  call to action. Never invents data residency, certifications or
+  subprocessors. Use when someone says "write our Trust Centre page", "GDPR
+  FAQ page", "list our subprocessors", "write a DPA request page", "audit our
+  trust page", "make our security page answer EU buyer questions" or "what do
+  European buyers need to see before they buy". Method: Optise answer order
+  (Q1, Q2, Q3, Q8, Q4, Q5, Q6, Q7) for European procurement reviews. By Optise
+  and Helix GTM Consulting.
 license: Proprietary
 metadata:
   authors: "Optise; Helix GTM Consulting"
@@ -18,6 +20,10 @@ metadata:
 ---
 
 # Optise–Helix EU Trust Centre Generator
+
+Part of the **AEO and GEO Toolkit for B2B Websites**, by Optise and Helix GTM Consulting.
+
+**Try:** "Write our Trust Centre page. We host in [region], we hold [certifications], and we use [AI provider] for [feature]."
 
 Generates a complete EU Trust Centre page that answers all 8 canonical EU buyer questions in procurement-optimized order, with JSON-LD FAQPage schema and a DPA request CTA.
 

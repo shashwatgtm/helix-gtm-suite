@@ -1,16 +1,18 @@
 ﻿---
 name: optise-helix-prompt-pack-builder
 description: >
-  Build a list of 25 prompts European B2B buyers would put to ChatGPT and other
-  AI engines about your category, ranked by how likely each is to decide a deal
-  across six categories (shortlist, pricing, implementation, EU privacy,
-  integrations, role-based). Use whenever someone asks for AEO prompts, AI
-  search prompts, ChatGPT prompts buyers use, prompt research, prompt pack,
-  shortlist prompts, or wants to know what European B2B buyers ask AI engines
-  about a category, including "what should we rank for in ChatGPT" or "what do
-  buyers ask AI about us" type questions. Returns a ranked markdown table plus a
-  top-10 build order. Authored by Optise + Helix GTM Consulting under the Optise
-  EU AEO Playbook methodology.
+  Find the questions B2B buyers ask ChatGPT, Perplexity and Gemini about your
+  category, so you know what to get cited for. Builds 25 buyer prompts across
+  six categories (shortlist, pricing, implementation, EU privacy,
+  integrations, role-based), ranks each by how likely it is to decide a deal,
+  and gives a top 10 build order with a target page for each. Prompts use the
+  English buyer language of European markets (DACH, Nordics, France, Benelux,
+  Southern Europe). Use when someone says "what do buyers ask ChatGPT about
+  our category", "what should we rank for in ChatGPT", "what prompts should we
+  track for AI search", "what questions should our pages answer for AI", "what
+  do buyers ask AI about us", "prompt research for AI search" or "build an AEO
+  prompt pack". Method: the Optise six prompt categories. By Optise and Helix
+  GTM Consulting.
 license: Proprietary
 metadata:
   authors: "Optise; Helix GTM Consulting"
@@ -18,6 +20,10 @@ metadata:
 ---
 
 # Optise–Helix Prompt Pack Builder
+
+Part of the **AEO and GEO Toolkit for B2B Websites**, by Optise and Helix GTM Consulting.
+
+**Try:** "What do buyers ask ChatGPT about [your category]? We sell to [buyer] in DACH and the Nordics. Competitors: [A], [B]."
 
 A skill that produces a defensible 25-prompt AEO pack for a B2B company in Europe, ranked by how directly each prompt converts to pipeline. Uses the proprietary Optise 6-category prompt taxonomy and the Helix GTM build-order discipline.
 
