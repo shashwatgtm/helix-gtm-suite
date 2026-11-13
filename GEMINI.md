@@ -1,7 +1,7 @@
-# Helix GTM Suite: 85 free B2B GTM tools and skills (shashwatgtm/helix-gtm-suite)
+# Helix GTM Suite: 89 free B2B GTM tools and skills (shashwatgtm/helix-gtm-suite)
 Built by Shashwat Ghosh, Co-Founder and Fractional CMO, Helix GTM Consulting (https://gtmhelix.com | https://tools.gtmhelix.com).
 
-For founders, CMOs and CROs of growth stage B2B firms and their marketing, sales and customer success teams. Use it when a lean team has to make a go to market call (which motion leads, which customers to target, positioning, product market fit, a stalled deal, churn risk, a case study, an ROI case) and wants a proven method it can run today. 85 tools and skills: 48 tools in 6 hosted MCP connectors and 37 skills in 9 Claude plugins, plus companion skills.
+For founders, CMOs and CROs of growth stage B2B firms and their marketing, sales and customer success teams. Use it when a lean team has to make a go to market call (which motion leads, which customers to target, positioning, product market fit, a stalled deal, churn risk, a case study, an ROI case) and wants a proven method it can run today. 89 tools and skills: 52 tools in 6 hosted MCP connectors and 37 skills in 9 Claude plugins, plus companion skills.
 
 ## 1. Non-Negotiable Operating Rules (Parity with Claude & ChatGPT)
 1. **3-Layer Operating Architecture**: Before running any skill in this package, read `references/operating-principles.md` (Layer 1) and `references/plugin-specific-rules.md` (Layer 2) first, then follow `SKILL.md` (Layer 3).
@@ -25,8 +25,8 @@ Companion skills in this package (earlier versions and connector guides): `epic-
 
 ## 3. Connected Streamable HTTP MCP Servers (6)
 * `gtm-alpha`: `https://gtmalpha.gtmhelix.com/mcp` (GTM Alpha: 3 deterministic EPIC framework motion scoring and 180-day roadmap tools)
-* `craft-gtm`: `https://craft-gtm.gtmhelix.com/mcp` (CRAFT GTM: 8 strategic GTM execution tools (PMF Scorecard, Launch Commander, Customer Interview Kit, Retention Playbook, Partner Architect, Crisis Planner, Competitive Intel, CRAFT GTM Analyzer))
-* `craft-content`: `https://craft-content.gtmhelix.com/mcp` (CRAFT Content: 8 B2B content creation tools (Case Study Generator, Newsletter Builder, Webinar Script, Content Repurposer, Thought Leadership Series, Testimonial Capture, Sales Enablement Content, CRAFT Content Improver))
-* `impact`: `https://impact.gtmhelix.com/mcp` (IMPACT: 8 hypothesis-driven B2B positioning and messaging tools)
+* `craft-gtm`: `https://craft-gtm.gtmhelix.com/mcp` (CRAFT GTM: 10 strategic GTM execution tools (PMF Scorecard, Launch Commander, Customer Interview Kit, Retention Playbook, Partner Architect, Crisis Planner, Competitive Intel, CRAFT GTM Analyzer, Scale Paid Check, Segment and Seat Cut Check))
+* `craft-content`: `https://craft-content.gtmhelix.com/mcp` (CRAFT Content: 9 B2B content creation tools (Case Study Generator, Newsletter Builder, Webinar Script, Content Repurposer, Thought Leadership Series, Testimonial Capture, Sales Enablement Content, CRAFT Content Improver, Customer Result to Content))
+* `impact`: `https://impact.gtmhelix.com/mcp` (IMPACT: 9 hypothesis-driven B2B positioning and messaging tools: the 6 IMPACT steps, a full audit, the framework guide and a message for one segment)
 * `icp-intelligence`: `https://icp-intelligence.gtmhelix.com/mcp` (ICP Intelligence: 9 ideal customer profile, TAM/SAM/SOM, buying group, and account prioritization tools)
 * `revenue-enablement`: `https://revenue-enablement.gtmhelix.com/mcp` (Revenue Enablement: 12 deal strategy, MEDDPICC discovery, ROI business case, mutual action plan, and sales execution tools)

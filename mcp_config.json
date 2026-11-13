@@ -12,21 +12,21 @@
                                          "url":  "https://craft-gtm.gtmhelix.com/mcp",
                                          "httpUrl":  "https://craft-gtm.gtmhelix.com/mcp",
                                          "serverUrl":  "https://craft-gtm.gtmhelix.com/mcp",
-                                         "description":  "8 strategic B2B GTM execution tools powered by the CRAFT Framework (Character, Result, Artifact, Frame, Timeline)."
+                                         "description":  "10 strategic B2B GTM execution tools powered by the CRAFT Framework (Character, Result, Artifact, Frame, Timeline)."
                                      },
                        "craft-content":  {
                                              "type":  "http",
                                              "url":  "https://craft-content.gtmhelix.com/mcp",
                                              "httpUrl":  "https://craft-content.gtmhelix.com/mcp",
                                              "serverUrl":  "https://craft-content.gtmhelix.com/mcp",
-                                             "description":  "8 B2B content creation and repurposing tools powered by the CRAFT Framework."
+                                             "description":  "9 B2B content creation and repurposing tools powered by the CRAFT Framework."
                                          },
                        "impact":  {
                                       "type":  "http",
                                       "url":  "https://impact.gtmhelix.com/mcp",
                                       "httpUrl":  "https://impact.gtmhelix.com/mcp",
                                       "serverUrl":  "https://impact.gtmhelix.com/mcp",
-                                      "description":  "8 hypothesis-driven B2B positioning and messaging tools covering all 6 steps of the IMPACT Framework."
+                                      "description":  "9 hypothesis-driven B2B positioning and messaging tools covering all 6 steps of the IMPACT Framework."
                                   },
                        "icp-intelligence":  {
                                                 "type":  "http",
