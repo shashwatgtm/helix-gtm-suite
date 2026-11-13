@@ -1,12 +1,12 @@
 # Sales email sequences: what each email does
 
-Rewritten for this skill from the method of the Helix revenue enablement connector (email_sequence_generator), read on 14 October 2026. Send days come from scripts/sequence_days.py (example defaults or the user's own); no email count or day is a benchmark. Event follow up and nurture sequences are b2b-events-pr-and-launches / event-follow-up-engine; the one follow up email after a meeting is b2b-sales-enablement / meeting-prep-debrief.
+Rewritten for this skill from the method of the Helix revenue enablement connector (email_sequence_generator), read on 14 October 2026. Send days are worked out per references/send-days-method.md (example defaults or the user's own); no email count or day is a benchmark. Event follow up and nurture sequences are b2b-events-pr-and-launches / event-follow-up-engine; the one follow up email after a meeting is b2b-sales-enablement / meeting-prep-debrief.
 
 ## Rules for every email
 1. One reason to write, one ask. The ask fits the reader's seat (a short call for a manager, a yes or no question for a busy executive, a document for a technical evaluator).
 2. Every claim once, with its source: the user's own proof as they gave it ("from your pilot with [User to add: customer]"), a page opened and cited in this session, or no claim. A claim the user did not source is written as their claim or left out.
 3. The pain in the reader's words, one pain per email when the user gave several; never the same sentence twice across the sequence.
-4. Subject lines short and plain (the script counts words and characters); no tricks ("Re:" on a first email), no false urgency.
+4. Subject lines short and plain (the check in references/send-days-method.md counts words and characters); no tricks ("Re:" on a first email), no false urgency.
 5. The last email closes the loop politely and leaves the door open; no guilt.
 6. Personalisation placeholders only where the user must add a real detail: "[User to add: ...]". Never a made up detail about the recipient.
 7. Tone set by the user (professional by default; consultative, casual, direct); the founder writing to a CEO is short and peer to peer.
@@ -23,4 +23,4 @@ Rewritten for this skill from the method of the Helix revenue enablement connect
 - The recipient's name and any personal detail: from the user's CRM, never invented.
 - Claims checklist: each claim and its source.
 - Pains given but not used in any email.
-- The send days and dates from the script, with weekdays.
+- The send days and dates worked out per references/send-days-method.md, with weekdays.

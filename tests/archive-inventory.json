@@ -57,13 +57,13 @@
     "repo": "helix-gtm-suite",
     "file": "claude-ai-skill-zips/deal-review-and-close-plan.zip",
     "entries": 10,
-    "sha256": "0529390717c12ab0da38f36629690081d5146e1a6b24c4e381048661583dde21"
+    "sha256": "e2371281f1f1519117669bcff893e2881acbf78277a0a005113b857051d2c083"
   },
   {
     "repo": "helix-gtm-suite",
     "file": "claude-ai-skill-zips/discovery-and-buying-group.zip",
     "entries": 8,
-    "sha256": "d83e0511e8604700785e4f013cddeac12c2cf521575173e015ed56470d159a8e"
+    "sha256": "b245aa7cea4842712a22e3e2d719b67f284c4792a07a7a2fd17c3883ccb68c6a"
   },
   {
     "repo": "helix-gtm-suite",
@@ -207,7 +207,7 @@
     "repo": "helix-gtm-suite",
     "file": "claude-ai-skill-zips/negotiation-and-champion.zip",
     "entries": 9,
-    "sha256": "86eb00edb9b7d37f4f73b588132db532563175e0dd701b047666095bf03d77e6"
+    "sha256": "9f35264bae23b50d03de2fef61d3d41ffaee29f29a8c66b80c08520e1fb2f5d4"
   },
   {
     "repo": "helix-gtm-suite",
@@ -273,7 +273,7 @@
     "repo": "helix-gtm-suite",
     "file": "claude-ai-skill-zips/sales-sequences.zip",
     "entries": 8,
-    "sha256": "4e7cb486ac31aa1b970684c32aff189f18d788474b007520bb49f18a0f8d27b0"
+    "sha256": "8757a1b3807270948fa3096ee8eb9dfed00252e0271e585db57c2a14a2efefd1"
   },
   {
     "repo": "helix-gtm-suite",

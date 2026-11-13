@@ -10,7 +10,7 @@ Rewritten for this skill from the method of the Helix revenue enablement connect
 5. Short: a busy reader finishes it in two minutes.
 6. Placeholders for what the seller does not know: "[User to add: ...]". How the product handles data is a placeholder unless the seller gave it or a cited page shows it (SKILL.md rule 15).
 7. A note to the champion on what to check before forwarding, and on their own stake only as far as the seller described it.
-8. Fill every slot the seller's message or a script line answers, leave "[User to add: ...]" only where nothing does. Trades the skill recommends stay in the note to the seller, never in the asset as agreed.
+8. Fill every slot the seller's message or a line of the method's output answers, leave "[User to add: ...]" only where nothing does. Trades the skill recommends stay in the note to the seller, never in the asset as agreed.
 
 ## Asset shapes
 - Internal email to a colleague (for example to the CFO): subject; the problem in the colleague's terms; what we propose; what it costs (the seller's figure); what we expect and how we will measure it; the risks and how we reduce them; the decision requested and by when.
