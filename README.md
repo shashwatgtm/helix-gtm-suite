@@ -1,6 +1,6 @@
 # Helix GTM Suite: 89 Free B2B GTM Tools & Agent Skills
 
-Built by **Shashwat Ghosh**, Co-Founder and Fractional CMO, [Helix GTM Consulting](https://gtmhelix.com/) ([Free Tools Hub](https://tools.gtmhelix.com/)).
+By Helix GTM Consulting (https://gtmhelix.com), built by Shashwat Ghosh, Co-Founder and Fractional CMO. Free Tools Hub: https://tools.gtmhelix.com/
 
 For founders, CMOs and CROs of growth stage B2B firms and their marketing, sales and customer success teams. It helps a lean team decide which go-to-market motion should lead, which customers to target, how to position, whether a deal or account is at risk, and what it can publish, with a proven method it can run today in the tools it already uses. You give each tool or skill your own facts; you get a scored, structured answer, with every missing fact marked for you to fill.
 
